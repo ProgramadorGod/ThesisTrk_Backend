@@ -178,19 +178,22 @@ X_FRAME_OPTIONS = 'ALLOWALL'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 
+import dj_database_url
+
 if os.getenv("DATABASE_URL"):
     DATABASES = {
         'default': dj_database_url.config(conn_max_age=600)
     }
 else:
     DATABASES = {
-        'default': {
-            'ENGINE': os.getenv("DATABASE_ENGINE", "django.db.backends.postgresql"),
-            'NAME': os.getenv("DATABASE_NAME", "postgres"),
-            'USER': os.getenv("DATABASE_USER", "postgres"),
-            'PASSWORD': os.getenv("DATABASE_PASSWORD", "postgres"),
-            'HOST': os.getenv("DATABASE_HOST", "postgres"),  # hostname de tu servicio Docker
-            'PORT': os.getenv("DATABASE_PORT", "5432"),
+        "default": {
+            "ENGINE": os.environ.get("DATABASE_ENGINE", "django.db.backends.postgresql"),
+            "NAME": os.environ.get("DATABASE_NAME", "postgres"),
+            "USER": os.environ.get("DATABASE_USER", "postgres"),
+            "PASSWORD": os.environ.get("DATABASE_PASSWORD", "postgres"),
+            "HOST": os.environ.get("DATABASE_HOST", "localhost"),
+            "PORT": os.environ.get("DATABASE_PORT", "5432"),
+
         }
     }
 
