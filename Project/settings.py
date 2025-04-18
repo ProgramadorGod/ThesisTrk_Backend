@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -55,6 +56,9 @@ INSTALLED_APPS = [
     "dj_rest_auth",
     "rest_framework.authtoken",
     "corsheaders",
+    
+    
+    
 ]
 
 X_FRAME_OPTIONS = "SAMEORIGIN"
@@ -180,15 +184,16 @@ if os.getenv("DATABASE_URL"):
     }
 else:
     DATABASES = {
-        "default": {
-            "ENGINE": os.getenv("DATABASE_ENGINE", "django.db.backends.postgresql"),
-            "NAME": os.getenv("DATABASE_NAME", "postgres"),
-            "USER": os.getenv("DATABASE_USER", "postgres"),
-            "PASSWORD": os.getenv("DATABASE_PASSWORD", "postgres"),
-            "HOST": os.getenv("DATABASE_HOST", "localhost"),
-            "PORT": os.getenv("DATABASE_PORT", "5432"),
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': os.getenv('DATABASE_NAME', 'postgres'),
+            'USER': os.getenv('DATABASE_USER', 'postgres'),
+            'PASSWORD': os.getenv('DATABASE_PASSWORD', 'postgres'),
+            'HOST': os.getenv('DATABASE_HOST', 'postgres'),  # Nombre del servicio en Docker
+            'PORT': os.getenv('DATABASE_PORT', '5432'),
         }
     }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
