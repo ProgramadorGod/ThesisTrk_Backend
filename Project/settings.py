@@ -185,14 +185,15 @@ if os.getenv("DATABASE_URL"):
 else:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': os.getenv('DATABASE_NAME', 'postgres'),
-            'USER': os.getenv('DATABASE_USER', 'postgres'),
-            'PASSWORD': os.getenv('DATABASE_PASSWORD', 'postgres'),
-            'HOST': os.getenv('DATABASE_HOST', 'thesis_track_db'),  # Aquí debes poner el nombre del servicio o contenedor
-            'PORT': os.getenv('DATABASE_PORT', '5432'),
+            'ENGINE': os.getenv("DATABASE_ENGINE", "django.db.backends.postgresql"),
+            'NAME': os.getenv("DATABASE_NAME", "postgres"),
+            'USER': os.getenv("DATABASE_USER", "postgres"),
+            'PASSWORD': os.getenv("DATABASE_PASSWORD", "postgres"),
+            'HOST': os.getenv("DATABASE_HOST", "postgres"),  # hostname de tu servicio Docker
+            'PORT': os.getenv("DATABASE_PORT", "5432"),
         }
     }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
