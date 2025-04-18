@@ -1,0 +1,2180 @@
+{
+    "career": "TRABAJOS DE GRADO INGENIERÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL",
+    "CarrerCode": "T37",
+    "works": [
+        {
+            "title": "TÍTULO",
+            "authors": [
+                "AUTOR (ES)"
+            ],
+            "year": "AÑO",
+            "link": ""
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA DE REDES CONTRAINCENDIO PARA LA EMPRESA METALMECÁNICA JORCAR.  BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "HENRY  ZAFRA SILVA",
+                "JORGE ALFREDO GOMEZ RUEDA"
+            ],
+            "year": "2012",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQWDZ5N0IzeXlBZnc/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157001194&usg=AOvVaw1DMOpPOoHOV5ByAh7YRzLT"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE CONTROLES OPERACIONALES PARA MANEJO SEGURO DE RIESGOS LABORALES EN LA EMPRESA SOCIAL DEL ESTADO BARRANCABERMEJA",
+            "authors": [
+                "MILTON JESÚS RINCÓN CONTRERAS"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQTjRYVmJrRU54TTg/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157001569&usg=AOvVaw0wFq-qWHlLEt-hB-XfemgL"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN MÓDULO DIDÁCTICO PARA LA SIMULACIÓN DEL FACTOR DE RIESGO POR ILUMINACIÓN QUE PERMITA ESTABLECER UN PLAN DE ACCIÓN ANTE LAS CONDICIONES PLANTEADAS EN LA PRÁCTICA",
+            "authors": [
+                "JESÚS ENRIQUE AFANADOR NONSABA",
+                "AURORA VARÓN CÁRDENAS"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQbXoxVXFWbEItVzQ/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157001865&usg=AOvVaw2jyB4gi3vGfr5d1--C0jMU"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROTOTIPO PARA SIMULAR EL FACTOR DE RIESGO QUÍMICO POR HUMOS METÁLICOS EN UNA EMPRESA DE SOLDADURA INDUSTRIAL DONDE SE HALLA LA CONCENTRACIÓN PROMEDIO DEL POLVO INORGÁNICO GENERADO",
+            "authors": [
+                "YELITZA IRLENNE PÉREZ LÓPEZ",
+                "DORALBA MACÍAS DELGADILLO"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQRXI0dDl2SXpDNVk/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157002149&usg=AOvVaw3NCLd5A_iFbwDnYg8YP7uh"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN MÓDULO DIDÁCTICO PARA LA SIMULACIÓN DEL FACTOR DE RIESGO POR VENTILACIÓN PARA EL DESARROLLO DE PRÁCTICAS DE LABORATORIO",
+            "authors": [
+                "MARÍA DEL CARMEN VILLAMIL",
+                "WALTER ARÉVALO GUILLIN"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQajNmVi1lR3pBZkE/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157002481&usg=AOvVaw22P7ZHnbf2CjVo29Nwc5yF"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROTOTIPO PARA SIMULAR LA AMENAZA DE INCENDIO Y ESTABLECER TIEMPOS DE ACTUACIÓN Y CONTROLES DE UNA EMPRESA DE HICROCARBUROS",
+            "authors": [
+                "INGRID JOHANNA MERLANO DÍAZ",
+                "YOLIMA JIMÉNEZ GALEANO"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQZFJTYjV2dURpSms/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157002763&usg=AOvVaw0j8QnEtoqlVX2utTrtUNJO"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN MÓDULO DIDÁCTICO PARA LA SIMULACIÓN DEL FACTOR DE RIESGO POR RUIDO PARA EL DESARROLLO DE PRÁCTICAS DE LABORATORIO",
+            "authors": [
+                "YENNY SANTAMARÍA JAIMES",
+                "NATHALIE CARREÑO BELEÑO"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQWUQ4alZUc3loc1U/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157003037&usg=AOvVaw1W3UuwJ3knu2Hd4oksQCdW"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROTOTIPO PARA SIMULAR EL FACTOR DE RIESGO QUÍMICO POR PRESENCIA DE DIÓXIDO DE CARBONO (CO2) EN UNA EMPRESA DONDE SE HALLE LA CONCENTRACIÓN PROMEDIO DEL GAS GENERADO,",
+            "authors": [
+                "JAIR MERCADO",
+                "HAROLD ARCINIEGAS"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQcGk1ajIxaTRHTVE/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157003311&usg=AOvVaw3lB7m3GvtRDp-T7zscPj7c"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN INSTRUCTIVO PARA LA IDENTIFICACIÓN Y SIMULACIÓN DE LA SITUACIÓN PROBLEMÁTICA RELACIONADA CON EL RIESGO QUÍMICO POR MATERIAL PARTICULADO EN UNA EMPRESA PROCESADORA DE ARROZ A NIVEL DE LABORATORIO PARA LOS ESTUDIANTES DE LA ESCUELA DE INGENIERÍA DE PRODUCCIÓN",
+            "authors": [
+                "REINALDO CASTAÑO PÉREZ"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQck9FdU1MVm5Jejg/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157003602&usg=AOvVaw2uLgZDNh7vBN7zsqNf-w2q"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROTOTIPO PARA SIMULAR EL FACTOR DE RIESGO QUÍMICO POR MATERIAL PARTICULADO EN UNA EMPRESA ASERRÍO DONDE SE HALLA LA CONCENTRACIÓN PROMEDIO DEL POLVO ORGANICO GENERADO",
+            "authors": [
+                "SANDRA SILVA BLANCO",
+                "JHON JAIRO LIZCANO RIZCALA"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQV3h5aUxsMzREWTA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157003878&usg=AOvVaw351XMriP_biBwEDw66v379"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROTOTIPO PARA SIMULAR EL FACTOR DE RIESGO QUÍMICO POR PRESENCIA DE CH4 EN UNA EMPRESA DONDE SE HALLE LA CONCENTRACIÓN PROMEDIO DEL GAS GENERADO",
+            "authors": [
+                "VÍCTOR JAIME CABALLERO GONZÁLEZ",
+                "MAYRA ALEJANDRA FUENTES MORATTO"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQeEJUT2IzV3pRNlE/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157004150&usg=AOvVaw3jdppzKEkkKviiX5kHA61_"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PLAN DE GESTIÓN INTEGRAL DE MANEJO DE RESIDUOS INDUSTRIALES PARA LA PRODUCCIÓN LIMPIA DE LA EMPRESA METCOL LTDA. UBICADA EN LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "EDUIN RICARDO QUINTERO CAMPILLO",
+                "YURANI PAOLA RAMÍREZ CELIS"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/a/unipaz.edu.co/file/d/0BzNu3rnW0QkQRDViVFhGQ2JYemc/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157004443&usg=AOvVaw3ltZyuImx7PQDxrpjshfnA"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROTOTIPO PARA SIMULAR EL FACTOR DE RIESGO QUÍMICO POR MATERIAL PARTICULADO EN UNA EMPRESA PROCESADORA DE ARROZ",
+            "authors": [
+                "YOMARY ATUESTA",
+                "REINALDO CASTAÑO"
+            ],
+            "year": "2013",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQZmFUNlVkSDRRVlE/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157004752&usg=AOvVaw2NxhyvCCpyHMOpCUrFV89j"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROTOTIPO DE UNA EMPRESA PROCESADORA DE CEMENTO PARA SIMULAR EL FACTOR DE RIESGO QUÍMICO POR MATERIAL PARTICULADO",
+            "authors": [
+                "ADRIANA MILENA MENDOZA QUINTERO",
+                "JORGE SÁNCHEZ MÁRMOL"
+            ],
+            "year": "2014",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQUGRYTnZYNEplMzg/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157005069&usg=AOvVaw2gDAyKt57sH0YD3jiKpCe0"
+        },
+        {
+            "title": "DETERMINACIÓN DE LA CONCENTRACIÓN PROMEDIO ASÍ COMO EL NIVEL DE RIESGO GENERADO EN LOS TRABAJADORES POR LA PRESENCIA DE MATERIAL PARTICULADO EN EL ÁREA DE INFLUENCIA DE LA CONSTRUCCIÓN DE UN EDIFICIO DE APARTAMENTOS DENOMINADO LIBERTAD CONDOMINIO UBICADO EN LA CALLE 71 ENTRE LA CARRERA 24 Y 25 EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "PEDRO JULIO QUINTERO EFREZ",
+                "DAIRON CÉSAR NIETO MENDOZA"
+            ],
+            "year": "2015",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQUXFscXhraVlDMGM/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157005384&usg=AOvVaw08b-nabsM4_3YZwXku5m1N"
+        },
+        {
+            "title": "DETERMINACIÓN DE LA CONCENTRACIÓN PROMEDIO Y NIVEL DE RIESGO GENERADO EN LOS TRABAJADORES POR LA PRESENCIA DE MATERIAL PARTICULADO EN EL ÁREA DE INFLUENCIA DE LA CONSTRUCCIÓN DE UN EDIFICIO DE APARTAMENTOS DENOMINADO DIANA MILENA UBICADO EN LA CALLE 52a nO.37 BIS 27 BARRIO PORVENIR EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "DAIRO ALONSO RESTREPO VARGAS",
+                "RAMIRO ANTONIO SERPA MARTÍNEZ"
+            ],
+            "year": "2015",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQLTl6T2pBMUJjbnM/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157005716&usg=AOvVaw3uIHcgNyZZkl1RMWw5eNTZ"
+        },
+        {
+            "title": "EVALUACIÓN HIGIÉNICA DEL MATERIAL PARTICULADO GENERADO EN LA CONSTRUCCIÓN DEL EDIFICIO SOLE APARTAMENTOS, BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "LEIDY JOHANA OCHOA NOVA",
+                "LINA KATHERINE OCHOA GUALDRÓN"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQUGFJNjN4c3VObWc/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157006007&usg=AOvVaw18Qt7G-_B_I5JbpVOGL-EW"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DEL PLAN DE GESTIÓN INTEGRAL DE RESIDUOS HOSPITALARIOS EN LA EMPRESA SOCIAL DEL ESTADO BARRANCABERMEJA",
+            "authors": [
+                "ADIANA MARCELA MORALES RODRÍGUEZ",
+                "GLITZA JULIETH NIÑO LIZARAZO"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQODBOMWpmRENRdTg/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157006285&usg=AOvVaw0JcUB8o8JmOp8shIhLfA5M"
+        },
+        {
+            "title": "EVALUACION HIGIENICA PARA MATERIAL PARTICULADO (2.5 MICRAS) GENERADO EN LA CONSTRUCCION SIENA 37, BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "JULIETH PAOLA MIRANDA FLOREZ",
+                "JOSE FABIAN NIÑO BARBOSA"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0B_GEWYrWSVFOU01kTEJvYWo2UGs/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157006585&usg=AOvVaw2Pi5oWEjkWvBSTS4vwmgaV"
+        },
+        {
+            "title": "DISEÑO DE UNA PROPUESTA DE MEJORA MEDIANTE UN ESTUDIO DE DISTRIBUCION EN PLANTA PARA MITIGAR EL RIESGO LOCATIVO DENTRO DEL ALMACEN Y TALLER EL RAYO EN LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "LAURA MARCELA ROBAYO CARO",
+                "MAIRA ALEJANDRA URIBE SALAZAR"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0B_GEWYrWSVFOdTdRSnh1ckFoSTA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157006865&usg=AOvVaw07lyaeNVxlJriNicFPwDS_"
+        },
+        {
+            "title": "DETERMINACION DE LA CONCENTRACION PROMEDIO Y NIVEL DE RIESGO GENERADO EN LOS TRABAJADORES POR LA PRESENCIA DE MATERIAL PARTICULADO EN EL AREA DE INFLUENCIA DE LA CONSTRUCCION DEL CENTRO COMERCIAL CITYZEN UBICADO EN LA CARRERA 8 No. 6-20 EN EL SECTOR COMERCIAL DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "PATRICIA DUSSA MOSQUERA",
+                "PAHOLA ANDREA AGUIRRE ARTEAGA"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0B_GEWYrWSVFOSmVlNDhGYVZld3M/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157007148&usg=AOvVaw1xuIF6gnTNWW-fagWt2tvd"
+        },
+        {
+            "title": "DETERMINACION DE LA CONCENTRACION PROMEDIO Y NIVEL DE RIESGO GENERADO EN LOS TTRABAJADORES POR LA PRESENCIA DE MATERIAL PARTICULADO EN EL AREA DE INFLUENCIA DE LA CONSTRUCCION DE UN EDIFICIO DE APARTAMENTOS SAN ANGEL UBICADO EN LA CALLE 53 No. 17-78 EN EL BARRIO URIBE URIBE EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "ANDREA PAOLA ALVEAR RENDON",
+                "LAURY PAOLA OSPINO OTERO"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0B_GEWYrWSVFOTEZkNWYyQklieU0/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157007461&usg=AOvVaw1WV2U-s6EcBOQhSKD9BEWB"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DEL SISTEMA DE GESTIÓN INTEGRAL BAJO LAS NORMAS ISO 9001: 2008, ISO 14001:2004 Y OHSAS 18001:2007 DE LA EMPRESA INDUSTRIAS BERACA GRC S.A.S DE BARRANCABERMEJA",
+            "authors": [
+                "MARÍA PATRICIA MORALES GONZÁLEZ",
+                "CLAUDIA ZARINA RUEDA RUEDA"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQRmRvMFJPZW53U2s/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157076368&usg=AOvVaw2zyiKCrTMXGZWvc_VRFCQb"
+        },
+        {
+            "title": "ESTUDIO DEL AUSENTISMO DE ORIGEN COMÙN Y LABORAL DE LOS  TRABAJADORES DE PLANTA, ADMINISTRATIVOS Y DOCENTES OCASIONALES TIEMPO COMPLETO DEL INSTITITUTO UNIVERSITARIO DE LA PAZ, PARA EL AÑO 2016",
+            "authors": [
+                "ANGÈLICA JULIANA ALQUICHIRE RUIZ"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0B4uh3u6hNr4pS0NOQWlmNlA0UEE/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157077068&usg=AOvVaw3jNHHMJUE_knvcrbzXd_FN"
+        },
+        {
+            "title": "ANÀLISIS Y GESTIÒN DEL RUIDO EN LA EMPRESA METALMAQ LTDA. UBICADA EN EL  MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "CLAUDIA MILENA PINTO LEAL    -JOHANA MARCELA RODRÌGUEZ CABRERA"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0B4uh3u6hNr4pT3hOZEZPX29OdnM/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157077528&usg=AOvVaw1IGdrfcmt3Be-Q9DeIMhtn"
+        },
+        {
+            "title": "ESTRUCTURA DEL SISTEMA DE GESTIÒN DE LA SEGURIDAD Y SALUD EN EL TRABAJO, BAJO LOS  LINEAMIENTOS DEL DECRETO 1072 DE 2015 EN LA EMPRESA ENVASADORA DE AZUFRE  LA FORTUNA UBICADA EN EL KILOMETRO 12 VÌA BARRANCABERMEJA- BUCARAMANGA",
+            "authors": [
+                "ALEJANDRA DEL PILAR ESCALANTE LEAL    PABLO ELÌAS MENDOZA BLANCO"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0B4uh3u6hNr4pWW9Gdi1qZGRaMVk/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157077843&usg=AOvVaw25xKw7Engff439ufZkK_xo"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROGRAMA PARA LA REDUCCIÓN DE LA ACCIDENTALIDAD E INCIDENTALIDAD GENERADA POR LAS ACTIVIDADES PROPIAS DE LA EMPRESA ARDICOL LTDA, TENIENDO EN CUENTA EL PERÍODO DE INVESTIGACIÓN DESDE ENERO DE 2013 HASTA JUNIO 2014, EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "LUISA FERNANDA GARRIDO TANG",
+                "GABRIEL EDUARDO RODRÍGUEZ LEÓN"
+            ],
+            "year": "2014",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQZEFOTU9sWERlQUE/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157078142&usg=AOvVaw2dNLYJr7vi3ClSDJep85gh"
+        },
+        {
+            "title": "PLANIFICACIÓN Y DOCUMENTACIÓN DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO, CUMPLIENDO CON LOS LINEAMIENTOS DEL DECRETO 1072 DE 2015 EN EL LABORATORIO CLÍNICO SISSLAB SAS UBICADO EN EL MUNICIPIO DE BARRANCABERMEJA SANTANDER",
+            "authors": [
+                "EDILBERTO PÉREZ LUGO"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQVFZPbFV3dGQ4NlU/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157078445&usg=AOvVaw2-7HIlTLzPLHODh19mNlaA"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA PARA LA MIINIMIZACIÓN DEL PELIGRO FÍSICO POR RUIDO A LOS TRABAJADORES DE LA EMPRESA TRANSPORTES RÍO GRANDE S.A.S. DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "TANIA MEJÍA PIZARRO"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQT2I2dEpBYlB6VlU/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157078723&usg=AOvVaw0QVlPocWZnaNT5wHsHevk-"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROGRAMA DE PREVENCIÓN DE LOS DESÓRDENES MUSCULOESQUELÉTICOS OCASIONADOS POR FACTORES DE RIESGO BIOMECÁNICO DE LA EMPRESA INSERCOR S.A.S.",
+            "authors": [
+                "JENNIFER VANESSA FERIA ORTIZ"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQRmNOVzZWalkzYzA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157079002&usg=AOvVaw2fjKQ0BveyfrjivEOm1E1D"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LOS PELIGROS MECÁNICOS INHERENTES A LAS LABOES DE OBRA CIVIL DE LOS TRABAJADORES EN LA EMPRESA ESTEM LTDA. DE BARRANCABERMEJA",
+            "authors": [
+                "GUILLERMO QUINTERO MARÍN",
+                "JHON CARLOS VARGAS CELIS"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQeVdCT2RBTkVDNmc/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157079283&usg=AOvVaw0BmbOzlncF_1KPkFrcJusf"
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA DE GESTIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO (SG-SST) BAJO LOS REQUISITOS DEL DECRETO 1072 DE 2015 PARA LA EMPRESA ASESORÍAS INTEGRALES Y PROCESOS ADMINISTRATIVOS S.A.S. DE BOGOTÁ",
+            "authors": [
+                "CRISTINA PATIÑO RUEDA"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQR2E2UkExejNWSUU/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157079566&usg=AOvVaw2Q_4N07E3LWi6e4xiOqk7n"
+        },
+        {
+            "title": "DISEÑO DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO , PARA LA EMPRESA CONFUCOL LTDA. UBICADA EN LA CIUDAD DE BARRANCABERMEJA, ACORDE A LA GUÍA TÉCNICA DE IMPLEMENTACIÓN PARA PYMES CON BASE EN EL DECRETO 1072 DE 2015",
+            "authors": [
+                "YENY JOANA SALAS RUZ"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/15USF9g17eOSVRYAAlPVZdQ5fq9j4FhuA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157079853&usg=AOvVaw3g3csB3R_o3bQdTgpzGC84"
+        },
+        {
+            "title": "DISEÑO DE LA DOCUMENTACIÓN DE SISTEMAS INTEGRADOS DE GESTIÓN DE CALIDAD Y SEGURIDAD INDUSTRIAL Y SALUD OCUPACIONAL BAJO  LOS LINEAMIENTOS DE NTC-ISO 9001:2015 Y NTC-OHSAS 18001:2007 EN LA EMPRESA INVERSIONES DINÁMICAS S.A.S.",
+            "authors": [
+                "ROGER AURELIO HERNÁNDEZ MORALES",
+                "DELIVETH LOZANO GUILLÉN"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D12ItUf8SsR0skZ0HUnH40OaayQyowjeBJ&sa=D&source=editors&ust=1744615157080137&usg=AOvVaw18ldzotBvAxvZ04CCUCjGz"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UNA ESTRATEGIA PARA EJERCER CONTROL PREVENTIVO Y CORRECTIVO SOBRE LOS RIESGOS PSICOSOCIALES A LOS CUALES SE ENCUENTRAN EXPUESTOS LOS EMPLEADOS DE LA EMPRESA DE SEGURIDAD Y VIGILANCIA COLVISEG SEDE BARRANCABERMEJA (SANTANDER)",
+            "authors": [
+                "MAYERLY LOZANO RUEDA"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1F4r3E9gIgqz-5yuJd4WC385fWdohO1f-&sa=D&source=editors&ust=1744615157080426&usg=AOvVaw114AIyWn1o23lBlOmNpoPM"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE PREVENCIÓN Y PROTECCIÓN CONTRA CAÍDAS DE TRABAJOS EN ALTURAS PARA LA EMPRESA JAD CONSTRUCCIONES Y SERVICIOS LTDA. UBICADA EN LA CIUDAD DE SINCELEJO SUCRE",
+            "authors": [
+                "DANIEL EDUARDO TOVAR ROMERO"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ZHE7YPBqd4PqGZeeITSUQlBObhjsrU4y/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157080764&usg=AOvVaw0Beu-jhh6JFaZR80S2kmQo"
+        },
+        {
+            "title": "ANÁLISIS DE LOS APORTES REALIZADOS POR LOS ESTUDIANTES EN PRÁCTICA ACADÉMICA DEL PROGRAMA DE INGENIERÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL EN EMPRESAS DE BARRANCABERMEJA",
+            "authors": [
+                "LUZ DARY DUARTE ALVARADO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1rQBYXExrvtA_LlWLwy4X1vATPjR49_g_&sa=D&source=editors&ust=1744615157081061&usg=AOvVaw1LceA5AzM6tlbPf4lbmjyg"
+        },
+        {
+            "title": "ANÁLISIS DE LOS APORTES DE LOS ESTUDIANTES EN PRÁCTICAS ACADÉMICAS EN TECNOLOGÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL EN EL PERÍODO 2015 B Y 2016 (A Y B) EN LAS CIUDADES DE BARRANCABERMEJA, BUCARAMANGA Y BOGOTÁ",
+            "authors": [
+                "ANA ISABEL MARTÍNEZ COBO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1gS2rmYI5saiHYxReRWCXXgs3Cr5zT0N7&sa=D&source=editors&ust=1744615157081340&usg=AOvVaw1123D4BvyJ4ucqWym8az0h"
+        },
+        {
+            "title": "ANÁLISIS DE LOS APORTES REALIZADOS POR LOS ESTUDIANTES EN PRÁCTICAS ACADÉMICAS DE INGENIERÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL EN LOS PERÍODOS 2015 B Y 2016 (A Y B) EN LAS EMPRESAS DEL MUNICIPIO BARRANCABERMEJA",
+            "authors": [
+                "ELBA IRENE ESCOBAR AMARÍS"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1PmxUwiw3C4JkS5W9z3zSKkJ6QlhKDqaW&sa=D&source=editors&ust=1744615157081626&usg=AOvVaw08afHhZh_1bbtf3cFdAsKu"
+        },
+        {
+            "title": "DISEÑO DE CONTROLES ADMINISTRARIVOS PARA MINIMIZAR LOS PELIGROS POR CONDICIONES DE SEGURIDAD EN LOS TRABAJADORES DE LA ASOCIACIÓN DE INQUILINOS \"ASOINQUILINOS\" DE LA PLAZA DE MERCADO TORCOROMA DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "DIANA MARCELA GIRALDO VELÁSQUEZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1hHpEf1CgVJBPY1x1q0Mj97nqqFwETYhB&sa=D&source=editors&ust=1744615157081922&usg=AOvVaw3_Y194uydHEMM8gH0CWfXK"
+        },
+        {
+            "title": "ANÁLISIS DE LOS APORTES REALIZADOS POR LOS ESTUDIANTES EN PRÁCTICA DEL PROGRAMA DE TECNOLOGÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL DEL AÑO 2016 A LAS EMPRESAS DE LA REGIÓN DEL MAGDALENA MEDIO",
+            "authors": [
+                "ELIZABETH JEREZ SARMIENTO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1Oe9nVVBq5S0KybDuXZgSJsYiOFP4lSTS&sa=D&source=editors&ust=1744615157082260&usg=AOvVaw22eti31ImP83LbtihUjF_H"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE CONTROLES OPERACIONALES PARA PELIGRO BIOMECÁNICO Y CONDICIONES DE SEGURIDAD EN LA LAVANDERÍA DE LA CORPORACIÓN DE SERVICIOS INTEGRALES COSERVIN DE BARRANCABERMEJA",
+            "authors": [
+                "CINDY MIRLEY RAMÍREZ HOYOS"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1c10egPxhwX-4bh6s7OX6GqAGi7qjAPHK&sa=D&source=editors&ust=1744615157082550&usg=AOvVaw34f2d5bnUn4EKheYpR15eu"
+        },
+        {
+            "title": "DISEÑO DE CONTROL ADMINISTRATIVO PARA LA MITIGACIÓN DEL PELIGRO OCUPACIONAL EN EL MANEJO DE HERRAMIENTAS MANUALES PARA EL INSTITUTO TÉCNICO SUPERIOR INDUSTRIAL BARRANCABERMEJA",
+            "authors": [
+                "ADRIANA GARRIDO GONZÁLEZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1XJNMt25ZWMhqvfIzaDA-5Uxpu0RmAanH&sa=D&source=editors&ust=1744615157082825&usg=AOvVaw063hUfOLcGbJ73RDSaca6v"
+        },
+        {
+            "title": "DISEÑO Y DISTRIBUCIÓN DE PLANTA DE LA ESTRUCTURA ADMINISTRATIVA PARA LA OPTIMIZACIÓN DE LAS CONDICIONES LOCATIVAS DEL SEGUNDO PISO DE LA ALCALDÍA DE SAN ALBERTO, CESAR",
+            "authors": [
+                "JULIETH ELENA PADILLA BELLO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1J_VBnREZIIuKiFX4bLMqWeifqn_YIdpZ&sa=D&source=editors&ust=1744615157083094&usg=AOvVaw1VcwgnwFoWU44Fv7Y-ACEx"
+        },
+        {
+            "title": "DISEÑO DE UNA HERRAMIENTA INFORMÁTICA PARA OPTIMIZAR, CONSOLIDAR Y ADMINISTRAR LA INFORMACIÓN DEL PLAN DE SEGURIDAD Y SALUD EN EL TRABAJO, PARA LOS SERVICIOS DE MANTENIMIENTO CON PARADA DE PLANTA, DESARROLLADOS EN LA CALDERA B-2405 DE CENTRAL DEL NORTE, EN LA REFINERÍA DE BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "LUIS GUILLERMO NARVAEZ OSPINO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1kiEB72_HqTTCW5FtVRrebdevncw6Nh8d/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157083383&usg=AOvVaw07MQ6gcfxDX_opzCGohwxs"
+        },
+        {
+            "title": "DISEÑO DE DISTRIBUCIÓN DE PLANTA OPTIMIZANDO LAS CONDICIONES DE SEGURIDAD EN LAS INSTALACIONES ADMINISTRATIVAS PARA PREVENIR LOS RIESGOS FÍSICOS, BIOMECÁNICOS, PSICOLABORALES Y LOCATIVOS DE LA EMPRESA JOSÉ DOMINGO ORTEGA GUERRERO EN LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "JULIETH MARCELA OLIVEROS FRANCO",
+                "SANDRA MARCELA ZAPATA GARRIDO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1wx3XMzYE6iUbwBfuOThPM6TOThNK4d7N&sa=D&source=editors&ust=1744615157083713&usg=AOvVaw1RR6rLXjaLj-dj50AfvtwB"
+        },
+        {
+            "title": "ANÁLISIS DE LOS APORTES DE LOS ESTUDIANTES EN PRÁCTICA ACADÉMICA DE INGENIERÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL EN RIESGO LOCATIVO E HIGIENE INDUSTRIAL DE LAS EMPRESAS DE BARRANCBERMEJA",
+            "authors": [
+                "ERIKA PAOLA RODRÍGUEZ RUGELES"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1krkBF0zX3_8s18zVbqI61MML5MHDyH4j&sa=D&source=editors&ust=1744615157084023&usg=AOvVaw0XLNpbcR_1JsE6Hq1VUVD_"
+        },
+        {
+            "title": "ANALIZAR LOS APORTES DE LOS ESTUDIANTES EN PRÁCTICA DEL PROGRAMA TECNOLOGÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL RELACIONADO CON SEGURIDAD INDUSTRIAL REALIZADO EN LAS EMPRESAS A NIVEL NACIONAL BARRANCABERMEJA",
+            "authors": [
+                "ARGENIS NATALIA CADENA FLÓREZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1WvojZOgmk2yNbAlnBE_JGaKXiE9z86RE&sa=D&source=editors&ust=1744615157084332&usg=AOvVaw0HtLy6MBb5OVv3DIahTy_M"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE RIESGO BIOMECÁNICO PARA LA PREVENCIÓN DE TRASTORNOS MUSCULOESQUELÉTICOS, EN LOS INQUILINOS DE LA PLAZA DE MERCADO TORCOROMA DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "VERÓNICA DEL PILAR ARENAS LEÓN"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1zZixzHyTI1ipTbn5_yTdA7F9fviZKK7e&sa=D&source=editors&ust=1744615157084644&usg=AOvVaw0IIuZ0jCbdbmIwgSFc-1ij"
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA DE GESTIÓN DE CALIDAD BASADO EN LA NORMA TÉCNICA COLOMBIANA NTC ISO 9001:2015 PARA LA EMPRESA C.M.A. GROWING LTDA.",
+            "authors": [
+                "YHURIETT DAYIBE BLANCO MAFFIOLD"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1cps8Ro8rAaGSkJlw18oEXhheWq-LJQju&sa=D&source=editors&ust=1744615157084949&usg=AOvVaw2btIaZbW1GZ9v4M3i-0RnH"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE UN PROGRAMA DE SEGUIMIENTO AL AUSENTISMO LABORAL EN EL PROYECTO SOCIAL TERRAZAS DEL PUERTO III ETAPA DE LA EMPRESA CONSTRUCCIONES E INGENIERÍA MF BARRERA S.A.S. EN BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "DIANA MARCELA TARAZONA PLATA"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1q0bqZ-1BRynCjV8LGAJKV0s9sQF5nVkM&sa=D&source=editors&ust=1744615157085244&usg=AOvVaw0ktbAMhpndwyWIlwmU3tI1"
+        },
+        {
+            "title": "DISEÑO DE LAYOUT EN LAS CONDICIONES DE INSTALACIÓN PARA EL MEJORAMIENTO DE DISTRIBUCIÓN CONTROLANDO RIESGOS MECÁNICOS, LOCATIVOS, FÍSICOS Y BIOLÓGICOS EN LA EMPRESA CONYSER LTDA.",
+            "authors": [
+                "SARA MILENA CASTILLO LÓPEZ",
+                "LILIAM GÓMEZ GARCÍA"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D15iWA5T83zNLfkuvZ9x3QsiDwfXM4IGLM&sa=D&source=editors&ust=1744615157085532&usg=AOvVaw3SwkWeC5HhO1Sk-3jZaO0k"
+        },
+        {
+            "title": "ANALIZAR EL APORTE DE LOS ESTUDIANTES EN PRÁCTICA DEL PROGRAMA INGENIERÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL RELACIONADO CON RIESGO QUÍMICO, BIOLÓGICO Y MECÁNICO REALIZADO EN LAS EMPRESAS DE BARRANCABERMEJA",
+            "authors": [
+                "KAROL VANESSA MARTÍNEZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1lTfU3_Tb_8TNMvUKgqvMIpbWzkEgkOOS/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157085804&usg=AOvVaw31KTpRT2jp4MVuX-dekXpJ"
+        },
+        {
+            "title": "PELIGROS MECÁNICOS ASOCIADOS A LA ACCIDENTABILIDAD LABORAL EN LOS TRABAJADORES OPERATIVOS DE LAS EMPRESAS DE METALMECÁNICA EN EL MUNICIPIO DE BARRANCABERMEJA EN EL PERÍODO 2016",
+            "authors": [
+                "ANGÉLICA ARGEL TORRES",
+                "MARITZA CORZO GRANADOS"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D13lFHvG1J4TbqN3ckMhIGRpx_Mc2GBv6W&sa=D&source=editors&ust=1744615157086086&usg=AOvVaw27xk9AfXzWZflFXcNJ3b_g"
+        },
+        {
+            "title": "DETERMINACIÓN DEL NIVEL DE RIESGO POR MATERIAL PARTICULADO EN LA CONSTRUCCIÓN LUNA CONJUNTO RESIDENCIAL, BARRANCABERMEJA SANTANDER",
+            "authors": [
+                "JAMES JHONATHAN POSADA DUARTE",
+                "HEIDY JOHANA TORRES VESGA"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1k81YdekywHCf-SX1XSnPJOmdaxkiD8A9/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157086384&usg=AOvVaw3aMQ_r7S_g5z2rDXFc0TCL"
+        },
+        {
+            "title": "INTERVENCIÓN DE LAS CONDICIONES DE SEGURIDAD POR PELIGROS LOCATIVOS Y MECÁNICOS PARA REDUCIR LOS NIVELES, DE RIESGOS DE LOS TRABAJADORES DEL ÁREA DE PRODUCCIÓN DE LA EMPRESA TELLERES UNIDOS LTDA. EN LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "MARYURYS SÁNCHEZ YARURO    OSCAR MAURICIO SERENO QUIMBAYO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1-_a6CXulHSWahwU2Nv_A8JsAeyzmmrSo/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157086703&usg=AOvVaw1heqSVwqx2MKiwvIsJMOuy"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LOS DESORDENES MUSCULOESQUELÉTICOS PRESENTES, EN LOS TRABAJADORES ADMINISTRATIVOS Y DOCENTES DEL INSTITUTO UNIVERSITARIO DE LA PAZ, BARRANCABERMEJA",
+            "authors": [
+                "YESSICA VANNESA AFANADOR ESTRADA     SARA MILENA DAZA ROJAS"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1LTbndVQk8VIlwKPHZx4fkPlqvLkbWIeU/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157087043&usg=AOvVaw0O7TreVyVmQIDvdgneIZXB"
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA DE RED CONTRAINCENDIOS, BASADO EN LA NORMATIVIDAD COLOMBIANA NSR 10 TITULO J Y K PARA LA EMPRERSA INGECAR, UBICADA EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "ANGELA YICELA NIÑO RAMIREZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1YuSU-yHXFj958Wm5yJDb1qGpQP567Csu/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157087318&usg=AOvVaw3ZNaWLa2iPW8HKxXlcd27N"
+        },
+        {
+            "title": "ANALISIS DE LOS INFORMES FINALES DE LOS ESTUDIANTES EN PRÁCTICAS ACADÉMICAS DE TECNOLOGÍA EN HIGIENE Y SEGURIDAD INDUSTRIAL, EN EL PERIODO 2015 B Y 2016 ( AY B ) PARA DETERMINAR EL APORTE DEL TRABAJO REALIZADO EN LA EMPRESAS DE BARRANCABERMEJA",
+            "authors": [
+                "MARENA MONTAÑO PINTO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1PcfFtyfEebXp4hk6IzBn0vO5Zxcex6SI/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157087603&usg=AOvVaw3cGa5IEJY7bOvS6tDukNaZ"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE CONFORT BAJO LA METODOLOGÍA DEL SÍNDROME DE EDIFICIO ENFERMO CON EL FIN DE FORMULAR MEDIDAS DE CONTROL PARA LA PREVENCIÓN DE ENFERMEDADES LABORALES EN LA EMPRESA SANAUTOS S.A. EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "ROBINSON ARIZA VARGAS"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1pauuWQP4Ueg7t8WEFYJ8dPAzb_ou-CIz/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157087886&usg=AOvVaw3oj_DPXAlh3dl2FtukFLDh"
+        },
+        {
+            "title": "DISEÑO DE DISTRIBUCIÓN EN PLANTA PARA MITIGAR EL RIESGO LOCATIVOS EN LA EMPRESA EL PUNTO DEL COLOR LA 36",
+            "authors": [
+                "YÉSICA PAOLA VARGAS SURMAY"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1LQ9X02QF93IZ3w0Wo0ujgNBn-AV3daXP/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157088154&usg=AOvVaw1brGBI4_u6bwm2ZMw-9_Mi"
+        },
+        {
+            "title": "MEDICIÓN DE LA OCURENCIA DEL ACTO INSEGURO: USO DEL TELÉFONO CELULAR DURANTE LA CONDUCCIÓN DE BUSETAS DE SERVICIO PÚBLICO DE LA COOPERATIVA DE TRANSPORTE Y SERVICIOS MÚLTIPLES COTSEM LTDA. EN EL TRAYECTO BARRANCABERMEJA - UNIPAZ - BARRANCABERMEJA",
+            "authors": [
+                "JHON FREDY PEDRAZA DURÁN"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1aT5VtTPEXnPVm7TZLxI8xwD4U0fCtyJ8/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157088441&usg=AOvVaw2Zai3SEvGeySYndyAPxzpE"
+        },
+        {
+            "title": "ANÁLISIS DE LOS PELIGROS BIOMECÁNICOS QUE AFECTAN LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LOS COLABORADORES ADMINISTRATIVOS DE LA EMPRESA ASOCIACIÓN INNOVADORES DE LA RECUPERACIÓN ECOLÓGICA (AIRE) DEL MUNICIPIO DE BARRANCABERMEJA - SANTANDER",
+            "authors": [
+                "ESTÉFANY ANDREA OSPINO BARRETO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1iDxp3DgNbrfHvg1YWsKyDRNjp9zYE1VL/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157088722&usg=AOvVaw2qYfg-8GGPecV_crgv95Q9"
+        },
+        {
+            "title": "ANÁLISIS DE LAS CONDICIONES BIOMECÁNICAS EN LAS ACTIVIDADES OPERATIVAS DE LA EMPRESA VIDRIOS Y ALUMINIOS RAÚL EN EL MUNICIPIO DE MAGANGUÉ - BOLÍVAR",
+            "authors": [
+                "IRWIN KEIMER LARA BENÍTEZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1NqRef15CXSW7H5YjaE8Grn1hN2zFV2At/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157088993&usg=AOvVaw312MCJgb9ehl0FfetHf-fR"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LAS CONDICIONES DE RADIOPROTECCIÓN DEL PERSONAL OCUPACIONALMENTE EXPUESTO EN SALA DE RAYOS X EN LAS EMPRESAS DE DIAGNÓSTICO MÉDICO UBICADAS EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "BRAYAN GIRALDO RUIZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1VcRFOoV_7gpamgIsOmiajbhVojAbQNlK/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157089265&usg=AOvVaw3zIcLXp7JZvEUNAKx5Kcol"
+        },
+        {
+            "title": "ESTUDIO TÉCNICO PARA LA SELECCIÓN DE UN EQUIPO EXTRACTOR LOCALIZADO DE HUMOS METÁLICOS, PARA EL CONTROL DE RIESGO QUÍMICO EN LA EMPRESA INDUSTRIAS PALMIRA UBICADA EN BARRANCABERMEJA",
+            "authors": [
+                "CAROLINA TOSCANO VÉLEZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1XYPviWeOuPiw0w_ce2C8f27wWccybRaJ/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157089603&usg=AOvVaw240juJ3_qPcLAK21w0gbC9"
+        },
+        {
+            "title": "FORMULACIÓN DE CONTROLES ADMINISTRATIVOS MEDIANTE EL DIAGNÓSTICO DE LAS MEDICIONES HIGIÉNICAS DEL PELIGRO FÍSICO POR RUIDO PRESENTE EN EL ÁREA OPERATIVA DE LA EMPRESA METALMECÁNICA METCOL EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "LUDIS ESMIR CORZO MEJÍA"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1i1fTeW8gfxvfv6vUqhimBLBRmmIVWcWA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157089894&usg=AOvVaw0LieM2io3ZjgRfH_AqNa7Z"
+        },
+        {
+            "title": "ESTUDIO DEL AUSENTISMO LABORAL PARA EL PERÍODO ENERO 2017 A JUNIO 2018, CON EL FIN DE IDENTIFICAR LAS CAUSAS DE AUSENCIAS DE LOS EMPLEADOS DEL INSTITUTO UNIVERSITARIO DE LA PAZ (UNIPAZ)",
+            "authors": [
+                "WALTER RAMÍREZ SÁNCHEZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1S6LYaBbLTthCRTAbjyrcjdFxBJ-HNL8n/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157090168&usg=AOvVaw1erAlG-72qjW_z03MC06co"
+        },
+        {
+            "title": "APLICACIÓN DE CONTROLES DE INGENIERÍA Y ADMINISTRATIVOS PARA LA MINIMIZACIÓN DEL PELIGRO FÍSICO POR ILUMINACION EN LA EBANISTERÍA JOTA JOTA DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "JEFFER ARLEY GARCÍA MEJÍA"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1mxU_Ifrvr83PjAVz6mSRtCL5RSE7tR28&sa=D&source=editors&ust=1744615157090447&usg=AOvVaw0PkW7L36laN8uyJRNJ_gEg"
+        },
+        {
+            "title": "EVALUACIÓN DE LOS NIVELES DE ILUMINACIÓN PARA FORMULAR MEDIDAS DE CONTROL EN LA PREVENCIÓN DE ENFERMEDADES LABORALES DE LA EMPRESA WRS CONRATISTAS SAS UBICADA EN EL CORREGIMIENTO EL CENTRO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "YÉSSICA ARDILA SÁNCHEZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1IbLUzkIkmlllQizYjdOwzXtlvUrxRLIL&sa=D&source=editors&ust=1744615157090725&usg=AOvVaw3QbVXZm1SXbzvjTrjTah8V"
+        },
+        {
+            "title": "EVALUACIÓN DEL SISTEMA DE ILUMINACIÓN DE LA EMPRESA SERVIMONT LTDA UBICADA EN EL CORREGIMIENTO EL CENTRO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "ANA MARÍA HERAZO CAICEDO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1v03Ti4ToZY3u0CxnCsAyjHB1vARGg3Pa&sa=D&source=editors&ust=1744615157090993&usg=AOvVaw0vlFeVD0bwUfKtR8VYCUdG"
+        },
+        {
+            "title": "IDENTIFICACIÓN DE PELIGROS, EVALUACIÓN Y VALORACIÓN DE RIESGOS APLICANDO MEDIDAS DE PREVENCIÓN Y CONTROL EN LAS ACTIVIDADES OPERATIVAS DE LA EMPRESA TALLERES METALMAQ DE BARRANCABERMEJA",
+            "authors": [
+                "KELLY JOHANA RAMÍREZ PICÓN"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1YCGYOD4Z1t8BJf7aCrykUZ7O-E2M6C1t&sa=D&source=editors&ust=1744615157091287&usg=AOvVaw1Ofz9CSsXPzQ6E4iBK7jTX"
+        },
+        {
+            "title": "IMPLEMENTACION DE UN PROGRAMA DE PREVENCIÓN DE DESÓRDENES MUSCULOESQUELÉTICOS A LOS TRABAJADORES DE LA EMPRESA ALMACÉN Y TALLER FERNANDO",
+            "authors": [
+                "LAURA ANDREA PEDROZO MEZQUIDA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1Zs7iw5l2urnn8niDBhiSdjpWRW5suzP3&sa=D&source=editors&ust=1744615157091606&usg=AOvVaw3pnLBwaQNAjtmm-5OqNOhX"
+        },
+        {
+            "title": "ESTUDIO DE LA GESTIÓN INTEGRAL DE LOS PELIGROS BIOLÓGICOS ELÉCTRICOS Y LOCATIVOS EN EL EDIFICIO ADMINISTRATIVO DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "LINEY GALVÁN LONGARAY"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1CrWMkhA86W7Xfv0pK1mcsOH1E4EUE6uK&sa=D&source=editors&ust=1744615157091891&usg=AOvVaw11EjM0Vz55s1rxNCT-Cyc-"
+        },
+        {
+            "title": "ESTUDIO DE LA GESTIÓN INTEGRAL DE LOS PELIGROS BIOLÓGICOS ELÉCTRICOS Y LOCATIVOS EN EL EDIFICIO DE BIBLIOTECA DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "SERGIO FERNANDO LOZANO VÁSQUEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1Fpvw8nBtxTh77YxI3hULlIHYlUPcCXP6&sa=D&source=editors&ust=1744615157092167&usg=AOvVaw2e5aVmN2MUzprR4BqFYhzU"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA PARA LA GESTIÓN INTEGRAL DEL RIESGO BIOLÓGICO EN LA EMPRESA RADIÓLOGOS ASOCIADOS BARRANCABERMEJA LTDA",
+            "authors": [
+                "RAFAEL EDUARDO QUINTERO HERRERA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1OnKD0Fng6Rc_zLqfvUHWIXpw8iTNtI--&sa=D&source=editors&ust=1744615157092443&usg=AOvVaw2bCcZZtFA3-tWnZfAz5wWB"
+        },
+        {
+            "title": "ESTUDIO DE AUSENTISMO LABORAL DE LAS OPERARIAS DE LA EMPRESA AMERICANA DE SERVICIOS LTDA. DEL MUNICIPIO DE BARRANCABERMEJA - SANTANDER, ENTRE LOS AÑOS 2016 Y 2017",
+            "authors": [
+                "MARLY LLIBEL MORALES TRIANA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1P-ERC1zssR8Y_CqFoXQOmEeZG_2OI89U&sa=D&source=editors&ust=1744615157092714&usg=AOvVaw2NgW4Xm-g_YQOtI-8gg7Id"
+        },
+        {
+            "title": "FORMULACIÓN DEL PLAN DE CONTINGENCIA PARA CONTROL DE INCIDENTES POR CLORO EN LA PLANTA DE PROCESO DE LA EMPRESA AGUAS DE BARRANCABEMEJA",
+            "authors": [
+                "ÁLVARO ALEXANDER OCHOA JARAMILLO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1imLv5oa_YaPpDWiXzXANCbAa_WMb-3Ig&sa=D&source=editors&ust=1744615157092979&usg=AOvVaw37sD7H0qkVVh_VvxvgU7zM"
+        },
+        {
+            "title": "ESTUDIO DE LA GESIÓN INTEGRAL DE LOS PELIGROS BIOLÓGICOS ELÉCTRICOS Y LOCATITOS EN EL EDIFICIO DE AULAS CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "DIANA MARCELA ALDANA ARDILA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/14XWSOMmpWftmZm3_EGWe7jbT4KgTaZ7W/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157093249&usg=AOvVaw2olw8OBYyf6LmCLQErx_Dj"
+        },
+        {
+            "title": "EVALUACIÓN DE LA CALIDAD DE AIRE INTERIOR BAJO METODOLOGÍA DE EDIFICIO ENFERMO CON EL FIN DE FORMULAR MEDIDAS DE CONTROL PARA LA PREVENCIÓN DE ENFERMEDADES LABORALES DE LA EMPRESA SANAUTOS S.A. EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "YENIFER ANDREA GÓMEZ URRUTIA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D111UMcNtEzfgO5m8t1MYeWoTv5MP2uegy&sa=D&source=editors&ust=1744615157093533&usg=AOvVaw1__iSZAHENtMi0Mg_YW2lZ"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL DEL SECTOR ECONÓMICO - ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS - ESPECÍFICAMENTE ACTIVIDADES VETERINARIAS DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "KEYLA KATHERINE MURALLAS CASTELLANOS"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1oPVYtqPC_kjOOlCsZrgOfRPOFfrgT4JX&sa=D&source=editors&ust=1744615157093812&usg=AOvVaw0LwG_-MixpFWLCrpnmUJoN"
+        },
+        {
+            "title": "ANÀLISIS Y GESTIÒN DE LA CONDICIÒN DEL PELIGRO FÌSICO POR RUIDO GENERADO EN LAS ACTIVIDADES OPERATIVAS DE LA EMPRESA INTECAR UBICADA EN BARRANCABERMEJA SANTANDER",
+            "authors": [
+                "JUAN FRANCISCO MACÌAS SIDEDOR"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1GieIJosjACyk-4x0Y4DfHHf0K_tTYyH6/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157094081&usg=AOvVaw2RR02FZBj0uFeqwss06-Qo"
+        },
+        {
+            "title": "ESTUDIO SOBRE LAS CONDICIONES TÈCNICAS Y DE SEGURIDAD DE LOS CENTROS DE FORMACIÒN Y ENTRENAMIENTO PARA TRABAJO SEGURO EN ALTURAS LEGALMENTE CONSTITUIDAS EN LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "ELKIN ALONSO GÒMEZ CAÑAS"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Kzx79LwXtvmr_pCuAPJGomtWg9Wu1ZfI/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157094362&usg=AOvVaw2to1o7WfbC8Ig0PzDeSOoN"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE GESTIÒN POR PELIGRO QUÌMICO PARA LA PREVENCIÒN DE ACCIDENTES DE TRABAJO Y ENFERMEDAD LABORAL EN LA EMPRESA QUIMIVEN EN BUCARAMANGA SANTANDER",
+            "authors": [
+                "MARCO AURELIO DÌAZ TIRADO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1cZbAq9qyoClzD7nBk5z_4E2mNBqUlRQ1/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157094634&usg=AOvVaw3HWTzqVMdmsqHNS3j1zzwT"
+        },
+        {
+            "title": "CARACTERIZACIÒN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN TRABAJO DE LA POBLACIÒN LABORAL EN EL SECTOR DE LA CONSTRUCCIÒN DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "SONIA SOFÌA SOLANO SANTOS"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1LBywhXDh9Wp-HdmfKffT2dSnMM_rNfS1/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157094900&usg=AOvVaw1lE-wbZ9_ffhn6qLSTr7ui"
+        },
+        {
+            "title": "ESTRUCTURACIÒN DOCUMENTAL DEL SISTEMA DE GESTIÒN DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA EMPRESA TECHMOR LTDA. EN LA CIUDAD DE BUCARAMANGA - SANTANDER",
+            "authors": [
+                "MÒNICA PRISCILLA ORTEGA SÀNCHEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/16HQLCH9BgwqzeBVWYGTDhIG16rBHgyi7/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157095169&usg=AOvVaw2og5yaDaC2vIFRkXMoohaU"
+        },
+        {
+            "title": "EVALUACIÒN DE LOS NIVELES DE RUIDO OCUPACIONAL EN EL PERSONAL DEL ÀREA DE DIGITACIÒN DE LA EMPRESA DIAGNÒSTICO LTDA.",
+            "authors": [
+                "JHON EDISON HERNÀNDEZ BELTRÀM"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/151QZ6BlBwixLcIkX7h4kU4vYO5fUQNx4/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157095446&usg=AOvVaw3_ypKX7Jb5rAuAsYio4cPa"
+        },
+        {
+            "title": "INFORME SINTESIS DE PASANTÍA UNIVERSITARIA EN SEGURIDAD Y SALUD EN EL TRABAJO EN LA EMPRESA ORGANIZACIÓN SERVICIOS Y ASESORÍAS SUCURSAL MEDELLÍN (ANTIOQUIA)",
+            "authors": [
+                "CARLOS ALONSO ROMERO REYES"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1EYQNXHFpfQNOv3MHxRoZxNoq0LtmHfZa/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157095726&usg=AOvVaw0-dWG9uzytCxgUi0MEWM8O"
+        },
+        {
+            "title": "ESTUDIO DEL ESTADO ACTUAL DE LA RUTA REGULAR FIJA POR DONDE TRANSITAN LOS VEHÍCULOS TIPO MIXER DESDE LA EMPRESA PLANTA ARGOS BARRANCABERMEJA S.S. HASTA EL RETÉN (SALIDA VÍA BUCARAMANGA)",
+            "authors": [
+                "JHON JAIRO PÉREZ ESPINOSA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1gRrCAy6YdcCqUi6cB8JcWwjU0EnWyurw/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157096003&usg=AOvVaw1h9ymeDsHwsjucKm7G3cHu"
+        },
+        {
+            "title": "DISEÑO, EJECUCIÓN Y EVALUACIÓN DE UN PROGRAMA DE PELIGRO MECÁNICO ENCAMINADO A LA PREVENCIÓN DE ACCIDENTES DE TRABAJO EN LA EMPRESA TECNOPALMAGRO S.A.S",
+            "authors": [
+                "LIZETH CAROLINA RODRÍGUEZ GÓMEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1FmGsURurW7fciF4N8KZjAuufQnGGWr-R/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157096275&usg=AOvVaw11EpwKA3lD6RBGr4cGjjiu"
+        },
+        {
+            "title": "ANÁLISIS DE RIESGOS GENERADOS DESDE LA SEGURIDAD VIAL QUE AFECTAN A LOS TRABAJADORES DE LA EMPRESA GARNICA Y LIZARAZO LTDA EN EL CORREGIMIENTO CENTRO DE ECOPETROL CAMPO 5 POZO 319",
+            "authors": [
+                "LISETH PAOLA RODRÍGUEZ QUINTERO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1moj1zPKxr8eKIHKAmpp8zZmtSBSWoFIs/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157096589&usg=AOvVaw2hqZvWeu9JhCPHcF7lt6yX"
+        },
+        {
+            "title": "EVALUACIÓN DEL SISTEMA DE VENTILACIÓN POR EXTRACCIÓN DE AIRE O PRESIÓN NEGATIVAEN EL CUARTO DE INYECCIÓN DE CLORO PLANTA LA COLORADA, UBICADA EN EL CAMPO 23 DE LA CIRA INFANTAS, DELCORREGIMIENTO EL CENTRO, EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "HECTOR JULIO MENESES MESTRA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1bX75taknbKQzgS7LzGNskb0-fR72UTny/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157096883&usg=AOvVaw3wQHPzHTkNGlCQIPfBjzBR"
+        },
+        {
+            "title": "DISEÑO DE LA DISTRIBUCIÓN EN PLANTA DE LAS SALAS DE PROFESORES DE LA INSTITUCIÓN EDUCATIVA INFANTAS SEDES MIRAMAR Y EL PARNASO DE ECOPETROL S.A.S DE LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "CLAUDIA PATRICIA SANCHEZ BADILLO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1eEJtWuWZ3HYlm2OEZ2CA-qXp_yqYT4gN/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157097158&usg=AOvVaw3XDPI-6T3cZAbHuPxqg6wE"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCIÓN DE LA SEGURIDAD Y SALUD EN EL TRABAJO DE LAS INSTITUCIONES EDUCATIVAS DE LA PRIMERA INFANCIA Y PREESCOLAR LEGALMENTE CONSTITUIDAS DEL MUNICIPIO DE BARRANCABERMEJA.",
+            "authors": [
+                "NURYS DEL CARMEN HOYOS CUELLAR"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1yBIL6JOov-GyrKLUO4ixwTbcfuy7escC/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157097440&usg=AOvVaw0yccRyeLvXzStan98SixL_"
+        },
+        {
+            "title": "DISEÑO DE PROGRAMA POR RIESGO QUÍMICO PARA EL ALMACENAMIENTO DE SUSTANCIAS QUÍMICAS EN LAS INSTITUCIONES EDUCATIVAS COLEGIO MIXTO MUNICIPAL EL CASTILLO Y COLEGIO CAMILO TORRES RESTREPO, UBICADAS EN EL MUNICIPIO DE BARRANCABERMEJA SANTANDER",
+            "authors": [
+                "ZULAY DANIELA ACEVEDO BAYONA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1r2K5gbDpVs1wpiC_6T6IyCQPLnOhJ6Cp/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157097716&usg=AOvVaw1qARLnjMtkG33mEnDrtQMF"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO DE LAS EMPRESAS LEGALMENTE CONSTITUIDAS DEL SECTOR TRANSPORTE TERRESTRE DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "EIDER CANO JIMÉNEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1JOaro2FccPvKdj31S3TLL0TmVUY_OkHe/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157097983&usg=AOvVaw39a6FXflNLcuuf3i10e7m7"
+        },
+        {
+            "title": "ANALISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DEL 2015 EN LA INSTITUCIÓN EDUCATIVA CAMPO GALAN UBICADA EN LA VEREDA CAMPO GALAN DEL MUNICIPIO DE BARRANCABERMEJA.",
+            "authors": [
+                "FABIAN CAMILO PEDRAZA DOMINGUEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/18_0oStg8cZ7qmL7KlE_bDronznY_hTSN/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157098402&usg=AOvVaw34jD7_K7ud8s-HY8oz2Zt4"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO DE LAS EMPRESAS LEGALMENTE CONSTITUIDAS DEL SECTOR DE CONSTRUCCIÓN DEL MUNICIPIO DE  BARRANCABERMEJA",
+            "authors": [
+                "LEIDY MARYIBY RODRÍGUEZ ESPITIA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/11aQMgaM4n9LZhaig7MdpBZaCpQWA2Vvn/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157098824&usg=AOvVaw1wxhM9Y9huMnLxsS5skFuE"
+        },
+        {
+            "title": "ESTUDIO DEL ESTADO ACTUAL DE LA RUTA REGULAR FIJA DE LAS VÍAS POR DONDE TRANSITAN LAS RUTAS DE INGRESO APROBADAS POR IMPALA TERMINAL BARRANCABERMEJA PARA EL CONTRATO DE TRANSPORTE TERRESTRE AUTOMOTOR DE ESPECIAL DE PASAJEROS CON TRANSPORTES INTEGRALES DE ORIENTE S.A.S",
+            "authors": [
+                "DANIEL EDUARDO BERNAL ARENAS"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1p15nAzpfMDF_sM3xCSprhVRQqQo5wvDN/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157099266&usg=AOvVaw2zqdBWfjfBCCRR8-nitJOp"
+        },
+        {
+            "title": "OPTIMIZACIÓN DE LAS LOCACIONES DE TRABAJO MEDIANTE EL MÉTODO SLP (SYSTEM LAYOUT PLANNING) DE LA EMPRESA INGETEC UBICADA EN EL CORREGIMIENTO EL CENTRO  CAMPO 23 DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "EDITH XIOMARA SILVA MORENO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/10oJSP2vgdQv5XEjEyGnnbaFovgjzoLNe/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157099805&usg=AOvVaw1lhNzteaIRmDiWtd3Bbbo-"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE PROTOCOLO SANITARIO PARA EL ÁREA ADMINISTRATIVA DE LA EMPRESA DEPORTES ACUÁTICOS SOL Y ARENA S.A. DE C.V. DE ACUERDO A LOS REQUISITOS SEDETUR CPPSIT EN LA CIUDAD DE CANCÚN",
+            "authors": [
+                "XIARA CAROLINA ACOSTA TAPIAS"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1A8SDnUjRAtxM_WHVIp-5M-O7gHLKXfyp/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157100363&usg=AOvVaw3_D6FA-M8S0J4mbij5Vx2J"
+        },
+        {
+            "title": "PROGRAMA DE PREVENCION DEL PELIGRO BIOMECANICO POR CONDICIONES OSTEOMUSCULARES EN LOS TRABAJADORES DE LA EMPRESA IDOMEN LTDA EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "LEONARDO FABIO PALENCIA CAMACHO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1mU8atZKIVq9gFs2jNqWBb1tI-t284skV/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157100847&usg=AOvVaw2FxpmcXIysVY16RoMgR_PA"
+        },
+        {
+            "title": "DISEÑO DE CONTROLES ADMINISTRATIVOS PARA EL PELIGRO MECÁNICO POR MANIPULACIÓN MANUAL DE HERRAMIENTAS EN LOS TALLERES TÉCNICOS DE LA ESCUELA INDUSTRIAL 20 DE JULIO UBICADA EN PUERTO WILCHES, SANTANDER",
+            "authors": [
+                "KAREN LIZETH GÓMEZ PALENCIA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1VsGyN4T-tSu4gOiel01rIX6NzqfZ1xnA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157101282&usg=AOvVaw0_F4V_sxVk2CcatDh3MMzc"
+        },
+        {
+            "title": "DISEÑO DE DISTRIBUCION DE PLANTA PARA MITIGAR EL PELIGRO LOCATIVO EN EL ÁREA DE LOS PORCINOS DE LOS NÚCLEOS PRODUCTIVOS DEL INSTITUTO UNIVERSITARIO DE LA PAZ.",
+            "authors": [
+                "WILSON DAVID DIAZ VARGAS"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Wp-6eTfIsouW8hjWHy3NWO1pP9j9D2gp/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157101749&usg=AOvVaw1fiQFQ78BfhB8Xgv3OgjVi"
+        },
+        {
+            "title": "DISEÑO DE DISTRIBUCIÓN EN PLANTA PARA MITIGAR EL RIESGO LOCATIVO EN LAS OFICINAS DE LA EMPRESA POLIGROW COLOMBIA S.A.S SEDE MAPIRIPAN, META",
+            "authors": [
+                "MARIA ALEJANDRA ROJAS LOAIZA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Hny6si-xYth58VSihUZ8YGp3LZCV4JZO/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157102194&usg=AOvVaw3zcbGVP9XLvBAIVCFCueXu"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA PUEBLO REGAO UBICADA EN EL CORREGIMIENTO EL CENTRO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "WENDY ZURLEY DÍAZ COLLANTE"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1LSbkh4ZXyYQkfkPOtS1z151ukAuXuyFT/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157102671&usg=AOvVaw33tjMoPXnM03FpY662FP1Y"
+        },
+        {
+            "title": "IDENTIFICACIÓN DE LOS DESÓRDENES MUSCULOESQUELÉTICOS (DME) EN LA POBLACIÓN LABORAL DEL SECTOR FERRETERO DE LA COMUNA  UNO DEL MUNICIPIO DE BARRANCABERMEJA – SANTANDER",
+            "authors": [
+                "MIGUEL ÁNGEL PEÑALOZA GÓMEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ul9DptoAoEqqXeW63BaTNBere0LtS97y/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157103251&usg=AOvVaw1TTo4aipQf4aiy0VfXQ11X"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE PREVENCIÓN PARA EL CONTROL DE RIESGO FÍSICO POR RUIDO EN LAS ACTIVIDADES DE METALMECÁNICA EN LA EMPRESA TALLER MOTO MOTOR LTDA DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "KEYLA YANETH SEQUEA CHÁVEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1a_i379Of1wREL8k1UjLkEaBKWs2XZ2XU/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157103725&usg=AOvVaw1EhrEZ4ijEA7xZWnmqTHfY"
+        },
+        {
+            "title": "ANÁLISIS DEL RIESGO LOCATIVO POR CAÍDAS DE OBJETOS MEDIANTE LA TÉCNICA DROPS CON LA FINALIDAD DE ESTABLECER CONTROLES ENLA EMPRESA INDEPENDENCE SA UBICADA EN EL MUNICIPIO DE CANTAGALLO, BOLÍVAR",
+            "authors": [
+                "REYNALDO ARDILA CAMARGO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1y9LZvxfeUt8ihlL2_pNx20GCUwAQVII5/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157104195&usg=AOvVaw1QPxA-kThf_SXZKtGGBH-x"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL DEL SECTOR DE ACTIVIDADES DE SERVICIOS ADMINISTRATIVOS Y DE  APOYO ESPECÍFICAMENTE EN SEGURIDAD PRIVADA DEL MUNICIPIO DE BARRANCABERMEJA SANTANDER 2018",
+            "authors": [
+                "JOHANA PATRICIA BUSTAMANTE RODRÍGUEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/19H8WoNaKjml1ka2aDuRtOikDrhWODZEd/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157104687&usg=AOvVaw3XY3jcKsECyF2JW62ZS7F4"
+        },
+        {
+            "title": "ANALISIS DE LA SITUACION ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO, CONFORME AL DECRETO 1655 DEL 2015 EN LA INSTITUCION EDUCATIVA INSTITUTO TECNICO SUPERIOR INDUSTRIAL UBICADA EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "FLOR ANGELA RINCON"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1SQuRThvX9vhjuE57yERx_S11t4a-sIeJ&sa=D&source=editors&ust=1744615157105151&usg=AOvVaw0C_oc45FdVxhOzeKJHlFoY"
+        },
+        {
+            "title": "DISEÑO PILOTO DE UN SISTEMA DE RECUPERACIÓN DE VAPORES QUE MINIMICE LA EXPOSICIÓN DE BENCENO EN LOS TRABAJADORES DEL LLENADO DE LOS CARRO TANQUES EN LA EMPRESA ASKCHEM TECHSAS",
+            "authors": [
+                "LENIS SHIRLEY GELVIS MISE"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1TqW1qQxL_LW8f9TWG2nbJpT0GBDyOCEM&sa=D&source=editors&ust=1744615157105634&usg=AOvVaw11UjKWr1Ack5Fvbw3u1Pc7"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL DEL SECTOR COMERCIO SUBSECTOR AUTOSERVICIOS EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "LISETH KATERINE REALES VÀSQUEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1Y8Z8PWWtaT7vp9imiGgBJYiaWM4bGPeL&sa=D&source=editors&ust=1744615157106091&usg=AOvVaw1polzLbnlewjB0nmnwz200"
+        },
+        {
+            "title": "ANALISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA JOSE ANTONIO GALAN UBICADA ENEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "MARIA ANGELICA SARMIENTO BALAGUERA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1HWzcnePqY-bgv_2ees5HrzqNy72988CZ&sa=D&source=editors&ust=1744615157106590&usg=AOvVaw0hOGuwd-fjpn4K0_sv4HoA"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO EN LOS ESTABLECIMIENTOS ESPECIALIZADOS EN EL COMERCIO AL POR MENOR DE CARNES Y AVES DE CORRAL LEGALMENTE CONSTITUIDOS DEL MUNICIPIO DE BARRANCABERMEJA - SANTANDER",
+            "authors": [
+                "MARTÍN ESNEIDER ALCOSER YANES"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1j5VgIOSBmT7LJnQs8yrAusU-__kZks7Y&sa=D&source=editors&ust=1744615157107059&usg=AOvVaw3gTt5o2Ldti5rvRkdQi5RK"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR DE TRANSPORTES EN EL SUBSECTOR DE LAS EMPRESAS DE TAXIS DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "DORA MARÍA JARABA GUTIÉRREZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1WZGZgEb5LO1-V4YTktGx7CyxLxU8-mdH&sa=D&source=editors&ust=1744615157107559&usg=AOvVaw2Htd0Rmt0s2lPU8S_L-2QU"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA REAL DE MARES UBICADA EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "HONORIO ALVAREZ RUEDA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1qHJGuS5NE8FismxjSh1XG46Q6gS8J8f8&sa=D&source=editors&ust=1744615157108024&usg=AOvVaw1wvC5tMl2BY1FTno8WOP7S"
+        },
+        {
+            "title": "EVALUACIÓN DE ESTRÉS TÉRMICO POR CALOR EN LA LABOR DE COSECHA EN LA PLANTACIÓN PALMAR DE LA VIZCAÍNA UBICADA EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "WALTER HERNAN PONCE PARRALES"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1BPhA1cOx6tOplSv8wCkOixAQeu705kr3/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157108487&usg=AOvVaw2-tUcJGtgO2b4cJCplWtPj"
+        },
+        {
+            "title": "ESTUDIO DEL ESTADO ACTUAL DE LA RUTA REGULAR FIJA POR DONDE TRANSITAN LOS VEHÍCULOS DE LA EMPRESA OBRAS, MONTAJES Y CONSULTORIAS, LTDA HASTA LA UNIDAD FUNCIONAL UF 2.3, PK 26+000 TRAMO 1 BARRANCABERMEJA – LA FORTUNA (ESCUELA NUEVA BELGICA)",
+            "authors": [
+                "AURA ELVIRA VEGA AYALA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1I3L0_HjXEvE5WGSENhUiOjlTtwav5RO-&sa=D&source=editors&ust=1744615157108962&usg=AOvVaw0CGbPWZ_DC-yLeKHMjS3F5"
+        },
+        {
+            "title": "ESTUDIO DEL ESTADO ACTUAL DE LA RUTA REGULAR FIJA POR DONDE TRANSITAN LOS VEHÍCULOS TIPO CAMIONETA DE LA EMPRESA INGESOCOL S.A.S.",
+            "authors": [
+                "SNEIDER JOSE RINCÓN RESTREPO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D14P2K0FlUZuyJ4KsP4KZCbdImk7i6yISP&sa=D&source=editors&ust=1744615157109416&usg=AOvVaw1SkEUHRkUhGpOu2TTHOm7u"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA DIEGO HERNÁNDEZ DE GALLEGOS UBICADA EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "HENRY ANDRÉS SILVA VILLARREAL"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Ow5RdyVAwGZYfKNOhhDV-pl4QUhzH9gX/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157109855&usg=AOvVaw1TZRghpOgO23VAlFUytgoO"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCION DE SEGURIDAD Y SALUD EN EL TRABAJO DE LAS EMPRESAS DEL SECTOR RESTAURANTES LEGALMENTE CONSTITUIDAS DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "GEOVANNY CESAR TAFUR SÁNCHEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1DlUrCXesI9uoMRPf5lbntFgZF3Q6IzT6/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157110276&usg=AOvVaw0kHc4ya5g0kOC2PGMEyP7q"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA SAN  MARCOS UBICADA EN EL CORREGIMIENTO EL LLANITO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "KAREN LIZETH AFANADOR TORRES"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1nzd7C1RU8C7VYKkS3zavRA8nVTFAr0xy/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157110715&usg=AOvVaw0hF7jJt9n76sudc7w_IRO7"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR TRANSPORTE Y ALMACENAMIENTO EN LA ACTIVIDAD DE SERVICIOS DE MENSAJERIA URBANA DEL MUNICIPIO DE BARRANCABERMEJA.",
+            "authors": [
+                "DUBBYS SOLANYE QUINTERO NIETO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1VoOFN0EQsKmuQpCA_c2MRWmilNXw5nD4/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157111139&usg=AOvVaw3lojT4vjCJZByrlQLCHrRX"
+        },
+        {
+            "title": "PROGRAMA DE GESTIÓN INTEGRAL DE CONTROL Y MANEJO DE RESIDUOS SÓLIDOS PARA LA PREVENCIÓN DE ACCIDENTES LABORALES DE LA EMPRESA CONSTRUCTORA VALMAR DE LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "ROSA ELENA REYES SANCHEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1z3CvhvstojzeBvU_JIny5Eyq5hqsc7DG/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157111527&usg=AOvVaw0duX5usqH7sos4OfBIu78u"
+        },
+        {
+            "title": "ANÁLISIS DE LA ACCIDENTALIDAD VIAL EN COMUNAS 5 Y 6 DEL MUNICIPIO DE BARRANCABERMEJA, MEDIANTE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (SIG) EN EL PERIODO 2012 – 2017",
+            "authors": [
+                "TANIA GYUSELLY ACUÑA PARADA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1F7f0qDoJELo7_siSjvMCVLoCu_fuIrnn/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157111905&usg=AOvVaw2hDLFh2XAwhqDEMeZf5G-y"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA 26 DE MARZO UBICADA EN BARRIO PRIMERO DE MAYO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "KAREN JULIZA JAIMES VESGA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1-w_CphIQmkpYAJ6fyT7VAdgCk7hd5YEx/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157112277&usg=AOvVaw1-pYcJMnK-o3Ur87Frwg_3"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN  SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA TECNICA JHON F. KENNEDY DE BARRANCABERMEJA UBICADA EN EL BARRIO PALMIRA DEL MUNICIPIO   DE BARRANCABERMEJA",
+            "authors": [
+                "LEIDY MILENA MARTINEZ RUEDA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1_HTNENMSc4YrAnV7321_dMXMKbJRQTtp/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157112681&usg=AOvVaw2DjlkogWv5L7eIgC_Dxs9U"
+        },
+        {
+            "title": "ANÁLISIS DE RIESGOS GENERADOS DESDE LA SEGURIDAD VIAL QUE AFECTAN A LOS TRABAJADORES DE LA EMPRESA COOPSERFUN EN EL  MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "ANDREA DIAZ VARGAS"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/12WPWjcUJLte6MzsWyJuLf6tXyuld5U0w/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157113057&usg=AOvVaw3Qe0Ybc5GCwfRpiX5Kw3WN"
+        },
+        {
+            "title": "ANALISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA ESCUELA NORMAL SUPERIOR CRISTO REY UBICADA EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "JULIA LUCÍA TELLO ESPARZA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1vhX6rvHtYzGnwWDo3o7axmftrw8YwZnH/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157113354&usg=AOvVaw1lb8NJJoJT4R5cCxZUj30f"
+        },
+        {
+            "title": "ESTUDIO DEL NIVEL DE RIESGO BIOMECÁNICO EN POSTURAS FORZADAS EN AUXILIAR DE ENFERMERÍA EN LA CLÍNICA REINA LUCÍA DEL MUNICIPIO  DE BARRANCABERMEJA",
+            "authors": [
+                "ASTRID CAROLINA SERPA MEJIA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Mrsd9-HUwOmI0OfaWBgHKcJ__4_Dp6tM/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157113657&usg=AOvVaw1YywF0OXhakXubsYLuAk_r"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA INTECOBA UBICADA EN EL BARRIO  INSCREDIAL DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "JAIRO ANDRES RUEDA MARTINEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1KXPAjWz-9X3B48WuyoP6U2WBG7-X3X2S/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157113969&usg=AOvVaw0jNxQ9gLxdDUn6BEJ_LIQN"
+        },
+        {
+            "title": "ESTUDIO DEL NIVEL DE RIESGO BIOMECÁNICO EN POSTURAS FORZADAS EN AUXILIARES DE ENFERMERÍA EN LA UNIDAD CLÍNICA SAN NICOLAS  LTDA. DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "JESSICA VANESSA GÓMEZ MORENO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/18X-yKNbwVzJu40wd54tBFGVmCH1VddD2/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157114275&usg=AOvVaw1c6uH27a5e7g-vZ5EDNkrt"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO EN LAS INSTITUCIONES EDUCATIVAS DE NIVEL SUPERIOR LEGALMENTE CONSTITUIDAS DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "JUAN DAVID SANABRIA CELIS"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Uku8pU27FtZr0-dIYRpF7d9KCY0qeR6i/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157114550&usg=AOvVaw12HTkViLeom_EEzUXNtHpr"
+        },
+        {
+            "title": "EVALUACIÓN DE LA EXPOSICIÓN DE SUSTANCIAS QUÍMICAS PARA LA PREVENCIÓN DE ENFERMEDADES LABORALES EN LOS TRABAJADORES DE LA EMPRESA IC INGENIERÍA DE CALIDAD DEL MUNICIPIO DE  BELENCITO, BOYACÁ",
+            "authors": [
+                "JEIMY SABRINA ROMAN PRADA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1cO3UqUUfZhIRdBJ20PNOaHTomDH-NYAD/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157114822&usg=AOvVaw0j97QU8Rgdt4X6CGtvwlpE"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN EL COLEGIO AGROPECUARIO LA FORTUNA UBICADO EN EL CORREGIMIENTO LA FORTUNA EN EL MUNICIPIO DE  ARRANCABERMEJA",
+            "authors": [
+                "KELLY JOHANNA CABRERA BECERRA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1s1MxXbsjFzNw633totDKBv8J3-jfTuWG/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157115215&usg=AOvVaw11c1iIlSSydypQQ6CNLGi0"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO DE LAS INSTITUCIONES EDUCATIVAS DE NIVEL BÁSICA PRIMARIA Y BÁSICA SECUNDARIA LEGALMENTE CONSTITUIDAS DEL  MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "OSCAR ALEJANDRO SANTIAGO ÁLVAREZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1w4Vizx--5lkLF_cYFajuejffUAjMU12P/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157115519&usg=AOvVaw3nAg1dKwZNI2rTBBjrF10t"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA CAMILO TORRES RESTREPO UBICADA EN EL BARRIO LAS GRANJAS DEL MUNICIPIO DE    RRANCABERMEJA",
+            "authors": [
+                "YISETH BERNARDA SOTO PINZÓN"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/10m2Mjp8sIUioyssU9XnPb5CtVn9pu0_7/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157115805&usg=AOvVaw39jAgHPxE3cFF6s9FP_KdQ"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA MESETA DE SAN RAFAEL UBICADA EN LA ZONA RURAL DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "ANDREA DEL PILAR DELGADO PUCHE"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1cWrPRMa4TGlSdW8BiKS4Kb0BeGQqfZIq/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157116083&usg=AOvVaw1DvT2Xw_g8t7iol_61-AnE"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS DEL SECTOR COMERCIAL DESDE LA CALLE 47 A LA CALLE 52 Y LA CARRERA 1 HASTA LA CARRERA 11 DEL  MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "EDGAR JULIAN CARDONA DELGADO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1RcgfXZIdjY1b_laPX1yKjWG1xnTepk8u/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157116422&usg=AOvVaw3wFxnaVE4bq0sAsfBpvwDK"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO DE LAS EMPRESAS DEL SECTOR DE LA VIGILANCIA Y SEGURIDAD PRIVADA LEGALMENTE CONSTITUIDAS DEL MUNICIPIO DE  BARRANCABERMEJA",
+            "authors": [
+                "JORGE EDUARDO JIMENEZ ROJAS"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1H-kRnLUDyLdvV0ngMVtyN2gwTVTU56d4/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157116742&usg=AOvVaw0Mb2JkKFiOcMmyPCMQilqi"
+        },
+        {
+            "title": "ESTUDIO DE ACCIDENTALIDAD LABORAL EN LA ALCALDÍA MUNICIPAL DE BARRANCABERMEJA PARA EL PERIODO COMPRENDIDO ENTRE 2017 y  2018",
+            "authors": [
+                "LUIS EDUARDO MORALES GONZÁLEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/10UQvi1zd2et3yjHYM7Z-OBKnn6mmzJUq/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157117027&usg=AOvVaw2KDMeL43PByjwF6CABlPkw"
+        },
+        {
+            "title": "DISEÑO DE PROGRAMA POR RIESGO QUÍMICO PARA EL ALMACENAMIENTO DE SUSTANCIAS QUÍMICAS EN LAS INSTITUCIONES EDUCATIVAS CIUDADELA EDUCATIVA DEL MAGDALENA MEDIO Y CENTRO ADMINISTRATIVO DE SERVICIOS DOCENTES CASD, UBICADAS  EN EL MUNICIPIO    BARRANCABERMEJA",
+            "authors": [
+                "ANGÉLICA MARIA ORREGO CUBIDES"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ogjyvDQ-0OSBRTV03BehibAZx3xRa5nH/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157117303&usg=AOvVaw0ftTwCx_EA_vxHc3PreaEM"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LAS CONDICIONES DE SEGURIDAD EN LOS TRABAJADORES EXPUESTOS A RIESGO QUÍMICO POR EXPOSICIÓN APLAGUICIDAS EN LA EMPRESA CONTROL Y MANEJO DE PLAGAS URBANAS DE BARRANCABERMEJA S.A.S (CMP)",
+            "authors": [
+                "ADRIANNY STEPHANIE SALOM MANTILLA"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1RVU9Ir-yGL6pfyZfcAZpZ4RauasaCV0A/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157117591&usg=AOvVaw1cFDArklSE2PwvWyDho42j"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN TRABAJO DE LOS TRABAJADORES DEL SECTOR FERRETERO DE LA COMUNA 2 DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "LILIANA ANDREA FLOREZ CARREÑO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ysZSC0J1VAzNLXgpVVd_Pazx0jVTyl8E/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157117897&usg=AOvVaw3SL3zsrQRIO6pelPHmvK6D"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LA PROMOCIÓN DE LA SEGURIDAD Y SALUD EN EL TRABAJO EN EL SECTOR DEL COMERCIO AL POR MENOR DE COMBUSTIBLES PARA AUTOMOTORES EN LA ZONA URBANA DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "RICARDO ANDRES MIRANDA ARENAS"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1BsfraEuC2SES1gHCy05O0ZMCQeE1DQYx/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157118201&usg=AOvVaw3FpJlNKeZSXheasnmz1cde"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES EN SEGURIDAD Y SALUD EN EL TRABAJO DE LOS CONDUCTORES DEL SECTOR FLUVIAL DE TRANSPORTE DE PASAJEROS EN EMBARCACIONES MENORES DEL DISTRITO ESPECIAL PORTUARIO INDUSTRIAL TURÍSTICO Y BIODIVERSO DE BARRANCABERMEJA",
+            "authors": [
+                "CARLOS ANDRES CÓRDOBA MIRA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1DPjS7MJ2BGQawv__RTgJR-Dutin3OvWu/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157118518&usg=AOvVaw2nJaqlzFrmelizVy73Icns"
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA DE RED CONTRAINCENDIOS EN LA CORPORACIÓN DE SERVICIOS INTEGRALES COSERVIN DE BARRANCABERMEJA",
+            "authors": [
+                "ALVARO ANDRÉS ACONCHA SIERRA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1_IfKofXV_Rz4vL4C0IYWUOW98G4_abQd/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157118782&usg=AOvVaw102AA8N8lB7Me_5qIebVmC"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DEL PROGRAMA DE VIGILANCIA EPIDEMIOLÓGICA PARA LA PREVENCIÓN DE PELIGRO POR RUIDO EN LOS LUGARES DE TRABAJO DE LA EMPRESA LUBRIGRAS S.A.S DE LA PLANTA UBICADA EN BUCARAMANGA, SANTANDER",
+            "authors": [
+                "JOSÉ URBANO SUAREZ BUENO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1p6FhQR7apwAgwZYAQQoDuji-DAqnrdN3/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157119052&usg=AOvVaw1nl56QZpePRpPw-rR12Am1"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE LOS PROCEDIMIENTOS DE TRABAJO EN ALTURAS PARA LOS PROCESOS DE CAPACITACIÓN EN LOS CENTROS DE FORMACIÓN Y ENTRENAMIENTO EN PROTECCIÓN CONTRA CAÍDAS DE BARRANCABERMEJA",
+            "authors": [
+                "JUAN CAMILO ZULUAGA TORO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1KA9sdLRKafQ24vFZZa5WjWqVUxiU0NcY/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157119318&usg=AOvVaw0KzXJsIHZPjfcspRDj7kCm"
+        },
+        {
+            "title": "ESTUDIO DE LOS NIVELES Y CONDICIONES DE TEMPERATURA EN LAS ÁREAS DE TRABAJO DEL EDIFICIO DE BIBLIOTECA DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ.",
+            "authors": [
+                "MERLY LORENA CARDONA ARRIETA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/19arMedxRtwCpIgkjdHPcsBkZmbed_HTk/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157119598&usg=AOvVaw2iMG6jQ3o0H5icmn5kWNcE"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR AUTOMOTRIZ (CDA) APROBADO POR LA CÁMARA DE COMERCIO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "YORCELIS CULMA MOSQUERA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1t5b2Xbp6yI76f73-uZbRzbTCkyiti9bW/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157119869&usg=AOvVaw0Ukj4LGuW6wbYXtXty6zXX"
+        },
+        {
+            "title": "ANÁLISIS DE LA EFICACIA DE LOS CONTROLES ESTABLECIDOS POR EXPOSICIÓN A RUIDO OCUPACIONAL EN LAS EMPRESAS DEL SECTOR METALMECÁNICO DEL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "YULY ANDREA VEGA MEJIA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1KQDZFSdhAma7eHZPZPKMQ72dGm7gmht9/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157120136&usg=AOvVaw3zo6aCiU9qGbQUrLFW9qTa"
+        },
+        {
+            "title": "DISEÑO DEL PROGRAMA PARA EL TRABAJO SEGURO DE ALTURAS EN LA ACTIVIDAD DE “CONSTRUCCIÓN DE REDES EN MEDIA TENSIÓN Y BAJA TENSIÓN, MONTAJE DE TRANSFORMADORES E INSTALACIONES INTERNAS, PARA LA ELECTRIFICACIÓN RURAL DE LA EMPRESA UT REDES ELÉCTRICAS”",
+            "authors": [
+                "ANDREA CAROLINA SALAZAR GARCÍA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1C4zBjDm3MhoGmQBcCeokOCEfJZED67Fb/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157120473&usg=AOvVaw0itvnNUANvzSH6WOArhlK6"
+        },
+        {
+            "title": "ANÁLISIS DE LAS CAUSAS DE LA ACCIDENTALIDAD LABORAL EN EL PERÍODO 2018 A 2019, EN LOS ALMACENES KIMBARA, SOLO MODA Y GIGANTE DE LA MODA UBICADOS EN EL DISTRITO ESPECIAL DE BARRANCABERMEJA.",
+            "authors": [
+                "CANDELARIA ISABEL PALENCIA ROMERO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1yKqGda46oaiJCGuQYEb4ZxMWmptxMvuN/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157120763&usg=AOvVaw2Xju2-Z8Ad9xRj9MQS85jz"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DEL PROGRAMA PARA RIESGO QUÍMICO POR MANIPULACIÓN Y ALMACENAMIENTO DE SUSTANCIAS QUÍMICAS CON BASE EN EL SISTEMA GLOBALMENTE ARMONIZADO PARA LA EMPRESA TECNOLOQUÍMICA SAS DE BARRANCABERMEJA",
+            "authors": [
+                "CARMEN DAMARIS BARRAGÁN PARRA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1qLtP6FLcDdNuIJpm_KFP3-LAVkm9mWEF/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157121036&usg=AOvVaw27USQExk0hrvRL_DgHyBAX"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR EDUCATIVO – JARDINES INFANTILES PRIVADOS DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "CRISTIAN EDUARDO CRUZ CARO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/148db0LkLLAxu5cltZl9InBrlNqK4u-Nx/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157121315&usg=AOvVaw1ZWHZfJqBt23_gf6XYvOZx"
+        },
+        {
+            "title": "ESTRUCTURA DE UN PROGRAMA DE GESTIÓN DE RIESGO MECÁNICO PARA LA PREVENCIÓN DE ACCIDENTES DE TRABAJO EN EL PROCESO DE LAVADO DE ARENAS RICAS EN ORO EN LA PLANTA DE BENEFICIOS DE ACCIÓN EMPRESARIAL C & R S.A.S UBICADA EN EL MUNICIPIO DE SANTA ROSA DEPARTAMENTO DEL SUR DE BOLÍVAR",
+            "authors": [
+                "CRISTIAN JAVIER AMAYA RODRÍGUEZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Lbl-8dsgPD7W-g91jMl08XPHSwRaSVKg/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157121615&usg=AOvVaw37EuyqnxQI2mK40VfR_pg5"
+        },
+        {
+            "title": "ESTUDIO DE LAS CONDICIONES DE LOS NIVELES DE TEMPERATURA EN LOS PUESTOS DE TRABAJO DEL EDIFICIO DE AULAS DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "HEIMI DANIELA DIAZ SILVA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/16GswF6apsHd-wsjmMbCsTyYHKThJOTlY/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157121923&usg=AOvVaw3mB2jEFC_O1dQ7cF9lcGi3"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA BLANCA DURÁN DE PADILLA UBICADA EN EL CORREGIMIENTO DEL CENTRO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "DANIELA LIZETH PATIÑO CARO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/17RT8xWN1i6inpMwBlnZHQt8lYRXIcX7T/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157122279&usg=AOvVaw1XnOYRD6ApTGop1argGIHy"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE CONTROLES ADMINISTRATIVOS DEL PELIGRO QUIMICO GENERADO POR PRESENCIA DE MATERIAL PARTICULADO ORGANICO PRODUCTO DE LAS ACTIVIDADES REALIZADAS EN LA EBANISTERIA JOTA JOTA DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "EDWING JAVIER NAVARRO RIOS"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/17GiQNLbZejkc9QakL1Xl4tzYWgmdqgWe/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157122570&usg=AOvVaw3Kgiq_M-zIR5qpEf5PYFmS"
+        },
+        {
+            "title": "ESTUDIO DE LAS CONDICIONES DE LOS NIVELES DE TEMPERATURA EN LOS PUESTOS DE TRABAJO DEL EDIFICIO ADMINISTRATIVO DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "ELSON MANUEL HERRERA PLATA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1P0BioCNiutGy03dKTOTc3sAjHI38i-wg/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157122883&usg=AOvVaw1HFxK9yD6iQqlb4WGX8YX3"
+        },
+        {
+            "title": "DISEÑO CURRICULAR PARA LOS PROGRAMAS DE CAPACITACIÓN Y ENTRENAMIENTO EN PROTECCIÓN CONTRA CAÍDAS COORDINADOR Y AVANZADO EN TRABAJO SEGURO EN ALTURAS PARA LOS CENTROS DE ENTRENAMIENTO DEL  MUNICIPIO DE BARRANACABERMEJA SANTANDER",
+            "authors": [
+                "FAIVER FAVIAN CONTRERAS GUTIÉRREZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1LpGozlPPCgnZtG1WSuhjqfZo4fzIr7DH/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157123318&usg=AOvVaw3zRj5Fb2KxiC7_3rHVvyP5"
+        },
+        {
+            "title": "ESTUDIO DE LOS NIVELES DEL PELIGRO BIOLÓGICO EN LOS PUESTOS DE TRABAJO DEL ÁREA DE URGENCIAS DE LA CLÍNICA SAN JOSÉ SAS DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "FRANCISCO SILVA ANGARITA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1O1lsDHQwlXO7uUIgNJbMVeNVuCi7GM3O/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157123716&usg=AOvVaw0U46WPY3NoxGTlL99oezYT"
+        },
+        {
+            "title": "ESTUDIO DEL COMPORTAMIENTO DEL AUSENTISMO LABORAL ASOCIADO A LOS PELIGROS BIOMECÁNICOS PRESENTES EN LAS ACTIVIDADES REALIZADAS POR LOS TRABAJADORES ASISTENCIALES DE LA EMPRESA SOCIAL DEL ESTADO BARRANCABERMEJA DURANTE LOS PERIODOS 2017-2018",
+            "authors": [
+                "DIANA PAOLA LIZARAZO LOZANO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1zla-PZaSCkevQtyr83hssgfLz6J9w2C3/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157124028&usg=AOvVaw2SJL2f05VtldhzQGqH8zlb"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SALUD Y TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR CLÍNICAS ESTÉTICAS EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "KEZZIAN YURIK RUEDA IBAÑEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1U13haESSxrrcFoPDVNmNHIe8fM4P4wRe/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157124320&usg=AOvVaw1ejtM1CX9M6W_gwEq2ilFx"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SALUD Y TRABAJO DE LA POBLACIÓN LABORAL EN LAS FERRETERÍAS DE LA COMUNA 1 DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "LEIDY YURLEY RUEDA SEPULVEDA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1tIYScsdBD6d270FAbcC0ZvKn_ffHNuOA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157124658&usg=AOvVaw0a5ct9YiBztjm0lhBD8Dw9"
+        },
+        {
+            "title": "ESTUDIO DE LAS CONDICIONES DE RUIDO EN LOS PUESTOS DE TRABAJO DEL EDIFICIO DE AULAS DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA, CISL, DEL INSTITUTO UNIVERSITARIO DE LA PAZ, UNIPAZ",
+            "authors": [
+                "MAILE JULIANA PARDO ALMEIDA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1udOzQwiQWGVvl02GG_cxRu0znizHH3_s/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157124947&usg=AOvVaw06s8aTBMRrzJRuNuO-dS02"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA PARA LA MINIMIZACIÓN DEL PELIGRO FÍSICO POR RUIDO A LOS TRABAJADORES DE LA CARPINTERÍA “MUEBLES  STIVEN” DE LA CIUDAD DE BUCARAMANGA",
+            "authors": [
+                "MAIRA YURANI MANCILLA MEJÍA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/16I9z1Bc30hou8R4iE6h3Dwv6gXtgRtEU/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157125308&usg=AOvVaw2sKm_VpxGR11QwRpZeb_2G"
+        },
+        {
+            "title": "ESTUDIO DEL NIVEL DE RIESGO BIOMECÁNICO EN POSTURAS FORZADAS EN AUXILIARES DE ENFERMERÍA EN LA UNIDAD CLÍNICA LA MAGDALENA S.A.S DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "NUBIA ESTHER GUETE MEDINA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1bP9zJg10CZgYN40e1jcBcZS9Dn1Qvvzc/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157125676&usg=AOvVaw1eVpnEfU_zapTbb6ds8lqU"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DEL PROGRAMA DE PREVENCIÓN DE DESORDENES MUSCULOESQUELÉTICOS EN LOS TRABAJADORES DEL ÁREA DE PRODUCCIÓN DE LA EMPRESA LÁCTEOS SAN LUIS DEL MUNICIPIO DE AGUSTÍN CODAZZI CESAR",
+            "authors": [
+                "OLGA ISABEL TRESPALACIOS GUERRA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1XgpLMNVoNrCO8Tu_gEZ7SM4YtwBmBG00/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157126034&usg=AOvVaw1EUOyJdNR5RwV_EJFWdEMq"
+        },
+        {
+            "title": "PROGRAMA DE RIESGO BIOMECÁNICO DE LA EMPRESA TRANSTECOL S.A.S A PARTIR DE LA IDENTIFICACIÓN DEL RIESGO BIOMECÁNICO EN EL PERSONAL OPERATIVO DE LA SEDE BARRANCABERMEJA.",
+            "authors": [
+                "OSCAR MARTIN VALDES",
+                "CASTRO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1E79MN6-Td78qQCexRG-dLY46zHEASQWo/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157126327&usg=AOvVaw1ByD-T0UR6ChP2pNIemvgl"
+        },
+        {
+            "title": "ESTUDIO DE LAS CONDICIONES DE LOS NIVELES DE ILUMINACIÓN EN LAS ÁREAS DE TRABAJO DEL EDIFICIO DE AULAS DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "RODRIGO BOLIVAR DAVILA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1e0UwFkt0-2-sPwLqv4dc2QjTlBENTVnp/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157126698&usg=AOvVaw3f0V1PmxhrJmDF7PG2wIJj"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE GESTIÓN DE RIESGO QUÍMICO PARA LA EMPRESA ACCIÓN EMPRESARIAL C & R S.A.S. UBICADA EN EL MUNICIPIO DE SANTA ROSA SUR DE BOLÍVAR",
+            "authors": [
+                "SHIRLEY VILLALBA LÓPEZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1cQo8olDl19kKdDCfGfEYLsmoTxXH_awj/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157127099&usg=AOvVaw3jA2xoKwrHNLJEuOHkq4wn"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SALUD Y TRABAJO DE LA POBLACIÓN LABORAL DE LAS FERRETERIAS DE LA COMUNA CUATRO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "VICTOR MANUEL MATOMA LOZANO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ZW0Xhl2q_yERChrs-csEgjJGffqROvYJ/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157127465&usg=AOvVaw1Htxplor-OX5TUiw-VPidJ"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR EDUCATIVO – PREESCOLAR, BÁSICA PRIMARIA Y SECUNDARIA DE LOS COLEGIOS PRIVADOS DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "WENDY PAOLA SAAVEDRA FRÍAS"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Ya89Zdapn_adOywvMJYG0ox8apsQtxlT/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157127839&usg=AOvVaw0KvezP27hrPwj2mQ6LD5MA"
+        },
+        {
+            "title": "ESTUDIO DE LAS CONDICIONES DE LOS NIVELES DE RUIDO EN LOS PUESTOS DE TRABAJO DEL EDIFICIO ADMINISTRATIVO DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "YEIMER LARIOS GIL"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1mvcxQDN-G08tx8rID0BiufkPQcNn4v6s/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157128218&usg=AOvVaw0_pYGIqB3W6FFmT0Y9Phlx"
+        },
+        {
+            "title": "DISEÑO DE DISTRIBUCIÓN EN PLANTA PARA LABORATORIO DE TOMA DE MUESTRAS DE MATERIAL PATICULADO EN LOS PROGRAMAS DE SEGURIDAD Y SALUD EN EL TRABAJO DEL INSTITUTO UNIVERSITARIO DE LA PAZ (UNIPAZ)",
+            "authors": [
+                "YENY YULISA SOLÓRZANO GALVÁN"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1TYLUNW06gCbNuPn1NgvB_dXNtRGD68cY/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157128526&usg=AOvVaw1LDtdz9nVyQwrl8Zle9r-q"
+        },
+        {
+            "title": "DISEÑO DE ACTIVIDADES DE MEJORA CONTINUA DEL SISTEMA DE GESTIÓN DE LA SEGURIDAD Y SALUD EN EL TRABAJO ACORDE A LAS NECESIDADES DE LA EMPRESA PANADERÍA Y BIZCOCHERÍA LOGITH PAN SAS UBICADA EN EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "YURANI ALVAREZ SURMAY"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1HUS5Cdou9QJPY73xQUvaAnkY5DWLKajq/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157128865&usg=AOvVaw18ywock3tJJ7kxNXFSvyyB"
+        },
+        {
+            "title": "ESTUDIO DE LAS CONDICIONES DE LOS NIVELES DE TEMPERATURA EN LOS PUESTOS DE TRABAJO DE LOS TRABAJADORES OPERATIVOS DE LA EMPRESA ICE MAN SERVICE LTDA. DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "MARTHA YULIMEI VÉLEZ LÓPEZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/19lMjWVQulUERym4nYBG6THmdrDb1PZHo/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157129251&usg=AOvVaw3e6JwlqtIz3e79jx3tY5Y5"
+        },
+        {
+            "title": "ESTUDIO DE LAS CONDICIONES DE LOS NIVELES DE ILUMINACIÓN EN LOS PUESTOS O ÁREAS DE TRABAJO DEL EDIFICIO DE BIBLIOTECA DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "MARÍA FERNANDA ROSALES GARCÍA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1dr1aUFO2rgmUZIVG7KUH21rx3pvSsOc9/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157129669&usg=AOvVaw2OjVvGNO44B3D58_wL3d_Z"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES SALUD Y TRABAJO DE LA POBLACIÓN LABORAL EN LAS EMPRESAS DEL SECTOR METALMECÁNICO DEL MUNICIPIO DE BARRANCABERMEJA.",
+            "authors": [
+                "BRAYAN FERNEY SUAREZ SOLIS"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1dxfMLSqSmQouKmG_qxwAw6OWz8wWDuP_/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157130058&usg=AOvVaw0Tn9aUPQKNW_auSssn5Ii7"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN  LABORAL DEL SECTOR INDUSTRIA MANUFACTURERA  DEL RECICLAJE DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "NELSY CORREA ANGARITA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1xVNmioSK_AmRL080naixhuag1fPAyRJT/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157130402&usg=AOvVaw12JHe2l-2VqvpuDAOpyMTq"
+        },
+        {
+            "title": "CARACTERIZACIÓN EPIDEMIOLÓGICA DE LOS ACCIDENTES DE TRÁNSITO ATENDIDOS EN LA UNIDAD CLÍNICA LA MAGDALENA S.A.S DEL MUNICIPIO DE BARRANCABERMEJA EN EL PERIODO 2015 AL 2017",
+            "authors": [
+                "BLEINER NOE MENDOZA CORTES"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1n50Ky1A0-81rmvwAo1zVcfN5ApKkDo74/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157130755&usg=AOvVaw2pkMz2KOIyH6v7WyNPeiHt"
+        },
+        {
+            "title": "PROPUESTA DE DISTRIBUCIÓN DE PLANTA PARA MEJORAR LAS CONDICIONES LOCATIVAS DE LA EMPRESA SERVILOG S.A.S",
+            "authors": [
+                "ISMENIA VARGAS URBINA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1vClKajI-q-7O_tZ4wyhX7i9fyHh7AIpJ/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157131075&usg=AOvVaw118C9jCZ-SyoW42RGgwcSy"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE CONTROL DE PÉRDIDAS POR AUSENTISMO LABORAL EN LOS DIFERENTES COLEGIOS DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "ANA KARINA PÉREZ VILLEGAS"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/167w0eD391sCpBDP0pTIQTvKiRlbtcrZU/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157131426&usg=AOvVaw3OlqjRPplZQ4crKuEHL3jN"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SALUD Y TRABAJO DE LA POBLACIÓN LABORAL EN LOS HOTELES DE LA COMUNA 1 DEL MUNICIPIO DE BARRANCABERMEJA.",
+            "authors": [
+                "ADRIANA SHIRLEY NIEBLES BALANTA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1JpfJ7ARH_n_8H0fY_8Gsz-YY4AguR4ZO/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157131892&usg=AOvVaw3KsaORMyf1jYtM_ENEUYjb"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE CONTROL DE PÉRDIDAS POR AUSENTISMO LABORAL EN EL CONSORCIO IBINES FÉRREO, UBICADO EN LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "ANDREA ESTEFANIA CASTRO GALVIS"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1iFqhaQEXCe_G-nELqZlzpu4MIMHBODN7/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157132331&usg=AOvVaw0slFiIG2HKmSgLRtTElaFw"
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA DE VIGILANCIA EPIDEMIOLÓGICA PARA LOS PELIGROS QUÍMICOS Y BIOLÓGICOS EN LA EMPRESA COSERFUN - BARRANCABERMEJA",
+            "authors": [
+                "ANA MARIA SUAREZ VIDES"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1xvhhj7iZah8VVE3twjggfQHbuFn2ttfZ/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157132766&usg=AOvVaw26M4o5ZqcOFSCWtW6a6ReO"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA CON BASE AL SISTEMA GLOBALMENTE ARMONIZADO PARA LA PREVENCIÓN DE ACCIDENTES Y ENFERMEDADES  LABORALES EN LA EMPRESA COOPSERFUN",
+            "authors": [
+                "LADI JOHANA BAUTISTA CRUZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1PO5u1G17wLW5XVCa_iVz0bbwVOXrkoua/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157133335&usg=AOvVaw06anDoFAau0P2bFcY9H8VE"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SALUD Y TRABAJO DE LA POBLACIÓN LABORAL EN LAS AGENCIAS DE VIAJE Y TURISMO DEL MUNICIPIO DE BARRANCABERMEJA.",
+            "authors": [
+                "MILENA PAZ BALAGUERA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1oxiz0WDKigLBynqXByumKgm5fuhDQiBw/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157133679&usg=AOvVaw2TK0Gyo0dLo4oTWpfsNzqA"
+        },
+        {
+            "title": "CARACTERIZACIÓN EPIDEMIOLÓGICA DE LOS ACCIDENTES DE TRÁNSITO ATENDIDOS EN LA CLÍNICA SAN JOSÉ S.AS DEL MUNICIPIO DE BARRANCABERMEJA EN EL PERIODO 2015 AL 2017",
+            "authors": [
+                "LAURA VANESA RAMOS ORTIZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1DqAf87Zn7ZEfbY8MLijlZ-YKU0yc-wh-/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157133970&usg=AOvVaw1-9VZHA577bRqWGw24f8si"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE PROTOCOLO SANITARIO DE LOS PROCESOS OPERATIVOS PARA LA EMPRESA DEPORTES ACUÁTICOS SOL Y ARENA S.A. DE C.V. DE ACUERDO A LOS REQUISITOS SEDETUR CPPSIT EN LA CIUDAD DE CANCÚN",
+            "authors": [
+                "EMMANUEL LEAL JIMÉNEZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Dk6KlRXKogPCRS_AkEJr68-H-USwLNIt/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157134244&usg=AOvVaw1etP6IRp5JVXFyuD_Fg3a_"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE SISTEMAS DE CONTROL ADMINISTRATIVO PARA LOS RIESGOS DE SEGURIDAD INDUSTRIAL EN TAREAS EN ESPACIOS CONFINADOS DE LA EMPRESA DE ACUEDUCTO Y ALCANTARILLADO DE BOGOTÁ – EAAB ESP",
+            "authors": [
+                "ALEXANDRA RICO GORDILLO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1DLKNSa9yGrBQ-WV_3cGTkw6J_2Pkv235/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157134551&usg=AOvVaw3bJhr6eSfkEtZfX1CrGpM4"
+        },
+        {
+            "title": "ESTUDIO DE LAS CONDICIONES DE LOS NIVELES DE ILUMINACIÓN EN LOS PUESTOS DE TRABAJO DEL EDIFICIO ADMINISTRATIVO DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "GRECIA MARÍA ROJAS MORENO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1sjC1GbUS0qcJCR592bDJ07hkVg_B2NQr/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157134832&usg=AOvVaw3tBzvlzWMu5fLqwx3DGjpG"
+        },
+        {
+            "title": "ANÁLISIS DE LAS CAUSAS DE LA ACCIDENTALIDAD LABORAL EN EL PERÍODO 2017 A 2018, PARA EL ESTABLECIMIENTO DE HERRAMIENTAS DE CONTROL QUE MEJORE LAS CONDICIONES DE SEGURIDAD DE LOS TRABAJADORES EN LA  EMPRESA AZUGROIN S.A.S. UBICADA EN ELMUNICIPIO DE BARRANCABERMEJA- SANTANDER",
+            "authors": [
+                "LUCERO IVETH MÁRQUEZ GONZÁLEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/102xF7Ba8PX_P04P7l5SsRHonsg7wueDG/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157135148&usg=AOvVaw0gYS0s2MzpPMdjmxLVjf2v"
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA DE CONTROL DE INGENIERÍA A LA MÁQUINA TRITURADORA DE AZUFRE CON EL FIN DE MINIMIZAR LA EXPOSICIÓN DEL PRODUCTO QUÍMICO EN EL ENTORNO LABORAL Y AMBIENTAL DE LA EMPRESA AZUGROIN S.A.S. UBICADA EN LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "EDWIN CARO RINCÓN"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/11lH8LAPvAQLH3-xunpdZYLZ5CSsLQadV/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157135464&usg=AOvVaw0eXSDMny2W7cG8VBSAacbi"
+        },
+        {
+            "title": "EVALUACIÓN HIGIÉNICA POR EXPOSICIÓN A VIBRACIONES EN LOS OPERADORES DE EQUIPOS DE LA SECCIÓN SERVICIO A POZOS DE LA COORDINACIÓN DE SUBSUELO DEL DEPARTAMENTO DE PRODUCCIÓN GERENCIA DE MARES-  ECOPETROL S.A. DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "HENRY HERNÁNDEZ TÁMARA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1LP4AZmYriNEkcx0EQ6gkDI0oeu_a_4Zt/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157135780&usg=AOvVaw2YDglu-sVEt9vbjjzw9DSJ"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA JOSÉ PRUDENCIO PADILLA CASD UBICADA EN EL MUNICIPIO  DE BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "NAYDA ROJAS CASTAÑEDA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1L_SLglCa36ISwbZECtdqGR8S9J0RQxUw/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157136324&usg=AOvVaw0kHrJ9CebrR7A4KC2gIpkt"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE UN PROGRAMA DE VIGILANCIA EPIDEMIOLÓGICA ORIENTADO AL FOMENTO DE ESTILOS DE VIDA SALUDABLE PARA LA PREVENCIÓN Y CONTROL DE RIESGOS Y ENFERMEDADES EN EL ENTORNO LABORAL DE IAMGOLD  CORPORATION SUCURSAL COLOMBIA",
+            "authors": [
+                "YENCY CRISLET LAMPREA ARRIETA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1VwOzfJ4cQaduSnQDM8vqnuNphHMyocZL/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157136779&usg=AOvVaw0skdZafCkVJiLJK-1ElS6p"
+        },
+        {
+            "title": "ANÁLISIS DE LA ACCIDENTALIDAD VIAL EN LA COMUNA 7 Y LOS CORREGIMIENTOS DEL MUNICIPIO DE BARRANCABERMEJA, MEDIANTE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (SIG) EN EL PERIODO 2012- 2017",
+            "authors": [
+                "ROMÁN RICARDO DÍAZ RUEDA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1j61Joi7D-tSRHGZWCTGNHcaaRyAShHSq/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157137248&usg=AOvVaw3Y_xlO1yvpSxYMpA8LgpZh"
+        },
+        {
+            "title": "DISEÑO DE LA DISTRIBUCIÓN DE PLANTA PARA MEJORAR LAS CONDICIONES DE SEGURIDAD MEDIANTE LA METODOLOGÍA SYSTEMATIC LAYOUT PLANNING (SLP) EN LAS INSTALACIONES DE LA SECRETARÍA DE INFRAESTRUCTURA DE LA ALCALDÍA DEBARRANCABERMEJA PARA MINIMIZAR LOS RIESGOS LABORALES",
+            "authors": [
+                "LINA LEIDY ATENCIA JIMENEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1WYkbbQqD2YODfoP_qee9ssihMYrI3EdR/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157137772&usg=AOvVaw18HXu6C7NisfxeVP5MJXd5"
+        },
+        {
+            "title": "ANALISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA LOS LAURELES UBICADA EN EL CORREGIMIENTO EL CENTRO EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "JAVIER ALONSO JEREZ QUIÑONEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1_a9wWrTVQnRjZ2U1MklfKMVq3s6OTZc9/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157138339&usg=AOvVaw2ugANT_vRaJnVo8V1lbgiO"
+        },
+        {
+            "title": "CARACTERIZACIÓN EPIDEMIOLÓGICA DE LOS ACCIDENTES DE TRÁNSITO ATENDIDOS EN LA CLÍNICA REINA LUCIA S.A.S. DEL MUNICIPIO DE BARRANCABERMEJA EN EL PERIODO MAYO 2017 – MAYO 2019",
+            "authors": [
+                "JEIRYS JOHANA TORRES POVEDA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/17hl60zG3bO0zKmJ8MhrJOZ4eJEc66RRf/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157138819&usg=AOvVaw1l-qL9Obt-FWslGn8MoasO"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE UN PROGRAMA ORIENTADO AL FOMENTO DE ESTILOS DE VIDA SALUDABLE PARA LA PREVENCIÓN Y CONTROL DE RIESGOS Y ENFERMEDADES EN EL ENTORNO LABORAL A LOS TRABAJADORES DE LA EMPRESA  SALUD INTEGRAL PREVENTIVA S.A.S UBICADA EN EL MUNICIPIO DE PUERTO BERRIO ANTIOQUIA",
+            "authors": [
+                "ANGIE PAOLA URIBE GAVIRIA"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1gK7q5khJQ4GmyaAOqOX6dBWeWe9wcRkj/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157139284&usg=AOvVaw2T3jFStdqfP9plYx-J9wIh"
+        },
+        {
+            "title": "APOYO AL PROCESO DE IMPLEMENTACIÓN DEL SISTEMA DE GESTIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO, BASADO EN LA RESOLUCIÓN 0312 DE 2019 EN LA EMPRESA INVERSIONES AGROMINERA BUENA VIDA S.A.S,  EN EL MUNICIPIO  DE SANTA ROSA, CORREGIMIENTO SAN PEDRO FRIO, SUR DE BOLIVAR",
+            "authors": [
+                "MICHELLE DAYANA JIMENEZ CASTILLO"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1K7hQNK9px6aUdu9JdL7gHuuDIYU_EH7F/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157139730&usg=AOvVaw0kc5aHivkH62rKgcEAueEx"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SALUD Y TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR DE TRANSPORTE PÚBLICO URBANO COLECTIVO DE PASAJEROS (BUSETAS) DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "JAIME ALFREDO CARDONA VENGOECHEA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1WAZbP_sEyA8Io1CxjKWYVWVcKiIO_Ovk/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157140028&usg=AOvVaw2gWfDukpxlaN3g_Se8G6EY"
+        },
+        {
+            "title": "IMPLEMENTACIÓN DEL PROGRAMA DE SUSTANCIAS QUIMICAS DE ACUERDO CON EL SISTEMA GLOBALMENTE ARMONIZADO EN LA EMPRESA DPA MANUFACTURING COLOMBIA LTDA.",
+            "authors": [
+                "SANDRA MILENA CARRILLO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1wKrD_BgMmQqGTyWcU8VQUQ2oAvw-3qqn/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157140303&usg=AOvVaw1Wn3h_ElgRzz3cpkpKzuTP"
+        },
+        {
+            "title": "PRODUCCIÓN DE BIODIÉSEL A PARTIR DEL USO DE MICROALGAS: BENEFICIOS, AVANCES Y PROCESOS TECNÓLOGICOS",
+            "authors": [
+                "JESÚS DAVID GUERRA CABARCAS",
+                "LUIS FELIPE OSORIO RANGEL"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Yj0aXOsM27UM3KmHl9Euv6mLG_7-PPfd/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157140581&usg=AOvVaw1eLRKLN34HHDMDYflPnI4K"
+        },
+        {
+            "title": "ANÁLISIS DE LAS CAUSAS DEL AUSENTISMO LABORAL BAJO LAS REFERENCIAS DE LA NTC 3793 EN EL PERIODO 2018-2019, PARA EL ESTABLECIMIENTO DE HERRAMIENTAS DE CONTROL QUE MEJORE LAS CONDICIONES DE SALUD Y SEGURIDAD DE LOS TRABAJADORES EN LA EMPRESA MONTAJES TÉCNICOS ZAMBRANO & VARGAS LTDA",
+            "authors": [
+                "ANDRY JOHANA NUÑEZ MORANTE"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1JMheyI6Gwu3RtvH3fe5Ozl6_Ve3g1t0p/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157140909&usg=AOvVaw2IfpvUMA7LZu1Mdmx7BWB-"
+        },
+        {
+            "title": "MODULO DIDÁCTICO DE MEDICIÓN DE RUIDO PARA REALIZAR PRÁCTICAS EN LABORATORIO DE SEGURIDAD Y SALUD EN EL TRABAJO EN EL INSTITUTO UNIVERSITARIO DE LA PAZ (UNIPAZ)",
+            "authors": [
+                "LEONARDO TOVAR MIRA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/17rYZoPkTNadX9qvpfmgQjWrDRKp3p2f2/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157141210&usg=AOvVaw2eluaSPWffBpYdueQslO9u"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR DEL COMERCIO DE FLORES AL POR MENOR EN ESTABLECIMIENTOS ESPECIALIZADOS DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "YURIANDREA BARRIENTOS ANGARITA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1gikklRti3Ahtd_nrFCws2sa3vwYfDbQc/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157141504&usg=AOvVaw1IVfmqGIDpfqNAXxmitSkv"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA PARA LA GESTIÓN DEL RIESGO BIOLÓGICO EN LA EMPRESA INNOAMBIENTAL E.S.P. SAS DEL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "KAREN LORAINE SÁNCHEZ AYALA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1qJv8X0J6yxAglByI4n0Ose4Rz_anehCd/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157141770&usg=AOvVaw2eSxdwW_jjphgy-ej5Q6Km"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE UN PROGRAMA DE CONTROL DE LOS PELIGROS Y RIESGOS EN SEGURIDAD Y SALUD EN EL TRABAJO AL PROCESO DE EXPLOTACIÓN PISCÍCOLA EN LA FINCA EL YUCÓN DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "LIBARDO ALONSO HERNÁNDEZ SERRANO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/160TOEsNLjdmt7rVJlW4nPXlbR4OfJ8cX/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157142041&usg=AOvVaw2oAUGbmTkzCz0lO_kNZwac"
+        },
+        {
+            "title": "ANÁLISIS DE LOS RIESGOS FÍSICOS PRODUCIDOS POR RUIDO EN EL PROCESO DE TRITURADO DE MATERIAL DE ARRASTRE DE LA EMPRESA AGREGADOS LA PAYOA LTDA., UBICADA EN SABANA DE TORRES, SANTANDER",
+            "authors": [
+                "JEAN CARLOS NAVARRO SIMANCA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1I0eY4fIqpODRYDOEV8kCdY0dHEDO-Fi7/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157142316&usg=AOvVaw0jnh7Qf1YXPRbGRTb5236J"
+        },
+        {
+            "title": "ANÁLISIS DE LAS CAUSAS DEL AUSENTISMO LABORAL BAJO LAS REFERENCIAS DE LA NTC 3793 EN EL PERIODO 2020-2021, PARA EL ESTABLECIMIENTO DE HERRAMIENTAS DE CONTROL QUE MEJORE LAS CONDICIONES DE SALUD Y SEGURIDAD DE LOS TRABAJADORES EN LA EMPRESA ECHEVERRIA HERMANOS SAS",
+            "authors": [
+                "KATHERINE ROJAS CÁRDENAS"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1-Anx9m-AI4ugQBU_U6Z3cU-9CCbShkV6/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157142637&usg=AOvVaw1d-X9Uy0Jn8-sJsbHWjm5y"
+        },
+        {
+            "title": "DISEÑO DE LA ESTRUCTURA DE EMPAQUE Y EMBALAJE PARA EL PROCESO DE COMERCIALIZACIÓN DE LA PULPA DE FRUTA EN EL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "LEIDY MARCELA PALACIO GONZÁLEZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1mVn1TflQ0XNT6rAwWYDm6PFF0k0XDnFt/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157142908&usg=AOvVaw1mULaJ2YaHyzdvjcFc1ZmN"
+        },
+        {
+            "title": "RELACIÓN ENTRE EL PELIGRO FÍSICO POR ILUMINACIÓN Y EL DESARROLLO DE LAS ACTIVIDADES DEL PERSONAL ADMINISTRATIVO DEL INSTITUTO TÉCNICO SUPERIOR DE COMERCIO DE LA CIUDAD DE BARRANCABERMEJA.",
+            "authors": [
+                "LUIS EMIRO AMAYA DOMINGUEZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1mWf9gd0wX-1yCkUegsPPeczbra-2udds/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157143180&usg=AOvVaw0qltoKYFNX5DJFMJjqdVh5"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE UN PROGRAMA DE SEGURIDAD, HIGIENE Y BUEN USO PARA LOS LABORATORIOS DE LA INSTITUCIÓN EDUCATIVA CIUDADELA DEL MAGDALENA MEDIO LOCALIZADA EN LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "YEMILTON VILLARREAL CORTÉS"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1r0KrOmBKmeYIb3whI_VfVVl-oVz3slcI/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157143456&usg=AOvVaw3TH8DuRYZBwgj67onkB5i2"
+        },
+        {
+            "title": "DISEÑO DE UNA GUÍA PRÁCTICA PARA TRABAJOS EN ESPACIOS CONFINADOS SEGÚN ESTÁNDARES DE LA RESOLUCIÓN No. 0491 DE 2020 PARA LAS PYMES EN BARRANCABERMEJA",
+            "authors": [
+                "MILLY ROCÍO SAÉNZ MATEUS"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1JOigm5aDZmiO77tFv3Bh7z9xCV4VwmAS/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157143723&usg=AOvVaw34IklUYEJbPWvXB05rLzq3"
+        },
+        {
+            "title": "PROGRAMA PARA EL CONTROL DEL PELIGRO PSICOSOCIAL POR ESTRÉS LABORAL EN LOS TRABAJADORES DE LA EMPRESA INSERMACO LTDA. DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "OSCAR JAVIER MEJIA WANDURRAGA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1nowdqSjYzjHohu3cZfXc8O-AEL6BP4QA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157143988&usg=AOvVaw0r316vwbgRZT7euqVbS5Ei"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE GESTIÓN DE RIESGO MECÁNICO PARA LA PREVENCIÓN DE ACCIDENTES DE TRABAJO EN EL ÁREA DE MANTENIMIENTO DE LA EMPRESA GENERAL SERVICES INTERNATIONAL (GSI) GROUP S.A.S",
+            "authors": [
+                "FRANK DAVID HERRERA CHARRYS"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/16PwcdKVJmZmgdIV56KE-2s54YOXsaPaR/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157144254&usg=AOvVaw0J5-6-bPN0UHuiGsZ6B0ds"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SALUD Y TRABAJO EN LA POBLACIÓN LABORAL EN LOS HOTELES DE LA COMUNA 3 DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "ROSAURA DUARTE DIAZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1lLmU4c7QPV29HpGTDAlgn5D9ph5rmDBz/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157144525&usg=AOvVaw3-aiVqtNTSxc6kqKUx5KXS"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO, CONFORME A LA RESOLUCIÓN 0312 DE 2019 Y EL DECRETO 1072 DE 2015 EN LA INSTITUCIÓN EDUCATIVA COLEGIO LAS AMÉRICAS UBICADO EN BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "STEFANY BEATRIZ VEGA BARBOSA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Wncu3F9s8-ocZ58fDUi_Jq_mBbQX_FXj/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157144866&usg=AOvVaw2h7f904VJBAS0Vj8Hmf3Lb"
+        },
+        {
+            "title": "DISEÑO DEL SISTEMA DE GESTIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO BAJO LA NORMA INTERNACIONAL ISO 45001 EN LA EMPRESA J & P SERVICES GRUOP S.A.S EN LA CIUDAD DE VILLAVICENCIO",
+            "authors": [
+                "WILMAR LEONARDO URUEÑA SANCHEZ"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1usPEzjj_zc1a4MWKACOWR3Fdsjemd375/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157145156&usg=AOvVaw124BFWa-Fo7Zt7Tev_pmVA"
+        },
+        {
+            "title": "ESTUDIO Y GESTIÓN DE LA CONDICIÓN DEL PELIGRO FÍSICO POR ILUMINACIÓN PRESENTE EN LA EMPRESA ASFALTOS M&A S.A.S. BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "SANDRA MARCELA LÓPEZ ZAMBRANO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1jj-KGr6B1nZoLkl6E_5vPGN_PlLpOyoR/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157145436&usg=AOvVaw3WEleKLnObIIMRr-Z1oI-Q"
+        },
+        {
+            "title": "ANÁLISIS DE AUSENTISMO LABORAL EN LA EMPRESA CINEMAS PROCINAL DE BARRANCABERMEJA CON BASE AL DISEÑO DE UN PROGRAMA DE CONTROL DE PÉRDIDAS",
+            "authors": [
+                "YERALDIN PACHECO PADILLA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ZuFAOH5z54hDMRKFHs8CGaD18I9w9Q9N/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157145747&usg=AOvVaw1hkbf6EekLTBJ2k42bsivD"
+        },
+        {
+            "title": "DISEÑO DE UNA CÁMARA DE POLVO PARA MEDICIÓN DE MATERIAL PARTICULADO PARA RIESGO QUÍMICO EN LOS LABORATORIOS DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "YIVIANA YERALDIN GÓMEZ ECHAVARRÍA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Mp2BXZcgvFcGwQd4HqevbafAdyz2oIGE/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157146053&usg=AOvVaw34NTD_y_O57OL37OlOth0O"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR DE LAS PANADERÍAS DEL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "<div class=\"softmerge-inner\" style=\"width:116px;left:-1px\">ROSMIRA ROJAS RONDÓN</div>"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Ra3pRASFyQOnsBdaFsesAKZvsdAHm6AM/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157146395&usg=AOvVaw0dVmeu6SUvqxez5bkpOy6l"
+        },
+        {
+            "title": "ANÁLISIS DE LA CONDICIÓN ACTUAL DEL PELIGRO FÍSICO POR RUIDO EN EL PROCESO DE TRITURADO DE MATERIAL DE ARRASTRE MEDIANTE EVALUACIONES HIGIÉNICAS PARA LA GENERACIÓN DE CONTROLES EN LA EMPRESA CONSTRUCCIÓN Y EXPLOTACIÓN MINERA SAVA S.A.S., UBICADA EN SABANA DE TORRES, SANTANDER",
+            "authors": [
+                "WALTER ARNULFO GALVIS GARCÉS"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/10cYg_28Ul2DvJ3S6DljxshRL5gxvrXmH/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157146695&usg=AOvVaw0NaRd-Jh48bdphInbT7jSQ"
+        },
+        {
+            "title": "PROPUESTA PARA LA ADECUACIÓN FÍSICA DEL LABORATORIO DE QUÍMICA DE LA INSTITUCIÓN EDUCATIVA DEL COLEGIO EL CASTILLO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "NAIDU LORENA TERÁN GARZÓN"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1wDow7Sq702ate1oFE2iUOD_FXsd1DROm/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157146965&usg=AOvVaw1EO_qRSB4liBVtzQRHEG-B"
+        },
+        {
+            "title": "CARACTERIZACIÓN DEL AUSENTISMO LABORAL EN EL ASADERO LA 28 DEL DISTRITO ESPECIAL DE BARRANCABERMEJA DURANTE EL PERIODO 2017 AL 2019, SEGÚN LOS LINEAMIENTOS DE LA NORMA NTC 379",
+            "authors": [
+                "SMITH PERPETUA CAMACHO DUARTE"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1K9KuLXJs_13BBd5ccHsoC_CBO0_GhjPS/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157147237&usg=AOvVaw2K6BYKNH7f4lO5xpYMokso"
+        },
+        {
+            "title": "ANÁLISIS DE LAS CAUSAS DE LA ACCIDENTALIDAD LABORAL EN EL PERÍODO 2018 A 2019, PARA EL ESTABLECIMIENTO DE HERRAMIENTAS DE CONTROL QUE MEJORE LAS CONDICIONES DE SEGURIDAD DE LA ASOCIACIÓN DE TRABAJADORES DEL SISTEMA EDUCATIVO NACIONAL Y UNIVERSITARIO – EDUQUEMOS A.T. EN UBICADOS EN EL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "LUIS ERNESTO CORREDOR CRUZADO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1hXcwqvjH4s7fWeZCT37XLP-GK25beu0P/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157147544&usg=AOvVaw0N_G3SmVqGFIF8Oq1-vdVe"
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA DE REDES CONTRAINCENDIOS PARA EL EDIFICIO UNIDAD RESIDENCIAL MIRADORES DEL LIMONAR UBICADO EN EL MUNICIPIO DE BARRANCABERMEJA, SANTANDER.",
+            "authors": [
+                "REINALDO AURELIO RODRIGUEZ NOGUERA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ParDCwkOSFl5EC8w4EBNYGXBfSm_y1b0/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157147817&usg=AOvVaw2x-d0p2sn4ye4bIGM2X7jI"
+        },
+        {
+            "title": "ANÁLISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCIÓN EDUCATIVA JUAN FRANCISCO SARASTI UBICADA EN EL MUNICIPIO DE BARRANCABERMEJA (SANTANDER)",
+            "authors": [
+                "MILEIDY RONDÓN ORREGO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1JiaSs3KZU8WNhOrRrrB8r7ohM23aU-ZZ/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157148144&usg=AOvVaw3Zwe9oB_OKmcFTnSzEmzPn"
+        },
+        {
+            "title": "DISEÑO DEL PROGRAMA POR RIESGO QUÍMICO PARA EL MANEJO Y ALMACENAMIENTO DE SUSTANCIAS QUÍMICAS CON BASE AL SISTEMA GLOBALMENTE ARMONIZADO EN LA EMPRESA CONFIPETROL S.A.S.",
+            "authors": [
+                "JHON ANDERSSON REYES LÓPEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/11v7LMVvauX82iT4uLQsi1UdI4LWS82bH/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157148438&usg=AOvVaw0aha-NToTziAl__6OY6vZl"
+        },
+        {
+            "title": "ANÁLISIS DEL PELIGRO FÍSICO POR ILUMINACIÓN PARA CONTROLAR Y MINIMIZAR LOS RIESGOS DEL PERSONAL DEL ÁREA ADMINISTRATIVA DE LA EMPRESA TRANSPORTES RIO GRANDE S.A.S., UBICADA EN BARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "KAREN JULIETH HERRERA ARCIA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1CnguDRJFCoBFGDpYzHJZrjnwNFiInJnT/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157148712&usg=AOvVaw1gTe1ymFCHoAZa6recL6tn"
+        },
+        {
+            "title": "ANÁLISIS DE LA ACCIDENTALIDAD VIAL POR COMUNAS 1 Y 2 DEL MUNICIPIO DE BARRANCABERMEJA, MEDIANTE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (SIG) EN EL PERIODO 2012 – 2017",
+            "authors": [
+                "JHOANA MARIA ZAPATA MUNERA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1tZ59CNQb15tQddYrkQfh-KrZRlRa-nFT/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157148991&usg=AOvVaw1BwNsU8pDD6YiFeNcUsU_w"
+        },
+        {
+            "title": "CARACTERIZACIÓN EPIDEMIOLÓGICA DE LOS ACCIDENTES DE TRÁNSITO ATENDIDOS EN LA UNIDAD CLÍNICA SAN NICOLÁS LTDA., DEL MUNICIPIO DE BARRANCABERMEJA EN EL PERIODO 2015 AL 2017",
+            "authors": [
+                "JESSICA DANIELA BAENA MALAGÓN"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1LX7UOfBn0J5pomQrKwM1KLYalzmvBGAY/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157149296&usg=AOvVaw3NDOyUCfwqaRXQBFhWeyGU"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN LOS SALONES DE BELLEZA EN LA COMUNA UNO DE LA CIUDAD DE BARRANCABERMEJA",
+            "authors": [
+                "LIAN CARLOS ZUÑIGA DIAZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1qnuUjO-stSQgJ7vwiGsk2IJ6ZbiXHpAP/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157149572&usg=AOvVaw3A0QhzPadjqdo56qCW6124"
+        },
+        {
+            "title": "ANÁLISIS DE LA ACCIDENTALIDAD VIAL POR COMUNAS 3 Y 4 DEL MUNICIPIO DE BARRANCABERMEJA, MEDIANTE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (SIG) EN EL PERIODO 2012 – 2017.",
+            "authors": [
+                "MARÍA MARGARITA GUTIÉRREZ LEÓN"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1S0-5Ig5EgdkR3gLI7lVTiOpbDE8Vt4af/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157149852&usg=AOvVaw18zRq1UM3A5CM5oRJc7m6V"
+        },
+        {
+            "title": "ANALISIS DE LA SITUACIÓN ACTUAL DEL SISTEMA DE GESTIÓN EN SEGURIDAD Y SALUD EN EL TRABAJO CONFORME AL DECRETO 1655 DE 2015 EN LA INSTITUCION EDUCATIVA EL CASTILLO UBICADA EN EL BARRIO EL CERRO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "NATALIA LÓPEZ CHACÓN"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1MwwCA86M91rotpRMNP1-kQBuFy50K_P2/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157150183&usg=AOvVaw0kCxATEDDTVbzTJsbNGHRV"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS UBICADOS EN EL SECTOR DE LA COMUNA 3A DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "SHARON ELIANA ASCANIO GARRIDO"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/12LtoFt9pcJbfYkTWaLsHKnmjIfkcHOLm/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157150495&usg=AOvVaw1iRgLEzvx9sNUmTz3UUEVs"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS DE LA COMUNA 7B DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "DAYANA MICHEL RODRÍGUEZ CAMPOS"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1QrKnLN1ZxX5zB66AwuHvwiQ4Levwxhbc/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157150777&usg=AOvVaw0YdXOKwihecSI97IvbnftG"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS DE LOS BARRIOS DE LA COMUNA 2B DEL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "JOSÉ GREGORIO AGREDO HERNÁNDEZ"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1B6A0bIU2FtJuxo9RbcZ6gY5RjoFAFFgB/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157151045&usg=AOvVaw3EF64RJgEPmy915YmGPJyJ"
+        },
+        {
+            "title": "ANÁLISIS SEGURIDAD Y SALUD LABORAL TRABAJADORES HOTELES COMUNA 1 DISTRITO BARRANCABERMEJA: CONDICIONES Y SERVICIOS",
+            "authors": [
+                "CAMILA ANDREA IGLESIAS TOLOZA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1dLa5779jGEXNelTSqqhD84NlT-ZA4i_p/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157151316&usg=AOvVaw0NiE4zxTkQx57uwdOhgMCW"
+        },
+        {
+            "title": "EVALUACIÓN DE RIESGOS BIOMECANICOS PRESENTES EN TRABAJOS DE DISTRIBUCION Y EXHIBICION DE MERCANCIA CON OPERARIOS DEL AREA DE VENTA DE LA EMPRESA SOMIERES PAULA EN BARRANCABERMEJA",
+            "authors": [
+                "LINA MARCELA MORENO REYES"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1U2-bqh-_uwxd07IkpXJY77YfLSKykvbI/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157151617&usg=AOvVaw2OVQ0SrYARmhEkS7CtEoyI"
+        },
+        {
+            "title": "DISEÑO DEL PROGRAMA DE PREVENCIÓN DE CONTROLES ADMINISTRATIVOS PARA LOS DOCENTES DE LA ESCUELA DE INGENIERÍA DE PRODUCCIÓN DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "DIANA MARIA RODRÍGUEZ QUIROZ"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1AIbzvD9hGNvO-VZDt-0XBIKvDP3bOb8y/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157151918&usg=AOvVaw304DnLI3jn8ZS_pA3CJLYe"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS DE LA COMUNA 4 ZONA OCCIDENTAL DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "JHORS ALBERTO PUERTO GUTIÉRREZ"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1sRubmu3HQnIi5fjUMnnyr8-eKZA00Big/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157152219&usg=AOvVaw0V8kSiC2Kebj7f7qIVACbH"
+        },
+        {
+            "title": "DISEÑO DE LOS REQUISITOS TÉCNICOS Y DE SEGURIDAD PARA EL CENTRO DE FORMACIÓN Y ENTRENAMIENTO EN PROTECCIÓN CONTRA CAÍDAS EN TRABAJOS EN ALTURAS DE RAMPINT S.A.S",
+            "authors": [
+                "LAUREN DEL CARMEN FLOREZ TORRES"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/17_GvSF2mO5dZrdUQM_wmIB9mBrQgV79d/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157152530&usg=AOvVaw2JdvDYF0jlWQfoQCBKcU9t"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS DE LOS BARRIOS EL MUELLE, SECTOR COMERCIAL, RECREO, INSCREDIAL, COLOMBIA Y PALMIRA PERTENECIENTES A LA COMUNA 1A  EL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "YENNY DIANEY VASQUEZ CASTRO"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1qMqYlwA9tIVpHPrTyp_FxFZTLIbKI9HQ/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157152843&usg=AOvVaw1PMhms3OxixaEP8tLDCr6n"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS DE LA COMUNA 2A DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "LIDY YUREXY RUEDA CORREA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1WLcfgm8tcXsIiAhBqGiLBsQk4Spfj9Va/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157153142&usg=AOvVaw0l7HaekIGCt4kUjuDruokn"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DEL PLAN ESTRATÉGICO DE SEGURIDAD VIAL SOPORTADO EN LA NORMATIVIDAD VIGENTE COMO HERRAMIENTA DE CONTROL PARA LA PREVENCIÓN DE ACCIDENTES VIALES DE ACUERDO A LAS CARACTERÍSTICAS DE LA EMPRESA COOTRANSPALONEGRO LTDA. DEL MUNICIPIO DE LEBRIJA, SANTANDER",
+            "authors": [
+                "JENNY MARCELA ACOSTA DÍAZ"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1e9mt8l0pqPEJ1PTg4rwp-ptBGUqLGaQ4/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157153424&usg=AOvVaw3vAxYdUQZcOiD-Q5nlmhko"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DEL PLAN ESCOLAR PARA LA PREVENCIÓN REPARACIÓN Y RESPUESTA ANTE UNA EMERGENCIA EN LA INSTITUCIÓN EDUCATIVA MI MUNDO MÁGICO DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "HEIDY JOHANA MEJÍA ALMENTERO"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1zi5XalF3L0jaZqUWxpp1-0S-K-ajKmOh/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157153699&usg=AOvVaw1jry-ZDM-rYAknOOME6D_H"
+        },
+        {
+            "title": "CARACTERIZACIÓN DEL AUSENTISMO LABORAL SEGÚN LA NORMA NTC 3793 PARA EL TALLER DE MANTENIMIENTO DE LA EMPRESA ASFALTOS AGREGADOS Y CONSTRUCCIONES - ASA CONSTRUCCIONES S.A.S - DEL DISTRITO ESPECIAL DE BARRANCABERMEJA, DURANTE EL PERÍODO 2019 A 2021",
+            "authors": [
+                "LIZETH VANESSA CRUZ PINEDA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/15F3K2eKuYDo1o-JQCArCHcY54YgwPfuW/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157153977&usg=AOvVaw3wlY6FBe1ngKlgTMQ3lIgQ"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN LABORAL EN EL SECTOR DEL COMERCIO DE PLANTAS AL POR MENOR EN ESTABLECIMIENTOS ESPECIALIZADOS (VIVEROS) URBANOS DEL DISTRITO DE ARRANCABERMEJA",
+            "authors": [
+                "XIOMARA HERNÁNDEZ MEDINA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Y1AaPX5j2b2v7qfYo_KfvxOi1TWN-fk2/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157154251&usg=AOvVaw1y1e3sL3oVYdmqllBvk5pe"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS DE LA COMUNA 5B DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "JAZMIN PUENTES GONZÁLEZ"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/10sKZu4hMIJnmhUC4k8qa3CSxL71Hw07v/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157154524&usg=AOvVaw3ruzl4bF_ME5W-Eeo_KLA3"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS DE LA COMUNA 5A DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "ANGÉLICA MARÍA PERÉZ SUÁREZ"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1MvyJusBGqCSm1-v1g6lfw2RN9Okl8zQe/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157154791&usg=AOvVaw1TIC2jRke1UvjOYBymrJXM"
+        },
+        {
+            "title": "CARACTERIZACIÓN DEL RIESGO FÍSICO POR RUIDO EN LOS PUESTOS DE TRABAJO DE LA EMPRESA, MACHIMBRES Y MADERAS ACOSTA S.A.S.,UBICADO EN LA COMUNA 7 BARRIO PRADOS DEL CAMPESTRE EN EL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "FAUBRICIO BONILLA AYALA"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1z25UJtrn156hZ_2f4_IWL9sk2lmZ2b1R/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157155063&usg=AOvVaw2PFEDqzBmqFtaU5kDxftYN"
+        },
+        {
+            "title": "DIAGNÓSTICO DE LAS CONDICIONES DE SEGURIDAD EN LOS TRABAJADORES EXPUESTOS A RIESGO QUÍMICO POR MANIPULACIÓN DE ASFALTO EN LA EMPRESA MPI LTDA DEL MUNICIPIO DE BARRANCABERMEJA.",
+            "authors": [
+                "YARUTSA SIERRA TAMARA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1mric6dIBDRQQ5hYv3Xruk-FXKyWrkHmA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157155332&usg=AOvVaw2kICuKmHuBD_Bv0-ufRxyn"
+        },
+        {
+            "title": "EVALUACIÓN DE LAS CONDICIONES DE SEGURIDAD DE LA RED DE HIDRANTES CONTRAINCENDIOS EN LA COMUNA 1B DEL DISTRITO DE BARRANCABERMEJA",
+            "authors": [
+                "YENI MILENA CALDERÓN VALBUENA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1KcRiyyM20xbgSWauuGaSni_ggbDXGN3H/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157155643&usg=AOvVaw1txaOHE4vy8_5_ISwd3ag3"
+        },
+        {
+            "title": "GESTIÓN DE LOS PELIGROS Y RIESGOS EN LA EMPRESA MQN INGENIERÍA SAS DEL DISTRITO ESPECIAL DE BARRANCABERMEJA DE ACUERDO A LA RESOLUCIÓN 0312 DE 2019",
+            "authors": [
+                "HILDA ROSA NIETO PADILLA"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1qvTlz-OUvP7bww17MWCeS8lv7BIeAc6Q/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157155915&usg=AOvVaw2pE8zWr6JGgmkcD2YtHHmG"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA PARA PELIGRO QUÍMICO POR MANIPULACIÓN Y ALMACENAMIENTO DE SUSTANCIAS QUÍMICAS EN EL LABORATORIO CON BASE EN EL SISTEMA GLOBALMENTE ARMONIZADO EN LA INSTITUCIÓN EDUCATIVA MIRAFLORES LUIS EDUARDO VALENCIA GARCÍA EN LA CIUDAD DE MEDELLÍN",
+            "authors": [
+                "MAURICIO JAVIER TORRES PÁJARO"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1y8i_UQbgoRvmZEvKt9uyKB5vcKXtsECk/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157156191&usg=AOvVaw1EBbaJ16cnM5MJZjJh6K1s"
+        },
+        {
+            "title": "ANÁLISIS DE LAS CAUSAS DEL AUSENTISMO LABORAL BAJO LAS REFERENCIAS DE LA NTC 3793 EN EL PERIODO 2020-2022, PARA EL ESTABLECIMIENTO DE HERRAMIENTAS DE CONTROL QUE MEJORE LAS CONDICIONES DE SALUD Y SEGURIDAD DE LOS TRABAJADORES EN LA EMPRESA ASA CONSTRUCCIONES S.A.S EN LA SEDE PLANTA DE CONCRETO",
+            "authors": [
+                "LEIDY JOHANA CRUZ ALMEIDA"
+            ],
+            "year": "2024",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1XLUq-bq8jdJclUqqwew5hWdf-xpRDwrB/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157156480&usg=AOvVaw32jT60CGuKqMIfct_tXuJM"
+        },
+        {
+            "title": "DISEÑO DEL PROGRAMA DE PREVENCIÓN DEL RIESGO MECÁNICO, EN LA ACTIVIDAD DE FABRICACIÓN E INSTALACIÓN DE PORTONES ELÉCTRICOS PARA LA EMPRESA METÁLICAS CHASAM DEL DISTRITO DE BARRANCABERMEJA.",
+            "authors": [
+                "GEZMIN PATRICIA OSPINO MEJÍA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/11Lhzts6PW05zHvwf5F85HNL86vBj6x_P/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157156771&usg=AOvVaw1W4uHOEo-U4YxKjt5hcj55"
+        },
+        {
+            "title": "MEJORAR EL PLAN DE RESCATE EN ESPACIO CONFINADO PARA EL MANTENIMIENTO DE PISCINA – CÁMARA A/B EN EL CONTRATO 3050901 ODS 02 EJECUTADA POR LA EMPRESA RANDLEY S.A.S. EN BARRANCABERMEJA",
+            "authors": [
+                "SERGIO ARTURO PIÑATES HOYOS"
+            ],
+            "year": "2024",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Nd5K4OOZ5I3tbytd6a4SseTtB8m68_pB/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157157054&usg=AOvVaw3PFTuA4yfKZGjMGk_UM14F"
+        },
+        {
+            "title": "ANÁLISIS DE LOS INDICADORES DE ESTRUCTURA, PROCESO Y RESULTADO DE LOS PROGRAMAS SG-SST DE CAFABA DURANTE EL PERIODO 2021-2023",
+            "authors": [
+                "WENDY CAROLINA GARCÍA REINA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1LSx-KkcsTCOtrZ32fAVZ4x0koxzdIoJo/view?usp%3Dsharing&sa=D&source=editors&ust=1744615157157312&usg=AOvVaw1r9olGXPnIlxuL2m6MCE1Q"
+        }
+    ]
+}

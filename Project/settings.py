@@ -95,8 +95,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "Project.wsgi.application"
 
-ALLOWED_HOSTS = ["*", "https://thesistrkbackend-production.up.railway.app/"]
+ALLOWED_HOSTS = ["*", "https://thesistrkbackend-production.up.railway.app/", "https://atlas.thiup.com"]
 CORS_ALLOWED_ORIGINS = [
+    "https://atlas.thiup.com",
     "http://localhost:3000",
     'http://192.168.0.19',
     "http://127.0.0.1:3000",
@@ -125,6 +126,7 @@ CSRF_COOKIE_SECURE = False
 
 
 CSRF_TRUSTED_ORIGINS = [
+    "https://atlas.thiup.com",
     "http://localhost:3000",
     'http://192.168.0.19',
     'http://192.168.0.19:8080',
@@ -154,6 +156,7 @@ CSRF_TRUSTED_ORIGINS = [
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = [
+    "https://atlas.thiup.com",
     "http://127.0.0.1:3000",
     "http://10.7.49.90:3000",
     "http://172.30.3.15:8000",
