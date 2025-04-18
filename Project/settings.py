@@ -91,7 +91,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "Project.wsgi.application"
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*", "https://thesistrkbackend-production.up.railway.app/"]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     'http://192.168.0.19',
@@ -173,16 +173,22 @@ X_FRAME_OPTIONS = 'ALLOWALL'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": os.environ["DATABASE_ENGINE"],
-        "NAME": os.environ["DATABASE_NAME"],
-        "USER": os.environ["DATABASE_USER"],
-        "HOST": os.environ["DATABASE_HOST"],
-        "PORT": os.environ["DATABASE_PORT"],
-        "PASSWORD": os.environ["DATABASE_PASSWORD"],
+
+if os.getenv("DATABASE_URL"):
+    DATABASES = {
+        'default': dj_database_url.config(conn_max_age=600)
     }
-}
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": os.getenv("DATABASE_ENGINE", "django.db.backends.postgresql"),
+            "NAME": os.getenv("DATABASE_NAME", "postgres"),
+            "USER": os.getenv("DATABASE_USER", "postgres"),
+            "PASSWORD": os.getenv("DATABASE_PASSWORD", "postgres"),
+            "HOST": os.getenv("DATABASE_HOST", "localhost"),
+            "PORT": os.getenv("DATABASE_PORT", "5432"),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -266,6 +272,9 @@ SOCIALACCOUNT_QUERY_EMAIL = True
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

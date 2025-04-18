@@ -16,6 +16,8 @@ RUN apt-get update && apt-get install -y \
     netcat-openbsd
 
 WORKDIR /app
+# Dentro de tu Dockerfile, después de instalar dependencias
+RUN python manage.py collectstatic --noinput
 
 COPY requirements.txt /app/
 
