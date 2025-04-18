@@ -95,7 +95,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "Project.wsgi.application"
 
-ALLOWED_HOSTS = ["*", "https://thesistrkbackend-production.up.railway.app/", "https://atlas.thiup.com"]
+ALLOWED_HOSTS = ["*", "https://thesistrkbackend-production.up.railway.app/", "https://atlas.thiup.com", "https://teststrack.thiup.com",]
 CORS_ALLOWED_ORIGINS = [
     "https://atlas.thiup.com",
     "http://localhost:3000",
@@ -117,6 +117,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://172.30.6.97:8000",
     "http://172.30.6.97:3000",
     "http://172.30.3.15:3000",
+    "https://teststrack.thiup.com",
 ]
 
 
@@ -150,6 +151,7 @@ CSRF_TRUSTED_ORIGINS = [
     "http://172.30.3.15:3000",
     "http://192.168.89.32:3000",
     "http://192.168.89.32:8000",
+    "https://teststrack.thiup.com",
 ]
 
 
@@ -173,6 +175,7 @@ CORS_ORIGIN_WHITELIST = [
     "http://192.168.89.32:3000",
     "http://192.168.89.32:8000",
     "http://172.30.3.15:3000",
+    "https://teststrack.thiup.com",
     "http://10.7.49.90:8000",  # La URL de tu frontend
 ]
 X_FRAME_OPTIONS = 'ALLOWALL'
