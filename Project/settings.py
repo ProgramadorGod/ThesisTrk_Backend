@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-j^zmtqwdc5lqw69u=ummtsc(5ws495c$9q79#unqu#wq&)+p)t"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -95,28 +95,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "Project.wsgi.application"
 
-ALLOWED_HOSTS = ["*", "https://thesistrkbackend-production.up.railway.app/"]
+ALLOWED_HOSTS = ["3.129.48.248","http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/", "https://atlas.thiup.com/","https://teststrack.thiup.com/"]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    'http://192.168.0.19',
-    "http://127.0.0.1:3000",
-    "https://127.0.0.1:3000",
-    "https://127.0.0.1:8000",
-    "http://192.168.0.17:3000",
-    "http://192.168.0.19:8000",
-    "http://192.168.0.19:3000",
-    "http://172.10.8.55:3000",
-    "http://172.10.8.55:8000",
-    "http://192.168.89.32:3000",
-    "http://192.168.89.32:8000",
-    "http://172.30.3.15:8000",
-    "http://172.18.0.3:8000",
-    "http://172.18.0.3:3000",
-    "http://10.7.49.90:3000",
-    "http://172.30.6.97:8000",
-    "http://172.30.6.97:3000",
-    "http://172.30.3.15:3000",
+    "http://atlas.thiup.com/",
+    "https://teststrack.thiup.com/",
+    "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/",
+
 ]
+CORS_ALLOW_ALL_ORIGINS = True  # Esto es para permitir todas las solicitudes de dominios diferentes.
 
 
 SECURE_SSL_REDIRECT = False
@@ -125,52 +111,20 @@ CSRF_COOKIE_SECURE = False
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",
-    'http://192.168.0.19',
-    'http://192.168.0.19:8080',
-    'http://192.168.0.19:3000',
-    'http://192.168.0.19:8000',
-    "http://127.0.0.1:3000",
-    "https://127.0.0.1:8000",
-    "http://172.18.0.3:3000",
-    "http://172.18.0.3:8000",
-    "http://172.30.6.97:8000",
-    "http://172.30.6.97:3000",
-    "http://192.168.0.17:3000",
-    "http://10.7.49.90:3000",
-    "http://10.7.49.90",
-    "http://10.7.49.90:8000",
-    "http://172.30.3.15:8000",
-    "http://192.168.0.19:8000",
-    "http://192.168.0.19:3000",
-    "http://172.10.8.55:3000",
-    "http://172.10.8.55:8000",
-    "http://172.30.3.15:3000",
-    "http://192.168.89.32:3000",
-    "http://192.168.89.32:8000",
+    "http://atlas.thiup.com/",
+    "https://teststrack.thiup.com/"
+    "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/",
+
 ]
 
 
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = [
-    "http://127.0.0.1:3000",
-    "http://10.7.49.90:3000",
-    "http://172.30.3.15:8000",
-    "http://10.7.49.90",
-    "http://172.10.8.55:3000",
-    "http://172.10.8.55:8000",
-    "http://192.168.0.19:8000",
-    "http://localhost:3000",
-    "http://172.18.0.3:3000",
-    "http://172.18.0.3:8000",
-    "http://192.168.0.19:3000",
-    "http://172.30.6.97:8000",
-    "http://172.30.6.97:3000",
-    "http://192.168.89.32:3000",
-    "http://192.168.89.32:8000",
-    "http://172.30.3.15:3000",
-    "http://10.7.49.90:8000",  # La URL de tu frontend
+    "https://teststrack.thiup.com/",
+    "http://atlas.thiup.com/",
+    "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/",
+  # La URL de tu frontend
 ]
 X_FRAME_OPTIONS = 'ALLOWALL'
 
@@ -262,13 +216,15 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
         "AUTH_PARAMS": {"access_type": "online"},
         "APP": {
-            "client_id": "244269923642-3d3cf5n9nf9cr1o6qid0e9dbghe32i19.apps.googleusercontent.com",
-            "secret": "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",
+            "client_id": os.getenv("GOOGLE_CLIENT_ID"),
+            "secret": os.getenv("GOOGLE_CLIENT_SECRET"),
             "key": "",
         },
-        "REDIRECT_URI": "http://127.0.0.1:8000/accounts/google/login/callback/",
+        "REDIRECT_URI": "http://3.129.48.248/accounts/google/login/callback/",  # Aquí va la URL de tu EC2
     }
 }
+
+
 
 SOCIALACCOUNT_LOGIN_ON_GET = True  ## IMPORTANTE SKIP DE CONFIRMACIÓN DE LOGIN DE GOOGLE
 

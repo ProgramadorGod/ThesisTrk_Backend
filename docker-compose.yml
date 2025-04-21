@@ -29,8 +29,9 @@ services:
           echo 'Esperando a la base de datos...';
           sleep 2;
         done;
-        python manage.py runserver ${LOCAL_IP}:${SERVER_PORT}
+        python manage.py runserver 0.0.0.0:8001
       "
+
     ports:
       - "${WEB_PORT_HOST}:${SERVER_PORT}"  # Ejemplo: 8000:8000
     tty: true
@@ -59,8 +60,8 @@ services:
     ports:
       - "${SERVER_PORT2}:${SERVER_PORT}"  # Ejemplo: 8080:8000
     depends_on:
-      - web
       - postgres
+      - web
     volumes:
       - ./media:/app/media
 

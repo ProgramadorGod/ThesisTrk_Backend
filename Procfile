@@ -1,1 +1,1 @@
-web: gunicorn ThesisTrk_Backend.wsgi:application --bind 0.0.0.0:$PORT
+web: gunicorn Project.wsgi:application --bind 0.0.0.0:8080
