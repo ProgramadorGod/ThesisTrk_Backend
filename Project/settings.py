@@ -95,15 +95,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "Project.wsgi.application"
 
-ALLOWED_HOSTS = ["3.129.48.248", "teststrack.thiup.com.s3-website-us-east-1.amazonaws.com", "atlas.thiup.com", "teststrack.thiup.com"]
+ALLOWED_HOSTS = ["3.129.48.248","http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/", "https://atlas.thiup.com/","https://teststrack.thiup.com/"]
 CORS_ALLOWED_ORIGINS = [
-    "atlas.thiup.com",
-    "teststrack.thiup.com",
-    "teststrack.thiup.com.s3-website-us-east-1.amazonaws.com",
+    "https://atlas.thiup.com",
+    "https://teststrack.thiup.com",
+    "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com",
+
 ]
-
-
-
 CORS_ALLOW_ALL_ORIGINS = True  # Esto es para permitir todas las solicitudes de dominios diferentes.
 
 
@@ -111,20 +109,22 @@ SECURE_SSL_REDIRECT = False
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 
-CSRF_TRUSTED_ORIGINS = [
-    "atlas.thiup.com",
-    "teststrack.thiup.com",
-    "teststrack.thiup.com.s3-website-us-east-1.amazonaws.com",
-]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://atlas.thiup.com/",
+    "https://teststrack.thiup.com/"
+    "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/",
+
+]
 
 
 CORS_ALLOW_CREDENTIALS = True
 
-CORS_ALLOWED_ORIGINS = [
-    "atlas.thiup.com",
-    "teststrack.thiup.com",
-    "teststrack.thiup.com.s3-website-us-east-1.amazonaws.com",
+CORS_ORIGIN_WHITELIST = [
+    "https://teststrack.thiup.com/",
+    "https://atlas.thiup.com/",
+    "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/",
+  # La URL de tu frontend
 ]
 X_FRAME_OPTIONS = 'ALLOWALL'
 
@@ -220,7 +220,7 @@ SOCIALACCOUNT_PROVIDERS = {
             "secret": os.getenv("GOOGLE_CLIENT_SECRET"),
             "key": "",
         },
-        "REDIRECT_URI": "3.129.48.248/accounts/google/login/callback/",
+        "REDIRECT_URI": "http://3.129.48.248/accounts/google/login/callback/",  # Aquí va la URL de tu EC2
     }
 }
 
