@@ -95,10 +95,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "Project.wsgi.application"
 
-ALLOWED_HOSTS = ["3.129.48.248","http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/", "https://atlas.thiup.com/","https://teststrack.thiup.com/"]
+ALLOWED_HOSTS = ["3.129.48.248","http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/", "https://atlas.thiup.com/","https://teststrack.thiup.com/", "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com/"]
 CORS_ALLOWED_ORIGINS = [
     "https://atlas.thiup.com",
-    "https://teststrack.thiup.com",
+    "https://teststrack.thiup.com",    
+    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com",
+    "http://192.168.0.19:3000",
+    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com/",
     "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com",
 
 ]
@@ -112,6 +115,11 @@ CSRF_COOKIE_SECURE = False
 
 CSRF_TRUSTED_ORIGINS = [
     "https://atlas.thiup.com/",
+    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com",
+
+    "http://192.168.0.19:3000",
+    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com/",
+    "",
     "https://teststrack.thiup.com/"
     "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/",
 
@@ -122,7 +130,11 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = [
     "https://teststrack.thiup.com/",
+    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com",
+
+    "http://192.168.0.19:3000",
     "https://atlas.thiup.com/",
+    
     "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/",
   # La URL de tu frontend
 ]
