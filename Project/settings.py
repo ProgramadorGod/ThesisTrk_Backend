@@ -100,9 +100,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://atlas.thiup.com",
     "https://teststrack.thiup.com",    
     "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com",
-    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com/",
     "http://192.168.0.19:3000",
-    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com/",
     "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com",
 
 ]
@@ -119,7 +117,6 @@ CSRF_TRUSTED_ORIGINS = [
     "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com",
 
     "http://192.168.0.19:3000",
-    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com/",
     
     "https://teststrack.thiup.com/"
     "http://teststrack.thiup.com.s3-website-us-east-1.amazonaws.com/",
@@ -132,7 +129,6 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = [
     "https://teststrack.thiup.com/",
     "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com",
-    "http://teststrack.thiup.com.s3-website.us-east-2.amazonaws.com/",
     "http://192.168.0.19:3000",
     "https://atlas.thiup.com/",
 
