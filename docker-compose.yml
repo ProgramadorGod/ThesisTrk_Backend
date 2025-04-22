@@ -29,7 +29,7 @@ services:
           echo 'Esperando a la base de datos...';
           sleep 2;
         done;
-        python manage.py runserver 0.0.0.0:8000
+        python manage.py runserver 0.0.0.0:80
       "
 
     ports:
