@@ -4,7 +4,6 @@ services:
   postgres:
     image: postgres:15
     restart: unless-stopped
-    # container_name: thesis_track_db
     environment:
       - POSTGRES_USER=${DATABASE_USER}
       - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
@@ -13,7 +12,6 @@ services:
     volumes:
       - thesis_db_data:/var/lib/postgresql/data
       - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
-
     command: -p ${DATABASE_PORT}
 
   web:
@@ -24,36 +22,60 @@ services:
     container_name: thesis_track_backend
     command: python manage.py runserver ${LOCAL_IP}:${SERVER_PORT}
     ports:
-      - "${WEB_PORT_HOST}:${SERVER_PORT}" # Ejemplo: 8000:8000
+      - "${WEB_PORT_HOST}:${SERVER_PORT}"
     tty: true
     volumes:
       - .:/app:Z
       - ./media:/app/media
-
     environment:
       - DEBUG=${DEBUG}
       - DATABASE_ENGINE=${DATABASE_ENGINE}
-      - DATABASE_HOST=${DATABASE_HOST} # Debe ser 'postgres'
-      - DATABASE_PORT=${DATABASE_PORT} # Usualmente 5432
+      - DATABASE_HOST=${DATABASE_HOST}  # 'postgres'
+      - DATABASE_PORT=${DATABASE_PORT}  # 5432
       - DATABASE_NAME=${DATABASE_NAME}
       - DATABASE_USER=${DATABASE_USER}
       - DATABASE_PASSWORD=${DATABASE_PASSWORD}
+      - ELASTICSEARCH_URL=http://elasticsearch:9200  # Nueva var para ElasticSearch
     depends_on:
       - postgres
+      # - elasticsearch  # Dependencia añadida de ElasticSearch
 
   nginx:
     build:
       context: .
       dockerfile: ./nginx/Dockerfile
     image: thesis_track_nginx
-    # container_name: project-nginx
     ports:
-      - "${SERVER_PORT2}:${SERVER_PORT}" # Ejemplo: 8080:8000
+      - "${SERVER_PORT2}:${SERVER_PORT}"
     depends_on:
       - postgres
       - web
+      # - elasticsearch  # Añadimos dependencia para nginx
     volumes:
       - ./media:/app/media
 
+  # # Nuevo servicio ElasticSearch
+  # elasticsearch:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
+  #   environment:
+  #     - discovery.type=single-node
+  #     - xpack.security.enabled=false  # Desactivar seguridad para entorno local
+  #     - "ES_JAVA_OPTS=-Xms512m -Xmx512m"  # Asignación de memoria
+  #   ports:
+  #     - "9200:9200"
+  #   volumes:
+  #     - esdata:/usr/share/elasticsearch/data
+
+  # # (Opcional) Kibana
+  # kibana:
+  #   image: docker.elastic.co/kibana/kibana:8.12.2
+  #   ports:
+  #     - "5601:5601"
+  #   depends_on:
+  #     - elasticsearch
+  #   environment:
+  #     - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+
 volumes:
   thesis_db_data:
+  # esdata:  # Volumen para datos de ElasticSearch
