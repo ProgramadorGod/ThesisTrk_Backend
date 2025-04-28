@@ -38,7 +38,7 @@ services:
       - ELASTICSEARCH_URL=http://elasticsearch:9200  # Nueva var para ElasticSearch
     depends_on:
       - postgres
-      # - elasticsearch  # Dependencia añadida de ElasticSearch
+      - elasticsearch  # Dependencia añadida de ElasticSearch
 
   nginx:
     build:
@@ -50,32 +50,24 @@ services:
     depends_on:
       - postgres
       - web
-      # - elasticsearch  # Añadimos dependencia para nginx
+      - elasticsearch  # Añadimos dependencia para nginx
     volumes:
       - ./media:/app/media
 
-  # # Nuevo servicio ElasticSearch
-  # elasticsearch:
-  #   image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
-  #   environment:
-  #     - discovery.type=single-node
-  #     - xpack.security.enabled=false  # Desactivar seguridad para entorno local
-  #     - "ES_JAVA_OPTS=-Xms512m -Xmx512m"  # Asignación de memoria
-  #   ports:
-  #     - "9200:9200"
-  #   volumes:
-  #     - esdata:/usr/share/elasticsearch/data
+  # Nuevo servicio ElasticSearch
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false  # Desactivar seguridad para entorno local
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"  # Asignación de memoria
+    ports:
+      - "9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
 
-  # # (Opcional) Kibana
-  # kibana:
-  #   image: docker.elastic.co/kibana/kibana:8.12.2
-  #   ports:
-  #     - "5601:5601"
-  #   depends_on:
-  #     - elasticsearch
-  #   environment:
-  #     - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+
 
 volumes:
   thesis_db_data:
-  # esdata:  # Volumen para datos de ElasticSearch
+  esdata:  # Volumen para datos de ElasticSearch
