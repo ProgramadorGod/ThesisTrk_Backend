@@ -297,6 +297,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 AUTHENTICATION_BACKENDS = ("django.contrib.auth.backends.ModelBackend", "allauth.account.auth_backends.AuthenticationBackend")
+ELASTICSEARCH_URL = "http://elasticsearch:9200"
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (

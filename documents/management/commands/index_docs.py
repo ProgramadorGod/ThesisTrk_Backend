@@ -1,26 +1,37 @@
-# documents/management/commands/index_documents.py
-
 from django.core.management.base import BaseCommand
 from documents.models import UrlDocument
-import requests
+from sentence_transformers import SentenceTransformer
+from elasticsearch import Elasticsearch
+
+INDEX_NAME = "urldocuments"
+
 
 class Command(BaseCommand):
-    help = 'Index documents into Elasticsearch'
+    help = 'Index documents with semantic vectors'
 
     def handle(self, *args, **kwargs):
-        es_url = 'http://elasticsearch:9200'
-        index_name = 'urldocuments'
+        model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+        es = Elasticsearch("http://elasticsearch:9200")
 
         for doc in UrlDocument.objects.all():
-            document = {
-                'title': doc.title,
-                'author': doc.authors,
-                'year': doc.year,
-                'url': doc.url,
-            }
-            response = requests.post(f'{es_url}/{index_name}/_doc', json=document)
+            # Embeddings separados para cada campo
+            title_embedding = model.encode(doc.title).tolist()
+            author_embedding = model.encode(", ".join(doc.authors)).tolist()
+            carrera_embedding = model.encode(doc.carrer.name).tolist()
 
-            if response.status_code not in [200, 201]:
-                self.stdout.write(self.style.ERROR(f'Error indexing {doc.id}: {response.text}'))
+            document = {
+                "title": doc.title,
+                "authors": doc.authors,
+                "year": doc.year,
+                "url": doc.url,
+                "carrera": doc.carrer.name,
+                "title_embedding": title_embedding,
+                "author_embedding": author_embedding,
+                "carrera_embedding": carrera_embedding
+            }
+
+            response = es.index(index=INDEX_NAME, document=document)
+            if response.get('result') in ['created', 'updated']:
+                self.stdout.write(self.style.SUCCESS(f'Documento {doc.id} indexado exitosamente'))
             else:
-                self.stdout.write(self.style.SUCCESS(f'Indexed document {doc.id}'))
+                self.stdout.write(self.style.ERROR(f'Error indexando {doc.id}'))
