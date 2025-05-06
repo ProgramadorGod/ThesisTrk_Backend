@@ -6,15 +6,13 @@ from elasticsearch import Elasticsearch
 INDEX_NAME = "urldocuments"
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
-
 es = Elasticsearch("http://elasticsearch:9200")
-
-
 
 def search_documents(query=None, title=None, author=None, carrera=None, year=None, year_from=None, year_to=None, page=1, size=10):
     params = {}
     script_scores = []
     filters = []
+
     if title:
         params['title_embedding'] = model.encode(title).tolist()
         script_scores.append("cosineSimilarity(params.title_embedding, 'title_embedding')")
@@ -23,11 +21,17 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
         params['author_embedding'] = model.encode(author).tolist()
         script_scores.append("cosineSimilarity(params.author_embedding, 'author_embedding')")
 
-    if carrera:
-        params['carrera_embedding'] = model.encode(carrera).tolist()
-        script_scores.append("cosineSimilarity(params.carrera_embedding, 'carrera_embedding')")
 
-    # ✅ Si no hay campos específicos, pero sí hay query general:
+    if carrera:
+        if isinstance(carrera, str):
+            carrera = [carrera]
+        for i, c in enumerate(carrera):
+            emb = model.encode(c).tolist()
+            params[f'carrera_embedding_{i}'] = emb
+            script_scores.append(f"cosineSimilarity(params.carrera_embedding_{i}, 'carrera_embedding')")
+
+
+    
     if not script_scores and query:
         query_embedding = model.encode(query).tolist()
         params["query_embedding"] = query_embedding
@@ -47,7 +51,6 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
             range_filter["range"]["year"]["lte"] = str(year_to)
         filters.append(range_filter)
 
-    # Si sigue sin haber nada, usar match_all plano
     if not script_scores:
         base_query = {
             "bool": {
@@ -67,7 +70,7 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
             "size": size,
             "query": {
                 "script_score": {
-                    "query": {                        
+                    "query": {
                         "bool": {
                             "filter": filters
                         }
