@@ -16,6 +16,30 @@ from .models import UrlDocument, DocumentStage, DocumentType, Carrer, FileDocume
 from .serializers import DocumentSerializer, DocumentStageSerializer, DocumentTypeSerializer, FileDocumentSerializer, CarrerSerializer, CreateFileDocSerializer, SearchResultSerializer
 
 from datetime import datetime
+
+
+from django.core.cache import cache
+from django.utils.timezone import now
+import hashlib
+
+def get_client_ip(request):
+    """Obtiene la IP del cliente desde los headers."""
+    x_forwarded_for = request.META.get("HTTP_X_FORWARDED_FOR")
+    if x_forwarded_for:
+        return x_forwarded_for.split(",")[0]
+    return request.META.get("REMOTE_ADDR")
+
+def can_increment_views(ip, doc_id, delay_seconds=2):
+    """Verifica si se puede incrementar la vista según IP y documento."""
+    cache_key = f"view_throttle:{ip}:{doc_id}"
+    last_seen = cache.get(cache_key)
+    if not last_seen:
+        cache.set(cache_key, now(), delay_seconds)
+        return True
+    return False
+
+
+
 def get_filtered_documents(request, username=None):
     query = request.GET.get('query', '')
     sort_by = request.GET.get('sort_by', 'title')
@@ -181,44 +205,43 @@ from .elastic_queries import search_documents  # ya lo tienes
 @api_view(["GET"])
 @permission_classes([AllowAny])
 def document_list(request):
-    query = request.GET.get('query', None)
-    author = request.GET.get('author', None)
-    title = request.GET.get('title', None)
-    
-    # ✅ Extraer múltiples carreras como lista
-    carreras = request.query_params.getlist("carrera")
-
+    query = request.GET.get('query')
+    author = request.GET.get('author')
+    title = request.GET.get('title')
+    carrera = request.query_params.getlist('carrera') or None
     page = int(request.GET.get('page', 1))
     size = 20
 
-    year = request.GET.get('year', None)
-    year_from = request.GET.get('year_from', None)
-    year_to = request.GET.get('year_to', None)
+    year = request.GET.get('year')
+    year_from = request.GET.get('year_from')
+    year_to = request.GET.get('year_to')
 
-    try:
-        year = int(year) if year else None
-    except ValueError:
-        year = None
+    year = int(year) if year and year.isdigit() else None
+    year_from = int(year_from) if year_from and year_from.isdigit() else None
+    year_to = int(year_to) if year_to and year_to.isdigit() else None
 
     elastic_response = search_documents(
         query=query,
         author=author,
         title=title,
-        carrera=carreras,
+        carrera=carrera,
         year=year,
-        page=page,
         year_from=year_from,
         year_to=year_to,
+        page=page,
         size=size
     )
 
     documents = [
         {
+            "id": doc["_source"].get("id"),
+            "carrer": doc["_source"].get("carrera_code"),
+            "visualizations": doc["_source"].get("views", 0),
             "title": doc["_source"].get("title"),
             "authors": doc["_source"].get("authors", []),
             "year": doc["_source"].get("year", ""),
             "url": doc["_source"].get("url", ""),
-            "carrera": doc["_source"].get("carrera", ""),
+            "carrer_name": doc["_source"].get("carrera", ""),
         }
         for doc in elastic_response["hits"]["hits"]
     ]
@@ -231,8 +254,6 @@ def document_list(request):
         "results": documents
     })
 
-
-
 class UserDocumentsViewSet(viewsets.ViewSet):
     permission_classes = [IsAuthenticated]
 
@@ -243,11 +264,12 @@ class UserDocumentsViewSet(viewsets.ViewSet):
 
 
 
-# Función para incrementar las visualizaciones de un documento
-def increment_visualizations(document):
-    document.visualizations += 1  # Aumentar el contador de visualizaciones
-    document.save()  # Guardar el documento
-
+def increment_visualizations(request, document):
+    ip = get_client_ip(request)
+    if can_increment_views(ip, document.id):
+        document.visualizations += 1
+        document.save()
+        # Opcional: si usas signals para sincronizar con Elasticsearch, se actualizará solo.
 
 @api_view(["GET"])
 @permission_classes([AllowAny])
@@ -266,7 +288,7 @@ def document_detail(request, pk):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     # Incrementar visualizaciones (funciona para ambos tipos de documentos)
-    increment_visualizations(document)
+    increment_visualizations(request, document)
 
     # Serializar y retornar el documento
     serializer = serializer_class(document)

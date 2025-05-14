@@ -14,13 +14,14 @@ services:
       - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
     command: -p ${DATABASE_PORT}
 
+
   web:
     image: thesis_track
     build:
       context: .
       dockerfile: Dockerfile
     container_name: thesis_track_backend
-    command: python manage.py runserver ${LOCAL_IP}:${SERVER_PORT}
+    # command: python manage.py runserver ${LOCAL_IP}:${SERVER_PORT}
     ports:
       - "${WEB_PORT_HOST}:${SERVER_PORT}"
     tty: true
@@ -30,15 +31,17 @@ services:
     environment:
       - DEBUG=${DEBUG}
       - DATABASE_ENGINE=${DATABASE_ENGINE}
-      - DATABASE_HOST=${DATABASE_HOST}  # 'postgres'
-      - DATABASE_PORT=${DATABASE_PORT}  # 5432
+      - DATABASE_HOST=${DATABASE_HOST}
+      - DATABASE_PORT=${DATABASE_PORT}
       - DATABASE_NAME=${DATABASE_NAME}
       - DATABASE_USER=${DATABASE_USER}
       - DATABASE_PASSWORD=${DATABASE_PASSWORD}
-      - ELASTICSEARCH_URL=http://elasticsearch:9200  # Nueva var para ElasticSearch
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - OLLAMA_URL=http://127.0.0.1:11434  # 👈 Usa directamente el puerto interno real de Ollama
     depends_on:
       - postgres
-      - elasticsearch  # Dependencia añadida de ElasticSearch
+      - elasticsearch
+
 
   nginx:
     build:
@@ -50,24 +53,23 @@ services:
     depends_on:
       - postgres
       - web
-      - elasticsearch  # Añadimos dependencia para nginx
+      - elasticsearch
     volumes:
       - ./media:/app/media
 
-  # Nuevo servicio ElasticSearch
+
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
     environment:
       - discovery.type=single-node
-      - xpack.security.enabled=false  # Desactivar seguridad para entorno local
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"  # Asignación de memoria
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ports:
       - "9200:9200"
     volumes:
       - esdata:/usr/share/elasticsearch/data
 
 
-
 volumes:
   thesis_db_data:
-  esdata:  # Volumen para datos de ElasticSearch
+  esdata:

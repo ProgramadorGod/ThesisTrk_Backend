@@ -1,12 +1,8 @@
-# documents/management/commands/search_docs.py
-
 from django.core.management.base import BaseCommand
-from sentence_transformers import SentenceTransformer
+from ollama import Client
 from elasticsearch import Elasticsearch
 
 INDEX_NAME = "urldocuments"
-
-
 
 class Command(BaseCommand):
     help = 'Search documents using semantic similarity'
@@ -18,46 +14,45 @@ class Command(BaseCommand):
         parser.add_argument('--carrera', type=str, help='Search by carrera')
 
     def handle(self, *args, **options):
-        query_text = options['query']
-        model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+        client = Client(host="http://127.0.0.1:11434")
         es = Elasticsearch("http://elasticsearch:9200")
+
+        def embed(text):
+            response = client.embeddings(model="mxbai-embed-large", prompt=text)
+            return response["embedding"]
 
         queries = []
         params = {}
+        script_scores = []
 
-        # Generar embeddings para cada campo
         if options['title']:
-            title_embedding = model.encode(options['title']).tolist()
-            queries.append("title")
-            params['title_embedding'] = title_embedding
+            params['title_embedding'] = embed(options['title'])
+            script_scores.append("cosineSimilarity(params.title_embedding, 'title_embedding')")
 
         if options['author']:
-            author_embedding = model.encode(options['author']).tolist()
-            queries.append("author")
-            params['author_embedding'] = author_embedding
+            params['author_embedding'] = embed(options['author'])
+            script_scores.append("cosineSimilarity(params.author_embedding, 'author_embedding')")
 
         if options['carrera']:
-            carrera_embedding = model.encode(options['carrera']).tolist()
-            queries.append("carrera")
-            params['carrera_embedding'] = carrera_embedding
-
-        # Crear el script de puntuación con comparación por separado para cada campo
-        script_scores = []
-        if 'title_embedding' in params:
-            script_scores.append("cosineSimilarity(params.title_embedding, 'title_embedding')")
-        if 'author_embedding' in params:
-            script_scores.append("cosineSimilarity(params.author_embedding, 'author_embedding')")
-        if 'carrera_embedding' in params:
+            params['carrera_embedding'] = embed(options['carrera'])
             script_scores.append("cosineSimilarity(params.carrera_embedding, 'carrera_embedding')")
 
-        # Búsqueda con script_score
+        # Si no se especifica ningún campo, usar la query general
+        if not script_scores:
+            params['query_embedding'] = embed(options['query'])
+            script_scores.extend([
+                "cosineSimilarity(params.query_embedding, 'title_embedding')",
+                "cosineSimilarity(params.query_embedding, 'author_embedding')",
+                "cosineSimilarity(params.query_embedding, 'carrera_embedding')"
+            ])
+
         search_body = {
-            "size": 5,  # Puedes ajustar el número de resultados
+            "size": 5,
             "query": {
                 "script_score": {
                     "query": {"match_all": {}},
                     "script": {
-                        "source": " + ".join(script_scores),  # Sumamos todos los script scores
+                        "source": " + ".join([f"(0.5 + 0.5 * {s})" for s in script_scores]),
                         "params": params
                     }
                 }

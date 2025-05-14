@@ -1,25 +1,33 @@
-# documents/signals.py
 from django.db.models.signals import post_save, post_delete
 from django.dispatch import receiver
 from .models import UrlDocument
-from sentence_transformers import SentenceTransformer
+from ollama import Client
+from django.db.models.signals import pre_save
+from django.core.exceptions import ObjectDoesNotExist
 from elasticsearch import Elasticsearch
 
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+client = Client(host="http://127.0.0.1:11434")
 es = Elasticsearch("http://elasticsearch:9200")
 INDEX_NAME = "urldocuments"
 
+def embed(text):
+    response = client.embeddings(model="mxbai-embed-large", prompt=text)
+    return response["embedding"]
+
 @receiver(post_save, sender=UrlDocument)
 def index_document(sender, instance, **kwargs):
-    title_embedding = model.encode(instance.title).tolist()
-    author_embedding = model.encode(", ".join(instance.authors)).tolist()
-    carrera_embedding = model.encode(instance.carrer.name).tolist()
+    title_embedding = embed(instance.title)
+    author_embedding = embed(", ".join(instance.authors))
+    carrera_embedding = embed(instance.carrer.name)
 
     document = {
+        "id": instance.id,
+        "carrera_code": instance.carrer.code,
         "title": instance.title,
         "authors": instance.authors,
         "year": instance.year,
         "url": instance.url,
+        "views": instance.visualizations,
         "carrera": instance.carrer.name,
         "title_embedding": title_embedding,
         "author_embedding": author_embedding,
