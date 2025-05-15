@@ -41,4 +41,7 @@ EXPOSE 11434
 COPY start.sh /app/start.sh
 RUN chmod +x /app/start.sh
 
+# RUN ollama pull mxbai-embed-large
+
+
 CMD ["/app/start.sh"]

@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-j^zmtqwdc5lqw69u=ummtsc(5ws495c$9q79#unqu#wq&)+p)t"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -119,7 +119,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://172.30.3.15:3000",
     "https://teststrack.thiup.com",
 ]
-CORS_ALLOW_ALL_ORIGINS = True  # Esto es para permitir todas las solicitudes de dominios diferentes.
 
 
 SECURE_SSL_REDIRECT = False
@@ -269,15 +268,13 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
         "AUTH_PARAMS": {"access_type": "online"},
         "APP": {
-            "client_id": os.getenv("GOOGLE_CLIENT_ID"),
-            "secret": os.getenv("GOOGLE_CLIENT_SECRET"),
+            "client_id": "244269923642-3d3cf5n9nf9cr1o6qid0e9dbghe32i19.apps.googleusercontent.com",
+            "secret": "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",
             "key": "",
         },
-        "REDIRECT_URI": "http://3.129.48.248/accounts/google/login/callback/",  # Aquí va la URL de tu EC2
+        "REDIRECT_URI": "http://127.0.0.1:8000/accounts/google/login/callback/",
     }
 }
-
-
 
 SOCIALACCOUNT_LOGIN_ON_GET = True  ## IMPORTANTE SKIP DE CONFIRMACIÓN DE LOGIN DE GOOGLE
 

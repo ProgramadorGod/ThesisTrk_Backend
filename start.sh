@@ -10,6 +10,7 @@ sleep 3
 if nc -z localhost 11434; then
     echo "✅ Ollama server is running on port 11434"
     ollama pull mxbai-embed-large
+    echo "✅ Model mxbai-embed-large pulled successfully"
 
 else
     echo "❌ ERROR: Ollama server did not start properly."
