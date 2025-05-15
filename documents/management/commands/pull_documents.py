@@ -4,7 +4,7 @@ import json
 from documents.models import UrlDocument, DocumentType, DocumentStage, Carrer
 
 # Ruta donde están los archivos JSON
-JSON_DIR = "/data/pages"
+JSON_DIR = "pages"
 
 def get_or_create_document_type():
     return DocumentType.objects.get_or_create(name="Thesis")[0]

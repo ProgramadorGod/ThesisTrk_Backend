@@ -39,6 +39,7 @@ class FileDocumentSerializer(serializers.ModelSerializer):
         """Incluye el campo 'authors' en las respuestas GET"""
         representation = super().to_representation(instance)
         representation['authors'] = instance.authors  # Añade 'authors' en la respuesta GET
+        representation['carrer'] = instance.carrer.code if instance.carrer else None
         return representation
 
 
@@ -81,3 +82,13 @@ class DocumentSerializer(serializers.ModelSerializer):
         return obj.document_type.name if obj.document_type else None
     
  
+
+
+
+class SearchResultSerializer(serializers.Serializer):
+    
+    title = serializers.CharField(allow_blank=True)
+    authors = serializers.ListField(child=serializers.CharField(), default=[])
+    year = serializers.CharField(allow_blank=True)
+    url = serializers.CharField(allow_blank=True)
+    carrera = serializers.CharField(allow_blank=True)

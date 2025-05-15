@@ -2,6 +2,7 @@ import base64
 import uuid
 import hashlib
 import random
+from urllib.parse import urlencode
 
 from django.shortcuts import render
 from django.http import JsonResponse
@@ -12,53 +13,33 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from django.db.models import Q, Count, Case, When, IntegerField, F, Value, Sum
 from .models import UrlDocument, DocumentStage, DocumentType, Carrer, FileDocument
-from .serializers import DocumentSerializer, DocumentStageSerializer, DocumentTypeSerializer, FileDocumentSerializer, CarrerSerializer, CreateFileDocSerializer
+from .serializers import DocumentSerializer, DocumentStageSerializer, DocumentTypeSerializer, FileDocumentSerializer, CarrerSerializer, CreateFileDocSerializer, SearchResultSerializer
 
 from datetime import datetime
 
-# Clase de paginación
-class DocumentPagination(PageNumberPagination):
-    page_size = 30
 
-# ViewSets para otras vistas
-class DocumentViewSet(viewsets.ModelViewSet):
-    queryset = UrlDocument.objects.all()
-    serializer_class = DocumentSerializer
-    permission_classes = [AllowAny]
+from django.core.cache import cache
+from django.utils.timezone import now
+import hashlib
 
-    def perform_create(self, serializer):
-        file_document = serializer.save(year=datetime.now().year)
-        file_document.authors.append(self.request.user.username)  # Usa .append() para listas
-        file_document.save() 
+def get_client_ip(request):
+    """Obtiene la IP del cliente desde los headers."""
+    x_forwarded_for = request.META.get("HTTP_X_FORWARDED_FOR")
+    if x_forwarded_for:
+        return x_forwarded_for.split(",")[0]
+    return request.META.get("REMOTE_ADDR")
 
-class FileDocumentViewSet(viewsets.ModelViewSet):
-    queryset = FileDocument.objects.all()
-    serializer_class = FileDocumentSerializer
-    permission_classes = [IsAuthenticated]
+def can_increment_views(ip, doc_id, delay_seconds=2):
+    """Verifica si se puede incrementar la vista según IP y documento."""
+    cache_key = f"view_throttle:{ip}:{doc_id}"
+    last_seen = cache.get(cache_key)
+    if not last_seen:
+        cache.set(cache_key, now(), delay_seconds)
+        return True
+    return False
 
-    def perform_create(self, serializer):
-        # Guarda el documento sin los autores primero
-        file_document = serializer.save()
-        
-        # Asigna el usuario autenticado como autor en el campo `authors`
-        file_document.authors.append(self.request.user.username)  # Usa .append() para listas
-        file_document.save() 
-class CarrerViewSet(viewsets.ModelViewSet):
-    queryset = Carrer.objects.all()
-    serializer_class = CarrerSerializer
 
-class DocumentTypeList(viewsets.ModelViewSet):
-    queryset = DocumentType.objects.all()
-    serializer_class = DocumentTypeSerializer
 
-class DocumentStagesList(viewsets.ModelViewSet):
-    queryset = DocumentStage.objects.all()
-    serializer_class = DocumentStageSerializer
-
-# Función auxiliar para filtrar, combinar y paginar documentos
-from django.db.models import Value
-
-# Función auxiliar para filtrar, combinar y paginar documentos
 def get_filtered_documents(request, username=None):
     query = request.GET.get('query', '')
     sort_by = request.GET.get('sort_by', 'title')
@@ -165,26 +146,125 @@ def get_filtered_documents(request, username=None):
             )
         )
 
-        # Ordenar por la puntuación de coincidencias y luego por el campo `sort_by`
-        combined_docs = documents.order_by('-match_score', sort_by)
-
-        # Paginación
-        paginator = DocumentPagination()
-        result_page = paginator.paginate_queryset(combined_docs, request)
-        serializer = DocumentSerializer(result_page, many=True)
-        return paginator.get_paginated_response(serializer.data)
 
 
+from urllib.parse import urlencode
 
 
+def build_absolute_page_url(request, page_number):
+    # Clonar los query params de forma mutable
+    query_params = request.GET.copy()
+
+    # Cambiar la página
+    query_params['page'] = page_number
+
+    print(query_params.urlencode())
+    # Devolver la URL absoluta con los query params correctos
+    return request.build_absolute_uri(f"{request.path}?{query_params.urlencode()}")
 
 
-# Vista para la lista de documentos con filtrado y paginación
+# Clase de paginación
+class DocumentPagination(PageNumberPagination):
+    page_size = 30
+
+# ViewSets para otras vistas
+class DocumentViewSet(viewsets.ModelViewSet):
+    queryset = UrlDocument.objects.all()
+    serializer_class = DocumentSerializer
+    permission_classes = [AllowAny]
+
+    def perform_create(self, serializer):
+        file_document = serializer.save(year=datetime.now().year)
+        file_document.authors.append(self.request.user.username)  # Usa .append() para listas
+        file_document.save() 
+
+class FileDocumentViewSet(viewsets.ModelViewSet):
+    queryset = FileDocument.objects.all()
+    serializer_class = FileDocumentSerializer
+    permission_classes = [IsAuthenticated]
+
+    def perform_create(self, serializer):
+        # Guarda el documento sin los autores primero
+        file_document = serializer.save()
+        
+        # Asigna el usuario autenticado como autor en el campo `authors`
+        file_document.authors.append(self.request.user.username)  # Usa .append() para listas
+        file_document.save() 
+class CarrerViewSet(viewsets.ModelViewSet):
+    queryset = Carrer.objects.all()
+    serializer_class = CarrerSerializer
+
+class DocumentTypeList(viewsets.ModelViewSet):
+    queryset = DocumentType.objects.all()
+    serializer_class = DocumentTypeSerializer
+
+class DocumentStagesList(viewsets.ModelViewSet):
+    queryset = DocumentStage.objects.all()
+    serializer_class = DocumentStageSerializer
+
+# Función auxiliar para filtrar, combinar y paginar documentos
+from django.db.models import Value
+
+# Función auxiliar para filtrar, combinar y paginar documentos
+
+from .elastic_queries import search_documents
+
+class DocumentPagination(PageNumberPagination):
+    page_size = 30
+
+from .elastic_queries import search_documents  # ya lo tienes
+
 @api_view(["GET"])
 @permission_classes([AllowAny])
 def document_list(request):
-    return get_filtered_documents(request)
+    query = request.GET.get('query')
+    author = request.GET.get('author')
+    title = request.GET.get('title')
+    carrera = request.query_params.getlist('carrera') or None
+    page = int(request.GET.get('page', 1))
+    size = 20
 
+    year = request.GET.get('year')
+    year_from = request.GET.get('year_from')
+    year_to = request.GET.get('year_to')
+
+    year = int(year) if year and year.isdigit() else None
+    year_from = int(year_from) if year_from and year_from.isdigit() else None
+    year_to = int(year_to) if year_to and year_to.isdigit() else None
+
+    elastic_response = search_documents(
+        query=query,
+        author=author,
+        title=title,
+        carrera=carrera,
+        year=year,
+        year_from=year_from,
+        year_to=year_to,
+        page=page,
+        size=size
+    )
+
+    documents = [
+        {
+            "id": doc["_source"].get("id"),
+            "carrer": doc["_source"].get("carrera_code"),
+            "visualizations": doc["_source"].get("views", 0),
+            "title": doc["_source"].get("title"),
+            "authors": doc["_source"].get("authors", []),
+            "year": doc["_source"].get("year", ""),
+            "url": doc["_source"].get("url", ""),
+            "carrer_name": doc["_source"].get("carrera", ""),
+        }
+        for doc in elastic_response["hits"]["hits"]
+    ]
+    total = elastic_response["hits"]["total"]["value"]
+
+    return Response({
+        "count": total,
+        "next": build_absolute_page_url(request, page + 1) if (page * size) < total else None,
+        "previous": build_absolute_page_url(request, page - 1) if page > 1 else None,
+        "results": documents
+    })
 
 class UserDocumentsViewSet(viewsets.ViewSet):
     permission_classes = [IsAuthenticated]
@@ -193,11 +273,15 @@ class UserDocumentsViewSet(viewsets.ViewSet):
         username = request.user.username
         return get_filtered_documents(request, username=username)
 
-# Función para incrementar las visualizaciones de un documento
-def increment_visualizations(document):
-    document.visualizations += 1  # Aumentar el contador de visualizaciones
-    document.save()  # Guardar el documento
 
+
+
+def increment_visualizations(request, document):
+    ip = get_client_ip(request)
+    if can_increment_views(ip, document.id):
+        document.visualizations += 1
+        document.save()
+        # Opcional: si usas signals para sincronizar con Elasticsearch, se actualizará solo.
 
 @api_view(["GET"])
 @permission_classes([AllowAny])
@@ -216,7 +300,7 @@ def document_detail(request, pk):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
     # Incrementar visualizaciones (funciona para ambos tipos de documentos)
-    increment_visualizations(document)
+    increment_visualizations(request, document)
 
     # Serializar y retornar el documento
     serializer = serializer_class(document)

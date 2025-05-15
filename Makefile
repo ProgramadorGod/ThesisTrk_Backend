@@ -27,7 +27,7 @@ shell:
 
 startapp:
 	@$(eval APP_NAME := $(word 2,$(MAKECMDGOALS)))
-	docker compose run --rm web python manage.py startapp $(APP_NAME)
+	sudo docker compose run --rm web python manage.py startapp $(APP_NAME)
 
 migrations:
 	sudo docker compose run --rm web python manage.py makemigrations

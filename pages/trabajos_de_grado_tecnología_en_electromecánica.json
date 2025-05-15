@@ -1,0 +1,409 @@
+{
+    "career": "TRABAJOS DE GRADO TECNOLOGÍA EN ELECTROMECÁNICA",
+    "CarrerCode": "T39",
+    "works": [
+        {
+            "title": "TÍTULO",
+            "authors": [
+                "AUTOR (ES)"
+            ],
+            "year": "AÑO",
+            "link": ""
+        },
+        {
+            "title": "DISEÑO DE UN MODELO DE ENERGÍA RENOVABLE POR MEDIO DE UN SISTEMA FOTOVOLTÁICO COMO RESPALDO A LOS AIREADORES SPLASH CONECTADOS A LA RED, PERTINENTES A LA UNIDAD ACADÉMICA Y DE INVESTIGACIÓN MVZ EN PECES",
+            "authors": [
+                "JOSÉ RICARDO BORDA MORALES",
+                "LEINNER JAVIER CARREÑO BLANCO"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQUExtSjFJcmN5OXM/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197391705&usg=AOvVaw2-DJ1ATKq68odQEFgZt8CS"
+        },
+        {
+            "title": "RECOPILACIÓN Y DOCUMENTACIÓN DE LA INFORMACIÓN TÉCNICA DE LOS ACTIVOS E INSTALACIONES ELÉCTRICAS DEL CENTRO DE INFORMACIÓN DEL INSTITUTO UNIVERSITARIO DE LA PAZ (CENTRO DE INVESTIGACIÓN SANTA LUCÍA)",
+            "authors": [
+                "GABRIEL CASTRILLÓN NIEBLES",
+                "FERNANDO ANTONIO RODRÍGUEZ QUIROGA"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQRDFHTGR3N1M2ejA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197392183&usg=AOvVaw111f_oG6h4ZtA0lKlg-1x-"
+        },
+        {
+            "title": "SISTEMA DE POTENCIA Y CONTROL PARA LA SIMULACIÓN EN EL ARRANQUE DE MOTORES COMO APORTE A LA ASIGNATURA MÁQUINASELÉCTRICAS",
+            "authors": [
+                "CRISTHIAN JAVIER GARCÍA LANDÍNEZ",
+                "VÍCTOR MANUEL SALAZAR BELTRÁN"
+            ],
+            "year": "2016",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/0BzNu3rnW0QkQOTJDNXpodDROcTQ/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197392535&usg=AOvVaw3swRx2dzIL4IYNH0n47Qcy"
+        },
+        {
+            "title": "PLAN DE MANTENIMIENTO PREVENTIVO A LA MAQUINARIA DE PRODUCCIÓN DE LA EMPRESA INDUSTRIA MAQUISOLD",
+            "authors": [
+                "ROBINSON YESID DUARTE VEGA"
+            ],
+            "year": "2017",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1JsDz8B2Dw-X_QjXPtBe5ZK9MZHehL76D&sa=D&source=editors&ust=1744615197392859&usg=AOvVaw1NTR6PCmS2zElXUcM6e2eX"
+        },
+        {
+            "title": "DESARROLLO DE UNA HERRAMIENTA DIGITAL PARA EL ENCENDIDO DEL DETECTOR DE IONIZACIÓN DE FLAMA (FID) SIN CONTROL ELECTRÓNICO DE PRESIÓN DE UN CROMATÓGRAFO HP 5890 SERIES II",
+            "authors": [
+                "YULI VANESSA ORJUELA AGUDELO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1iedKKb6u0GBR65PAP9z_xVgw47zCSQaY/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197393190&usg=AOvVaw1_gugkPt6unUhwsJUu_jfc"
+        },
+        {
+            "title": "PROGRAMA DE GESTIÓN DE MANTENIMIENTO ASISTIDO POR COMPUTADOR EN LA PLANTA DE ALMACENAMIENTO DE GRANO DE LA SOCIEDAD PORTUARIA DE BARRANCABERMEJA",
+            "authors": [
+                "DANNYS IVÁN ROJAS QUIROZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/open?id%3D1EDssiZJFnIZWnuet46Y85dzpQ3Nyiqta&sa=D&source=editors&ust=1744615197393548&usg=AOvVaw3BhaCjgeHpKE8ObqiNZiV5"
+        },
+        {
+            "title": "CONSTRUCCIÓN DE UN BANCO DE PRÁCTICAS PORTÁTIL PARA EL ANÁLISIS DE CIRCUITOS RL Y RC COMO APOYO A LA ASIGNATURA CIRCUITOS ELECTRÓNICOS",
+            "authors": [
+                "ERNESTO ANTONIO GUEVARA MALAGÓN"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1cNXU5YuISb8gJqWISQHsdCq2dxh1DDCe/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197393884&usg=AOvVaw1aqE69_br8tPQM4kHtsUDB"
+        },
+        {
+            "title": "PLAN DE MANTENIMIENTO PREVENTIVO PARA LA FLOTA DE VEHÍCULOS DE LA EMPRESA TRANSPORTES SAN SILVESTRE S.A.",
+            "authors": [
+                "JERRY JUNIOR MEZA HERNÁNDEZ"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ofmg66Scp8CvsSYXzkc2VL_NlFSzE1iu/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197394215&usg=AOvVaw34ur7avCQbI0S8bcJr5zxp"
+        },
+        {
+            "title": "CONSTRUCCIÓN DE UN BANCO INDUSTRIAL DE PRÁCTICAS CON TECNOLOGÍA EN LÓGICA PROGRAMADA Y CABLEADA COMO APOYO A LAS ASIGNATURAS DE SISTEMAS AUTOMATIZADOS, SISTEMA DE CONTROL, MÁQUINAS ELÉCTRICAS Y CIRCUITOS ELÉCTRICOS",
+            "authors": [
+                "ROMARIO PÉREZ LOZANO"
+            ],
+            "year": "2018",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1wqZGnVOHOJosz44sVkK2N470s2Kh7Tby/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197394545&usg=AOvVaw3mh2HxuBIuNNK42hu7zOLQ"
+        },
+        {
+            "title": "PROGRAMA DE MANTENIMIENTO PREVENTIVO DE LAS MOTOCICLETAS CON MAYOR DEMANDA EN COLOMBIA PARA TALLER DE MOTOS LA 50 DEL MUNICIPIO DE BARRANCABERMEJA",
+            "authors": [
+                "DARIO JOSE ARIAS PATIÑO"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Q3uN5NR5lqiAVQ_jI8OrNX-JSHemQclz/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197394887&usg=AOvVaw3D8_CDovpPBoG_Y1yhu97W"
+        },
+        {
+            "title": "DESHIDRATADOR SOLAR DE TIPO DIRECTO PARA LA CONSERVACIÓN DE FORRAJE",
+            "authors": [
+                "HERNANDO DAVID DAZA ROJAS"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1I4VltLnsr_n6wj9pyQteR9E5Ob7GalUI/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197395192&usg=AOvVaw32pVkIETzdknfL8RLkZwKK"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN BANCO VARIADOR DE FRECUENCIA PARA LA SIMULACIÓN EN EL ARRANQUE DE MOTORES ELÉCTRICOS APLICADA A LA ASIGNATURA DE SISTEMAS  AUTOMATIZADOS",
+            "authors": [
+                "LUIS DAVID CHIQUILLO JIMENEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/122HjpUdihMzZzSK-ItKZWictUhRbC3lF/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197395600&usg=AOvVaw0Ds20F3MtmwBd0MVmwgPfH"
+        },
+        {
+            "title": "DISEÑO Y CONSTRUCCIÓN DE UN PROTOTIPO DE SISTEMA DOSIFICADOR PARA LA ALIMENTACIÓN DE PORCINOS ESTANTES A TRAVÉS DE LA TECNOLOGÍA DE LOS SISTEMAS EMBEBIDOS PARA LA UNIDAD ACADÉMICA DE MVZ PORCINOS.",
+            "authors": [
+                "JHOSMAN YESID CALDERÓN MUÑOZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1cRDL-FZ4o8UyJx3uTZkVu1d8PT0ej5GT/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197395941&usg=AOvVaw2pfvplYbVgGe1wyEb6rp5U"
+        },
+        {
+            "title": "DISEÑO Y CONSTRUCCIÓN DE UN SISTEMA AUTOMATIZADO DISPENSADOR DE AGUA UTILIZANDO LA TECNOLOGÍA DE LOS SISTEMAS EMBEBIDOS PARA LOS NÚCLEOS DE PRODUCCIÓN DE PORCINOS DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "JHAN KARLO ARENAS MÉNDEZ"
+            ],
+            "year": "2019",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1IwWx95WLH1Hnbs8xBlQ4bI3MnNYquqYW/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197396401&usg=AOvVaw0yX6fA1RSSsvg18IZ4Q59W"
+        },
+        {
+            "title": "EVALUAR LA CALIDAD DEL PROGRAMA TECNOLOGÍA EN ELECTROMECÁNICA (TEM) A TRAVÉS DE LA IMPLEMENTACIÓN DE LA HERRAMIENTA DE AUTOEVALUACIÓN EN LOS ASPECTOS DE LA PERCEPCIÓN DE LOS ACTORES INVOLUCRADOS EN EL DESARROLLO ACADÉMICO ACORDE A LA NORMATIVA DEL CNA.",
+            "authors": [
+                "LUIS ENRIQUE SUAREZ VELÁSQUEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1kkGbur41kZAuGSmVg-rBBmkdoWpHYs5X/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197396767&usg=AOvVaw37LPjrm2cohFvyf2NZ84jB"
+        },
+        {
+            "title": "DISEÑO DEL BANCO DIDÁCTICO ELECTRONEUMÁTICO AUTOMATIZADO DISPONIBLE EN EL LABORATORIO DE LA ESCUELA DE INGENIERÍA DE PRODUCCIÓN",
+            "authors": [
+                "ANDRÉS GILBERTO OSPINO HENAO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1XvwAyXu7SJVKas6qsnDPCPRpsaVdQR15/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197397103&usg=AOvVaw04HzjoJo6Q12NI_nqvEHUf"
+        },
+        {
+            "title": "DISEÑO DE MANUALES Y GUÍAS DE PRÁCTICAS DE LABORATORIO DE LOS BANCOS DIDÁCTICOS DE TABLERO DE CONTROLES ELÉCTRICOS Y CONTROL DE POTENCIAL Y DE AUTOMATIZACIÓN PERTENECIENTES A LA ESCUELA DE INGENIERÍA DE PRODUCCIÓN DEL INSTITUTO UNIVERSITARIO DE LA PAZ.",
+            "authors": [
+                "LIBARDO ALFONSO DOMÍNGUEZ CRUZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1TrxSVMIZjDak_tK2hYjn-CrojOL81jMR/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197397463&usg=AOvVaw0wALAfZmpVxabbYVsWvIQa"
+        },
+        {
+            "title": "IMPLEMENTAR UN SISTEMA DE RIEGO AUTOMATIZADO POR ASPERSIÓN PARA LA ESPECIE Solanum lycopersicum, MEDIANTE EL MÉTODO ARDUINO",
+            "authors": [
+                "PABLO ROJAS BUENO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1UOc50ovUGZCA4j7BvhMzrUKC3pcS3c2w/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197397843&usg=AOvVaw0a_mCUjlTX1hnEpEJnDbyF"
+        },
+        {
+            "title": "DISEÑO E IMPLEMENTACIÓN DE UN PROTOTIPO AUTOMATIZADO BASADO EN LA PLATAFORMA ARDUINO PARA UN SISTEMA DE RIEGO EN SISTEMAS DE PRODUCCIÓN FORRAJERO DEL CENTRO DE INVESTIGACIÓN SANTA LUCÍA",
+            "authors": [
+                "OSWALDO CANCHILA ROA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1te8jVIYC5U5uPmcmYZedriGusKHEMwtH/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197398192&usg=AOvVaw0OTdRYKY42-3okcswWLwXj"
+        },
+        {
+            "title": "IMPLEMENTACIÓN DE UNA MALETA DE ENTRENAMIENTO APLICADA A LA LÓGICA CABLEADA Y PROGRAMADA, PARA LA ESCUELA DE INGENIERÍA DE PRODUCCIÓN DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "MILJANITH NOYA ALVAREZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1nmhmRb9uZ2G2kvk9Ooq3gRHv-zV9U0xt/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197398525&usg=AOvVaw2YdHVGOgSNzZRMN2r58Y2B"
+        },
+        {
+            "title": "DISEÑAR LOS PROCEDIMIENTOS PARA EL SERVICIO DE MANTENIMIENTO PREVENTIVO QUE OFRECE LA EMPRESA REFRISISTEMA LTDA EN EQUIPOS DE REFRIGERACIÓN INDUSTRIAL Y COMERCIAL",
+            "authors": [
+                "MAURICIO TRILLOS IRIARTE"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1kn1angxrVM2w0ELS0tlMlxm7ez8qTntn/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197398856&usg=AOvVaw27mBx9MTBsYlTd3siIm819"
+        },
+        {
+            "title": "DISEÑO DE UN PROGRAMA DE MANTENIMIENTO PREVENTIVO DE LOS EQUIPOS ELECTROMECÁNICOS DE LA EMPRESA RECTIMOTORES BARRANCABERMEJA",
+            "authors": [
+                "JAIDER ANDRÉS BOTELLO DITA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1IoPqeLViAAv5gJY75djAsZ9qnSj4S-87/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197399175&usg=AOvVaw1sDOyV4YWtUm1srPgVdMXK"
+        },
+        {
+            "title": "CARACTERIZACIÓN DEL POTENCIAL HIDRÁULICODE LA QUEBRADA EL ZARZAL DEL MUNICIPIO DEBARRANCABERMEJA, SANTANDER",
+            "authors": [
+                "IRRAEL DE JESÚS ALARCÓN LORA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1BgHOGcf5J9nxaVvKRSwzQ_yqG3iFehJN/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197399524&usg=AOvVaw1klpb-gy4hmGLMVvOvZC_M"
+        },
+        {
+            "title": "EVALUAR LA CALIDAD DEL PROGRAMA TÉCNICO PROFESIONAL EN OPERACIONES DEL TRANSPORTE MULTIMODAL (TPOTM) A TRAVÉS DE LA IMPLEMENTACIÓN DE LA HERRAMIENTA DE AUTOEVALUACIÓN EN LOS ASPECTOS DE LA PERCEPCIÓN DE LOS ACTORES INVOLUCRADOS EN EL DESARROLLO ACADÉMICO ACORDE A LA NORMATIVA DEL CNA.",
+            "authors": [
+                "GABRIEL CORTINEZ ROA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1vOO_rKi0Brs4Rg8eqUWyJa-_i9tE4smq/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197399869&usg=AOvVaw2FxpO1Ce7FrBp8cjaTB669"
+        },
+        {
+            "title": "DISEÑO DE UNA IMPRESORA 3-D CON FILAMENTO PLÁSTICO A BASE DE PET PARA EL LABORATORIO DE PREPARACIÓN DE MATERIALES DEL INSTITUTO UNIVERSITARIO DE LA PAZ.",
+            "authors": [
+                "EFRAIN MUÑOZ HERNÁNDEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1qdYqEZeOfzxk5Cw7FgSNj1x56C8anRYd/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197400188&usg=AOvVaw2anGJZEZhmUEvtKkXJUHK-"
+        },
+        {
+            "title": "PUESTA EN MARCHA DE UN BANCO DE PRUEBAS PARA LA EVALUACIÓN DE PÉRDIDAS DE ENERGÍA EN UN SISTEMA DE TRANSPORTE DE FLUIDOS",
+            "authors": [
+                "CLEYMER LEÓN VEGA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1z7Xq0ctjwA_qso9y2vWY_pp2_7Ujt24_/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197400534&usg=AOvVaw3VyNY5sxKPSfJky0Os4s8w"
+        },
+        {
+            "title": "IMPLEMENTACIÓN DE UN SISTEMA ELECTROMECÁNICO CAPAZ DE GENERAR ENERGÍA MEDIANTE EL MOVIMIENTO DE UNA BICICLETA ELABORADA A ESCALA.",
+            "authors": [
+                "CESAR AUGUSTO FRÍAS BANDERA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1z0Gzdk1Ie1MbIwj5_0PVpafeZQgCzSPV/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197400880&usg=AOvVaw1luK7Bhqq9xZ86k8OYASfY"
+        },
+        {
+            "title": "DISEÑO DE UN DISPOSITIVO AUTOMATIZADO DE MEDICIÓN DE NIVEL FREÁTICO PARA POZOS DE OBSERVACIÓN EN CULTIVOS DE PALMA DE ACEITE EN CAMPO EXPERIMENTAL PALMAR DE LA VIZCAÍNA",
+            "authors": [
+                "LUIS CARLOS MACIAS GOMEZ"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1CNOcJefm1QTX6Ui-Aqd8XrTLv0fm810w/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197401227&usg=AOvVaw3JRYqK-RqngAqwzvryAHPr"
+        },
+        {
+            "title": "DISEÑO DE UN PROTOTIPO DE MÁQUINA PARA LA EXTRUSIÓN DE FILAMENTOS DE PLÁSTICOS PET",
+            "authors": [
+                "ARMANDO REVUELTAS GARZÓN"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/13Ww4n72QXE-oBfu-uzBSkJYiFcSeNhM6/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197401563&usg=AOvVaw11V5Js72rh5XCdpU3Nwe-g"
+        },
+        {
+            "title": "PROPUESTA DE UN SISTEMA DE RECOLECCIÓN DE ENERGÍA A PARTIR DE FUENTES MECÁNICAS DE VIBRACIÓN PARA EL CAMPUS DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "LILIÁN DAYANA ROBLES MORA"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1z8nqGZYLGvwHvvsGDCagcV6jI-61iS8l/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197401919&usg=AOvVaw35xZylpD2lIEjv9tN04vw7"
+        },
+        {
+            "title": "IMPLEMENTACIÓN DE UN TRANSDUCTOR PARA EL PROCESAMIENTO DIGITAL DE SEÑALES DE VOZ MEDIANTE UN MICRÓFONO.",
+            "authors": [
+                "BRAYAN FABIÁN SARMIENTO BANDERA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1_N6d7WiwOXfODPZrFfMW_LK-M46qmNUx/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197402244&usg=AOvVaw02M-khPLnCZRHi7kXum_tH"
+        },
+        {
+            "title": "DISEÑO DE UN SISTEMA MECATRÓNICO PARA LA SELECCIÓN DE NARANJAS UTILIZANDO LA HERRAMIENTA SOLIDWORKS",
+            "authors": [
+                "RICHARD AFANADOR AVILA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ieGxeS9KemCDvCAPaMECbNsvfa0ybm2z/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197402583&usg=AOvVaw2DqGl7ampE-R3ZL9DnOA_u"
+        },
+        {
+            "title": "DISEÑO DE UN PLAN DE MANTENIMIENTO PREVENTIVO PARA LOS EQUIPOS DE LA EMPRESA AQUILEO ACOSTA NIEVES S.A.S UBICADA EN EL CORREGIMIENTO EL CENTRO, BARRANCABERMEJA",
+            "authors": [
+                "KEVIN FABIAN PALENCIA RAMÍREZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1KgfCB88P1rOXxPEn7DdP3yWPiwOYEaaf/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197402925&usg=AOvVaw1WsG6JKxkgbub75AqRigee"
+        },
+        {
+            "title": "DISEÑO DE UN BANCO DIDÁCTICO DE TRANSFORMACION TRIFÁSICO DE 5KVA 220V/440V, PARA APLICACIÓN DE PRUEBAS DE CONEXIÓN Y VERIFICACIÓN DE PARÁMETROS ELÉCTRICOS EN VACÍO Y CON CARGA EN LABORATORIO DEL  INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "JOSÉ FRANCISCO VILLAMIL LUQUE"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1nV3uMWDCk0--VLWnxxpG5J_f2cMilYIp/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197403254&usg=AOvVaw0RSzJzz9wdVOKTvgpozi15"
+        },
+        {
+            "title": "IMPLEMENTACIÓN DE UN BANCO DE ACCIONAMIENTO ELECTRONEUMÁTICO AUTOMATIZADO TENIENDO EN CUENTA EL DISEÑO EXISTENTE PARA LA ELABORACIÓN DE PRÁCTICAS DE LABORATORIO DE LA ESCUELA DE INGENIERÍA DE PRODUCCIÓN – UNIPAZ",
+            "authors": [
+                "JUAN CARLOS RUEDA OLARTE"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1Ph5yCOEzRQTzp_LQwnAUni64LaBtY7hR/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197403730&usg=AOvVaw3Vy1KAU7KFlO-nsYNfnKH_"
+        },
+        {
+            "title": "CARACTERIZACIÓN DE LAS CONDICIONES DE SEGURIDAD Y SALUD EN EL TRABAJO DE LA POBLACIÓN QUE LABORA EN COMERCIALIZACIÓN DE TELEFONÍA MÓVIL DEL CENTRO COMERCIAL SUPER ESTRELLAS EN BARRANCABERMEJA",
+            "authors": [
+                "BRAIAN MONTOYA FRANCO"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1SPs7S1qepWXWXWUPMSrv3HTdZUaoGQNd/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197404066&usg=AOvVaw2OqbYS1YGj9qTijxQvgfAY"
+        },
+        {
+            "title": "DESARROLLO DEL PLANO GENERAL UNIFILAR DE LA PLANTA DE TRATAMIENTO AGUAS DE BARRANCABERMEJA S.A. E.S.P.",
+            "authors": [
+                "IVÁN ANDRÉS ACEVEDO MARTÍNEZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/11Z3dhEAnGCQRjabSJyUnIfI32MVRymU-/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197404395&usg=AOvVaw0VrDzfkW6aitIYB7g1q1Sg"
+        },
+        {
+            "title": "DISEÑO DE UN PROTOTIPO DE MÁQUINA FUNDIDORA DE PLÁSTICO PET PARA LA ELABORACIÓN DEL CUERPO DE BOLÍGRAFOS",
+            "authors": [
+                "ELVIN FABRICIO JEREZ GÓMEZ"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1s34L6s2pX70DUcxlQ6Yg57btxks3R18C/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197404718&usg=AOvVaw2XKBsM2SW0V55sle2SIfHR"
+        },
+        {
+            "title": "DISEÑO DE UN PROTOTIPO PARA LA MEDICIÓN Y EL MONITOREO DE LA CONTAMINACIÓN DEL AIRE EN AMBIENTES INTERIORES DEL CAMPUS UNIVERSITARIO CENTRO DE INVESTIGACIONES SANTA LUCIA DEL INSTITUTO UNIVERSITARIO DE LA PAZ UNIPAZ",
+            "authors": [
+                "ARIDES ANDRES MORALES CORREA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1gBkmKX4hh-idX7knzzchsWsQuX0wuqho/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197405072&usg=AOvVaw2afXt6A85AF7XfKa0DPA_5"
+        },
+        {
+            "title": "DISEÑO DE UN EQUIPO DE BAÑO COOPER POR ASPERSIÓN PARA EL CONTROL DE GARRAPATAS EN BOVINOS",
+            "authors": [
+                "MIGUEL ÁNGEL MARCONI RINCÓN"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1-f2dMpy-4HmMk5p_rHR5VCXdDp4YX8Tw/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197405414&usg=AOvVaw1IMCS728bsQylOgTjnod4Z"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE UN PROGRAMA DE GESTIÓN DE RIESGO LOCATIVO EN EL TALLER ORNAMENTACIÓN SANTIAGO DEL MUNICIPIO DE BARRANCABERMEJA-SANTANDER",
+            "authors": [
+                "MARINELA TORRES REAL"
+            ],
+            "year": "2020",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/16qIZAsE76-arBEBpbLJ5XRlb_ZFTxIBv/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197405748&usg=AOvVaw2-qiYDWixa0KoiYxyvZL72"
+        },
+        {
+            "title": "DISEÑO DE LOS PLANOS ELÉCTRICOS DE LOS TALLERES DE MECÁNICA INDUSTRIAL PERTENECIENTES AL INSTITUTO TÉCNICO SUPERIOR INDUSTRIAL DE BARRANCABERMEJA.",
+            "authors": [
+                "CARLOS ALFREDO GÓMEZ RINCÓN"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1xt3t2ebZbUhMynfoEuNIYnfRKFfsaCEA/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197406076&usg=AOvVaw0zxe8Q6OnWU5kHEaTpwz9k"
+        },
+        {
+            "title": "PLAN DE MEJORAMIENTO PARA EL MANTENIMIENTO PREVENTIVO BASADO EN CONFIABILIDAD BAJO LA METODOLOGÍA DEL RCM PARA LOS EQUIPOS DE CEMENTACIÓN DE LA EMPRESA BAKER HUGHES",
+            "authors": [
+                "BREINER ERNESTO VESGA DE LA ROSA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1DiqmSTb_NALqhQdfxoA87t8KlfFwRBhu/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197406434&usg=AOvVaw1jMRLXVM5VXgpBdouwxXAG"
+        },
+        {
+            "title": "ESTUDIO DE VIABILIDAD TÉCNICA DE LA IMPLEMENTACIÓN DE UN SISTEMA DE ENERGÍA SOLAR DE BAJO COSTO PARA SUPLIR LA DEMANDA ENERGÉTICA DE LA VEREDA LA FOREST EN EL CORREGIMIENTO EL CENTRO DEL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "VLADIMIR SÁNCHEZ QUINTERO"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1ytFddyqe6TeJYY_30nuaGgaw93F17IQP/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197406786&usg=AOvVaw0Kj9gCZk1UrM8WTlxc3qoi"
+        },
+        {
+            "title": "DISEÑO DE UN BANCO PARA LA CALIBRACIÓN DE MANÓMETROS, VÁLVULAS DE SEGURIDAD, ALIVIO Y REGISTRADORES BARTON PARA LA EMPRESA TRIMEDICONT INSTRUMENTACIÓN GENERAL SAS.",
+            "authors": [
+                "AGUSTÍN LARA PARRA"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1XlcdTHmtFpAL2hoS7LFtwD0_lZ_WPUJ3/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197407125&usg=AOvVaw361VITEdAsJM27-Lq5JhHj"
+        },
+        {
+            "title": "DISEÑO Y PROPUESTA DE UN PROGRAMA DE MANTENIMIENTO PREVENTIVO PARA LA GESTIÓN DE LOS ACTIVOS DE LA IMPRESA SUNSED S.A DE LA CIUDAD DISTRITO ESPECIAL BARRANCABERMEJA.",
+            "authors": [
+                "HÉCTOR DAVID RODRÍGUEZ MORA"
+            ],
+            "year": "2023",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1a_2QnvkSECs97Eh6b9KWyNTlacL03adz/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197407468&usg=AOvVaw3JaU9Jfz97Lyoi-c_JrHql"
+        },
+        {
+            "title": "PROPUESTA DE UN SIMULADOR VIRTUAL MEDIANTE LA INVESTIGACIÓN DE UNA MÁQUINA-HERRAMIENTA CNC EN PROCESOS DE OPERACIONES CON SISTEMAS INTEGRADOS CAD-CAM",
+            "authors": [
+                "JHORDYYN JHOAN PEDROZO URIBE"
+            ],
+            "year": "2021",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1iREUse7k97ghbEu8XvWP25X9JCS5JWdW/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197407817&usg=AOvVaw2_C09o2TBMeYZ2cQHzrKWr"
+        },
+        {
+            "title": "IMPLEMENTACIÓN DEL SISTEMA DE ILUMINACIÓN AUTOMATIZADA EN GALPÓN DE POLLOS DE LA ESCUELA DE MEDICINA VETERINARIA Y ZOOTECNIA DEL INSTITUTO UNIVERSITARIO DE LA PAZ",
+            "authors": [
+                "JUAN DAVID RIVERA DOVALES"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1KzJ9YwGWcKYenCTdjAfbYM1nLhGZ4aAk/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197408137&usg=AOvVaw2067MowKsWpjNViS2Lbdzi"
+        },
+        {
+            "title": "ESTRUCTURACIÓN DE UN PROGRAMA DE MANTENIMIENTO PREVENTIVO Y PREDICTIVO DE LA SUBESTACIÓN ELÉCTRICA DE LA EMPRESA HERNÁNDEZ ARRIETA S.A.S. DEL DISTRITO ESPECIAL DE BARRANCABERMEJA",
+            "authors": [
+                "ANDRÉS FELIPE ANGULO LÓPEZ"
+            ],
+            "year": "2022",
+            "link": "https://www.google.com/url?q=https://drive.google.com/file/d/1_XZVcGFx6HkUaltjrotSRM-ozRf0-3dT/view?usp%3Dsharing&sa=D&source=editors&ust=1744615197408469&usg=AOvVaw1IZMAFF95CphiSyXnAc9Da"
+        }
+    ]
+}
