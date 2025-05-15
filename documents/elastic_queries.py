@@ -15,7 +15,7 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
     script_scores = []
     filters = []
 
-    # -------------------- FILTROS --------------------
+    # -------------------- FILTROS DIRECTOS --------------------
     if year:
         filters.append({"term": {"year": year}})
     elif year_from or year_to:
@@ -27,6 +27,29 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
         filters.append(range_filter)
 
     # -------------------- EMBEDDINGS --------------------
+
+    # Carrera embedding (siempre actúa como el filtro semántico base)
+    if carrera:
+        if isinstance(carrera, str):
+            carrera = [carrera]
+
+        carrera_embeddings = []
+        for c in carrera:
+            emb = embed(c)
+            carrera_embeddings.append(emb)
+
+        for idx, emb in enumerate(carrera_embeddings):
+            params[f'carrera_embedding_{idx}'] = emb
+
+        carrera_scores = [
+            f"cosineSimilarity(params.carrera_embedding_{idx}, 'carrera_embedding')"
+            for idx in range(len(carrera_embeddings))
+        ]
+
+        # Carrera es el factor dominante, multiplicamos fuerte
+        combined_carrera_score = f"10 * (({' + '.join(carrera_scores)}) / {len(carrera_scores)})"
+        script_scores.append(combined_carrera_score)
+
     # Title embedding
     if title:
         params['title_embedding'] = embed(title)
@@ -37,21 +60,12 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
         params['author_embedding'] = embed(author)
         script_scores.append("cosineSimilarity(params.author_embedding, 'author_embedding')")
 
-    # Carrera embedding (soporta múltiples carreras)
-    if carrera:
-        if isinstance(carrera, str):
-            carrera = [carrera]
-        combined_carrera_embedding = embed(" ".join(carrera))
-        params['carrera_embedding'] = combined_carrera_embedding
-        script_scores.append("cosineSimilarity(params.carrera_embedding, 'carrera_embedding')")
-
-    # General query embedding (si no hay específicos)
-    if not script_scores and query:
+    # Fallback: general query embedding si no hay title/author
+    if not (title or author) and query:
         params["query_embedding"] = embed(query)
         script_scores.extend([
             "cosineSimilarity(params.query_embedding, 'title_embedding')",
-            "cosineSimilarity(params.query_embedding, 'author_embedding')",
-            "cosineSimilarity(params.query_embedding, 'carrera_embedding')"
+            "cosineSimilarity(params.query_embedding, 'author_embedding')"
         ])
 
     # -------------------- QUERY BODY --------------------
@@ -63,6 +77,7 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
             "query": base_query
         }
     else:
+        # Sumar scores suavemente
         safe_score = " + ".join([f"(0.5 + 0.5 * {s})" for s in script_scores])
         search_body = {
             "from": (page - 1) * size,
@@ -82,6 +97,7 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
             }
         }
 
+    # Campos que quieres de vuelta
     search_body["_source"] = [
         "title", "authors", "year", "url", "carrera", "carrera_code", "id", "views"
     ]

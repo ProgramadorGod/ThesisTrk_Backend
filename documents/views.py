@@ -147,10 +147,22 @@ def get_filtered_documents(request, username=None):
         )
 
 
+
+from urllib.parse import urlencode
+
+
 def build_absolute_page_url(request, page_number):
+    # Clonar los query params de forma mutable
     query_params = request.GET.copy()
-    query_params["page"] = page_number
-    return request.build_absolute_uri(f"{request.path}?{urlencode(query_params)}")
+
+    # Cambiar la página
+    query_params['page'] = page_number
+
+    print(query_params.urlencode())
+    # Devolver la URL absoluta con los query params correctos
+    return request.build_absolute_uri(f"{request.path}?{query_params.urlencode()}")
+
+
 # Clase de paginación
 class DocumentPagination(PageNumberPagination):
     page_size = 30
