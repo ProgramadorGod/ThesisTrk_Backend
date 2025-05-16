@@ -1,3 +1,4 @@
+
 import os
 
 """
@@ -26,7 +27,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-SITE_ID = 4
+SITE_ID = 7
 REST_USE_JWT = True
 
 
@@ -272,7 +273,8 @@ SOCIALACCOUNT_PROVIDERS = {
             "secret": "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",
             "key": "",
         },
-        "REDIRECT_URI": "http://127.0.0.1:8000/accounts/google/login/callback/",
+	"REDIRECT_URI": "https://atlas.thiup.com/accounts/google/login/callback/",
+      
     }
 }
 
@@ -281,6 +283,9 @@ SOCIALACCOUNT_LOGIN_ON_GET = True  ## IMPORTANTE SKIP DE CONFIRMACIÓN DE LOGIN 
 ACCOUNT_EMAIL_VERIFICATION = "none"
 ACCOUNT_EMAIL_REQUIRED = True
 SOCIALACCOUNT_QUERY_EMAIL = True
+ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https"
+
+
 
 
 MEDIA_URL = "/media/"
@@ -316,7 +321,9 @@ REST_FRAMEWORK = {
 }
 
 
-LOGIN_REDIRECT_URL = "/"
+LOGIN_REDIRECT_URL = "https://teststrack.thiup.com"
+SOCIALACCOUNT_LOGIN_REDIRECT_URL = "https://teststrack.thiup.com"
+
 LOGOUT_REDIRECT_URL = "/react/"
 
 AUTH_USER_MODEL = "userz.Account"
