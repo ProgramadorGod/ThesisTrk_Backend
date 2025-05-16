@@ -13,7 +13,7 @@ class Command(BaseCommand):
         es = Elasticsearch("http://elasticsearch:9200")
 
         def embed(text):
-            response = client.embeddings(model="mxbai-embed-large", prompt=text)
+            response = client.embeddings(model="twine/mxbai-embed-xsmall-v1", prompt=text)
             return response["embedding"]
 
         for doc in UrlDocument.objects.all():

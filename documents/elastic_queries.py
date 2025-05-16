@@ -5,7 +5,7 @@ INDEX_NAME = "urldocuments"
 client = Client(host="http://127.0.0.1:11434")
 
 def embed(text):
-    response = client.embeddings(model="mxbai-embed-large", prompt=text)
+    response = client.embeddings(model="twine/mxbai-embed-xsmall-v1", prompt=text)
     return response["embedding"]
 
 es = Elasticsearch("http://elasticsearch:9200")

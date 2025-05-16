@@ -11,7 +11,7 @@ es = Elasticsearch("http://elasticsearch:9200")
 INDEX_NAME = "urldocuments"
 
 def embed(text):
-    response = client.embeddings(model="mxbai-embed-large", prompt=text)
+    response = client.embeddings(model="twine/mxbai-embed-xsmall-v1", prompt=text)
     return response["embedding"]
 
 @receiver(post_save, sender=UrlDocument)

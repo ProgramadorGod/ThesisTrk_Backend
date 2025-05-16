@@ -9,7 +9,7 @@ sleep 3
 # Verificar que el puerto 11434 está abierto (Ollama activo)
 if nc -z localhost 11434; then
     echo "✅ Ollama server is running on port 11434"
-    ollama pull mxbai-embed-large
+    ollama pull twine/mxbai-embed-xsmall-v1
     echo "✅ Model mxbai-embed-large pulled successfully"
 
 else
