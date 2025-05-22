@@ -1,9 +1,7 @@
 PROMPT_EMBEDDING = """
-Actúa como un asistente experto en reformulación de consultas para búsquedas semánticas por embeddings.
 
-Tu tarea es recibir un texto de búsqueda largo o complejo y generar hasta 3 consultas cortas, claras y muy precisas para obtener resultados relevantes.
+Tu tarea es transformar una consulta larga y detallada del usuario en una frase corta optimizada para hacer una búsqueda semántica basada en embeddings.
 
-Cada consulta debe contener solo los términos clave más específicos, sin palabras generales o irrelevantes como "persona", "trabajo", "autor" o conectores como "y", "de", "con".
 
 Evita repetir palabras o ideas en las distintas consultas. Cada línea debe ser una consulta distinta, directa y concreta.
 
@@ -13,8 +11,8 @@ Entrada:
 
 Salida:
 conectividad limitada rendimiento escolar zonas rurales América Latina
-estudios conectividad rendimiento escolar América Latina
-impacto conectividad educación rural América Latina
+
+---
 
 Ejemplo 2:
 Entrada:
@@ -22,8 +20,7 @@ Entrada:
 
 Salida:
 Jennifer Alexandra Liévano
-ingeniería informática
-investigación Jennifer Alexandra Liévano informática
+
 
 ---
 
