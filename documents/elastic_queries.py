@@ -65,7 +65,8 @@ def search_documents(query=None, title=None, author=None, carrera=None, year=Non
         params["query_embedding"] = embed(query)
         script_scores.extend([
             "cosineSimilarity(params.query_embedding, 'title_embedding')",
-            "cosineSimilarity(params.query_embedding, 'author_embedding')"
+            "cosineSimilarity(params.query_embedding, 'author_embedding')",
+            "cosineSimilarity(params.query_embedding, 'carrera_embedding')",
         ])
 
     # -------------------- QUERY BODY --------------------

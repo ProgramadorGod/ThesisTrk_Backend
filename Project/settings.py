@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "userz",
     "documents",
     "rewards",
+    "chat",
     # thirdparty apps
     "rest_framework",
     "django.contrib.sites",
