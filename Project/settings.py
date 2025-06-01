@@ -250,6 +250,7 @@ USE_I18N = True
 
 USE_TZ = True
 
+GPT_API_KEY=os.environ.get("GPT_API_KEY")
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/

@@ -20,3 +20,4 @@ dj-database-url
 elasticsearch==8.18.0
 elasticsearch-dsl==8.18.0
 ollama
+openai
