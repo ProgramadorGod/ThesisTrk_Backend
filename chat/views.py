@@ -12,8 +12,8 @@ from .prompts import PROMPT_EMBEDDING, PROMPT_INTERPRETA, PROMPT_INTENCION
 load_dotenv()  # Carga variables desde .env
 
 
-def chat_with_openai(messages, temperature=0.7, model="gpt-4o-mini"):
-    url = "https://api.openai.com/v1/chat/completions"
+def chat_with_openai(messages, temperature=0.7, model="llama-3.1-8b-instant"):
+    url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {settings.GPT_API_KEY}",
         "Content-Type": "application/json",
