@@ -12,14 +12,16 @@ RUN apt-get update && apt-get install -y \
     libopenjp2-7-dev \
     locales \
     cron \
-    postgresql-client-15 \
+    postgresql-client \
     gettext \
     netcat-openbsd \
     curl \
     unzip \
+    zstd \
     ca-certificates && \
     apt-get clean
 
+ENV OLLAMA_SKIP_CUDA_LIBS=1
 # Instalar Ollama manualmente
 RUN curl -fsSL https://ollama.com/install.sh | sh
 

@@ -3,21 +3,29 @@
 echo "🟡 Starting Ollama server in the background..."
 ollama serve &
 
-# Esperar unos segundos a que Ollama inicie
-sleep 3
+# Esperar activamente hasta 30 segundos a que Ollama levante
+echo "⏳ Waiting for Ollama server to respond on port 11434..."
+TIMEOUT=30
+CONTAINER_PORT=${SERVER_PORT:-8000}
+count=0
 
-# Verificar que el puerto 11434 está abierto (Ollama activo)
+while ! nc -z localhost 11434; do
+    sleep 2
+    count=$((count+2))
+    if [ $count -ge $TIMEOUT ]; then
+        echo "❌ ERROR: Ollama server did not start within $TIMEOUT seconds."
+        echo "Continuing anyway to let Django boot..."
+        break
+    fi
+done
+
 if nc -z localhost 11434; then
     echo "✅ Ollama server is running on port 11434"
+    echo "📥 Pulling embed model..."
     ollama pull twine/mxbai-embed-xsmall-v1
-    echo "✅ Model mxbai-embed-large pulled successfully"
-
-else
-    echo "❌ ERROR: Ollama server did not start properly."
-    echo "You may need to start it manually inside the container with: ollama serve"
-    exit 1
+    echo "✅ Model pulled successfully"
 fi
 
-# Iniciar el servidor de Django
-echo "🚀 Starting Django server on port 8000..."
-exec python manage.py runserver 0.0.0.0:80
+# Iniciar el servidor de Django usando la variable de entorno o el puerto 8000 por defecto
+echo "🚀 Starting Django server on port $CONTAINER_PORT..."
+exec python manage.py runserver 0.0.0.0:$CONTAINER_PORT

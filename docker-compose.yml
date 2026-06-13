@@ -14,14 +14,12 @@ services:
       - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
     command: -p ${DATABASE_PORT}
 
-
   web:
     image: thesis_track
     build:
       context: .
       dockerfile: Dockerfile
     container_name: thesis_track_backend
-    # command: python manage.py runserver ${LOCAL_IP}:${SERVER_PORT}
     ports:
       - "${WEB_PORT_HOST}:${SERVER_PORT}"
     tty: true
@@ -32,17 +30,18 @@ services:
       - DEBUG=${DEBUG}
       - DATABASE_ENGINE=${DATABASE_ENGINE}
       - DATABASE_HOST=${DATABASE_HOST}
-      - GPT_API_KEY=${GPT_API_KEY}
+      - GPT_API_KEY=${GPT_API_KEY:-}
       - DATABASE_PORT=${DATABASE_PORT}
       - DATABASE_NAME=${DATABASE_NAME}
       - DATABASE_USER=${DATABASE_USER}
       - DATABASE_PASSWORD=${DATABASE_PASSWORD}
       - ELASTICSEARCH_URL=http://elasticsearch:9200
-      - OLLAMA_URL=http://127.0.0.1:11434  # 👈 Usa directamente el puerto interno real de Ollama
+      - OLLAMA_URL=http://127.0.0.1:11434
     depends_on:
-      - postgres
-      - elasticsearch
-
+      elasticsearch:
+        condition: service_started
+      postgres:
+        condition: service_started
 
   nginx:
     build:
@@ -59,16 +58,29 @@ services:
       - ./media:/app/media
 
 
+
+
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
-    environment:
-      - discovery.type=single-node
-      - xpack.security.enabled=false
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-    ports:
-      - "9200:9200"
-    volumes:
-      - esdata:/usr/share/elasticsearch/data
+      image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
+      environment:
+        - discovery.type=single-node
+        - xpack.security.enabled=false
+        - ES_JAVA_OPTS=-Xms256m -Xmx256m
+        - bootstrap.memory_lock=false
+      ulimits:
+        memlock:
+          soft: -1
+          hard: -1
+      ports:
+        - "9200:9200"
+      volumes:
+        - esdata:/usr/share/elasticsearch/data
+      healthcheck:
+        test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -q '\"status\":\"green\"\\|\"status\":\"yellow\"'"]
+        interval: 15s
+        timeout: 10s
+        retries: 4
+
 
 
 volumes:
