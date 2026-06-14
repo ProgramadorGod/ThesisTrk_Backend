@@ -4,7 +4,8 @@ from ollama import Client
 from elasticsearch import Elasticsearch
 
 INDEX_NAME = "urldocuments"
-client = Client(host="http://127.0.0.1:11434")
+#client = Client(host="http://127.0.0.1:11434")
+client = Client(host="http://172.17.0.1:11434")
 
 class Command(BaseCommand):
     help = 'Index documents with semantic vectors'

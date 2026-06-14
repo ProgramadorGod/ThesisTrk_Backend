@@ -81,8 +81,16 @@ services:
         timeout: 10s
         retries: 4
 
-
+  ollama:  # <- Nuevo servicio
+      image: ollama/ollama:latest
+      container_name: thesis_track_ollama
+      ports:
+        - "11434:11434"
+      volumes:
+        - ollama_data:/root/.ollama
+      restart: unless-stopped
 
 volumes:
   thesis_db_data:
   esdata:
+  ollama_data: 
